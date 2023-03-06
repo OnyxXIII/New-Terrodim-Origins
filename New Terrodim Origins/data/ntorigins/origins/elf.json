@@ -1,0 +1,19 @@
+{
+    "powers": [
+        "ntorigins:tnt_crafting",
+        "ntorigins:elf/master_archer",
+        "ntorigins:elf/combat_awareness",
+        "ntorigins:elf/nimble",
+        "ntorigins:elf/light_feet",
+        "ntorigins:elf/quick",
+        "ntorigins:elf/elf_eyes",
+        "ntorigins:elf/pointy_ear",
+        "ntorigins:elf/steward",
+        "ntorigins:craft_mana_crystal"
+    ],
+    "icon": "minecraft:bow",
+    "impact": 1,
+    "order": 1,
+    "name": "Ridge Elf",
+    "description": "Tall and Noble, the Ridge Elves care for the groves and creatures on the high mountain slopes, building towers and bridges across their rocky homes. These elves are nimble and elegant, with masterful skills with the bow, but they eschew axes and refuse to eat meats."
+}

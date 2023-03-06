@@ -1,0 +1,21 @@
+{
+    "powers": [
+        "ntorigins:tnt_crafting",
+        "ntorigins:sea_elf/trident_master",
+        "ntorigins:sea_elf/sea_lungs",
+        "ntorigins:sea_elf/natural_swimmer",
+        "origins:aqua_affinity",
+        "ntorigins:sea_elf/elf_eyes",
+        "ntorigins:sea_elf/energized_by_water",
+        "ntorigins:sea_elf/pointy_end",
+        "ntorigins:sea_elf/surface_aversion",
+        "ntorigins:sea_elf/elven_diet",
+        "ntorigins:sea_elf/wet_strings",
+        "ntorigins:craft_mana_crystal"
+    ],
+    "icon": "minecraft:trident",
+    "impact": 1,
+    "order": 1,
+    "name": "Sea Elf",
+    "description": "An offshoot of the Terrodim Ridge Elves, the Sea Elves chose the coastal regions of the island of New Terrodim, and have built a civilization in the shallows, transitioning between sea and land comfortably."
+}

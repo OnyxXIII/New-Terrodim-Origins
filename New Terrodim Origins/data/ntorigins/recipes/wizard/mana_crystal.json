@@ -1,0 +1,22 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "QAQ",
+        "ADA",
+        "QAQ"
+    ],
+    "key": {
+        "Q": {
+            "item": "minecraft:quartz"
+        },
+        "A": {
+            "item": "minecraft:amethyst_shard"
+        },
+        "D": {
+            "item": "minecraft:diamond"
+        }
+    },
+    "result": {
+        "item": "minecraft:knowledge_book"
+    }
+}

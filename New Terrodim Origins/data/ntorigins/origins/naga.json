@@ -1,0 +1,28 @@
+{
+    "powers": [
+        "ntorigins:tnt_crafting",
+        "ntorigins:naga/naga_song",
+        "ntorigins:naga/dolphin_leap",
+        "origins:aquatic",
+        "origins:swim_speed",
+        "origins:like_water",
+        "origins:aqua_affinity",
+        "origins:water_vision",
+        "origins:water_breathing",
+        "origins:conduit_power_on_land",
+        "origins:air_from_potions",
+        "ntorigins:naga/draconic_constitution",
+        "ntorigins:naga/hardened_scales",
+        "ntorigins:naga/dragon_claws",
+        "ntorigins:naga/unused_to_warfare",
+        "ntorigins:naga/piscivore",
+        "ntorigins:craft_mana_crystal",
+        "ntorigins:dragon/feared_by_villagers",
+        "ntorigins:naga/expert_aquatic_hunters"
+    ],
+    "icon": "minecraft:prismarine_shard",
+    "impact": 3,
+    "order": 1,
+    "name": "Naga",
+    "description": "Distant Relatives of the Dragonborn, Naga are an ocean-dwelling civilization of reptilian hunters. They are masters of the deep, but struggle to breathe in air."
+}

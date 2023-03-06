@@ -1,0 +1,25 @@
+{
+    "powers": [
+        "ntorigins:tnt_crafting",
+        "ntorigins:wharf_rat/diminutive",
+        "ntorigins:wharf_rat/rigging_runner",
+        "ntorigins:wharf_rat/diver",
+        "ntorigins:wharf_rat/light_feet",
+        "ntorigins:wharf_rat/quick_rat",
+        "ntorigins:wharf_rat/un-picky_eater",
+        "ntorigins:wharf_rat/slick_fur",
+        "ntorigins:wharf_rat/sneaky_steps",
+        "ntorigins:wharf_rat/rodent_constitution",
+        "ntorigins:wharf_rat/ravenous",
+        "ntorigins:wharf_rat/cooking_for_losers",
+        "ntorigins:wharf_rat/weak_arms",
+        "ntorigins:wharf_rat/slavers",
+        "ntorigins:wharf_rat/chicken_rider",
+        "ntorigins:craft_mana_crystal"
+    ],
+    "icon": "minecraft:oak_boat",
+    "impact": 2,
+    "order": 1,
+    "name": "Wharf Rat",
+    "description": "The Wharf Rats are natives of the island, who keep quietly to the caves, collecting anything they can find and hoarding it in their warrens, to be sold to overlanders, for the right price. They aren't known for their valor, but they are remarkably tenacious explorers as they hunt down anything (or anyone) they can sell."
+}

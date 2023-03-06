@@ -1,0 +1,32 @@
+{
+    "powers": [
+        "ntorigins:tnt_crafting",
+        "ntorigins:dragon/dragon_breath",
+        "ntorigins:dragon/dragon_wings",
+        "ntorigins:dragon/flap",
+        "ntorigins:dragon/wyrmsmith",
+        "ntorigins:dragon/towering_stature",
+        "ntorigins:dragon/fire_born",
+        "ntorigins:dragon/draconic_constitution",
+        "ntorigins:dragon/hardened_scales",
+        "ntorigins:dragon/loose_scales",
+        "ntorigins:dragon/treasure_sense",
+        "ntorigins:dragon/gold_hoarder",
+        "ntorigins:dragon/vain",
+        "ntorigins:dragon/feared_by_villagers",
+        "ntorigins:dragon/carnivore",
+        "ntorigins:dragon/draconic_hunger",
+        "ntorigins:dragon/poor_swimmer",
+        "ntorigins:dragon/aversion_to_sailing",
+        "ntorigins:dragon/heavy_tread",
+        "ntorigins:dragon/lumbering_mass",
+        "ntorigins:dragon/clawed_fingers",
+        "ntorigins:dragon/no_riding",
+        "ntorigins:craft_mana_crystal"
+    ],
+    "icon": "minecraft:dragon_head",
+    "impact": 3,
+    "order": 1,
+    "name": "Dragonborn",
+    "description": "Fearsome and majestic, dragons are the giant winged lizards who long ruled the skies of Terrodim. Their descendants, the Dragonborn, escaped the destruction of that world to claim rulership of the skies of New Terrodim."
+}

@@ -1,0 +1,10 @@
+{
+    "powers": [
+        "ntorigins:tnt_crafting",
+        "ntorigins:craft_mana_crystal"
+    ],
+    "icon": "minecraft:player_head",
+    "order": 1,
+    "name": "Human",
+    "description": "A regular human. Your ordinary Minecraft experience awaits."
+}

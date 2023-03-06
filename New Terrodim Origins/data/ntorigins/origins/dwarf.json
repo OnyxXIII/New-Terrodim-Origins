@@ -1,0 +1,26 @@
+{
+    "powers": [
+        "ntorigins:tnt_crafting",
+        "ntorigins:dwarf/tall_in_spirit",
+        "ntorigins:dwarf/expert_miner",
+        "ntorigins:dwarf/master_artisan",
+        "ntorigins:dwarf/expert_armorsmith",
+        "ntorigins:dwarf/expert_weaponsmith",
+        "ntorigins:dwarf/stout",
+        "ntorigins:dwarf/dwarven_endurance",
+        "ntorigins:dwarf/cast_iron_stomach",
+        "ntorigins:dwarf/monster_of_the_lost_depths",
+        "ntorigins:dwarf/tunnel_dweller",
+        "ntorigins:dwarf/not_stealthy",
+        "ntorigins:dwarf/short_legs",
+        "ntorigins:dwarf/dense",
+        "ntorigins:dwarf/hardy_diet",
+        "ntorigins:dwarf/archery_deficiency",
+        "ntorigins:craft_mana_crystal"
+    ],
+    "icon": "minecraft:iron_pickaxe",
+    "impact": 2,
+    "order": 1,
+    "name": "Dwarf",
+    "description": "Dwellers in the deep, dwarves are experts of working stone and metal. They dig vast mines in the caverns beneath the world, bringing riches up to the surface and working them masterfully into art and tools."
+}

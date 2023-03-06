@@ -1,0 +1,20 @@
+{
+    "powers": [
+        "ntorigins:pirate/sailing_the_high_seas",
+        "ntorigins:pirate/swashbuckling",
+        "ntorigins:pirate/nose_for_booty",
+        "ntorigins:pirate/davy_jones_pockets",
+        "ntorigins:pirate/afraid_of_sharks",
+        "ntorigins:pirate/hive_of_scum_and_villainy",
+        "ntorigins:pirate/escape_the_noose",
+        "ntorigins:pirate/criminal_scum",
+        "ntorigins:pirate/mal_de_debarquement",
+        "ntorigins:pirate/sturdy_wood",
+        "ntorigins:craft_mana_crystal"
+    ],
+    "icon": "minecraft:barrel",
+    "impact": 1,
+    "order": 1,
+    "name": "Pirate",
+    "description": "Black sails on the horizon are a sure reason for any sailor on the seas of New Terrodim; Pirates be on the prowl. Their ships are outfitted with terrifying weapons, and their penchant for attacking vessels without warning and stealing their goods is well-known."
+}

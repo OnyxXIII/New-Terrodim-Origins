@@ -1,0 +1,28 @@
+{
+    "powers": [
+        "ntorigins:tnt_crafting",
+        "ntorigins:faun/magical_melodies",
+        "ntorigins:faun/what_magic_book",
+        "ntorigins:faun/goat_leap",
+        "ntorigins:faun/sturdy_legs",
+        "ntorigins:faun/quick_hooves",
+        "ntorigins:faun/singer_of_the_wilds",
+        "ntorigins:faun/beneath_notice",
+        "ntorigins:faun/lovable_hero",
+        "ntorigins:faun/lucky",
+        "ntorigins:faun/ram",
+        "ntorigins:faun/implacable_stomach",
+        "ntorigins:faun/snacky",
+        "ntorigins:faun/need_a_cracker",
+        "ntorigins:faun/voracious_appetite",
+        "ntorigins:faun/boots_for_hooves",
+        "ntorigins:faun/animal_lover",
+        "ntorigins:faun/wet_fur_coat",
+        "ntorigins:craft_mana_crystal"
+    ],
+    "icon": "minecraft:goat_horn",
+    "impact": 2,
+    "order": 1,
+    "name": "Faun",
+    "description": "Seemingly human-goat hybrids, the fauns are at home in the deep wilderness. With their knowledge of the wilderness, and their magical ability to enhance their allies, they make fabulous adventuring companions."
+}
