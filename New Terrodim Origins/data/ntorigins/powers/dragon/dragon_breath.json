@@ -1,0 +1,151 @@
+{
+    "name": "\u00A7a\u00A7nDragon's Breath",
+    "description": "You have the ancestral ability to breathe fire.\n-breathe fire as an attack with primary key. Light furnaces with secondary-",
+    "type": "origins:multiple",
+    "activate_breath": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "ntorigins:dragon/dragon_breath_breath_timer",
+            "change": 1,
+            "operation": "set"
+        },
+        "cooldown": 2400,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",
+            "bar_index": 15
+        }
+    },
+    "breath_timer": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 6,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "breath_timer_tick": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "ntorigins:dragon/dragon_breath_breath_timer",
+                    "change": 1
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "ntorigins:dragon/dragon_breath_breath_timer",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+    "breath_timer_reset": {
+        "type": "origins:action_over_time",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "ntorigins:dragon/dragon_breath_breath_timer",
+            "comparison": ">",
+            "compare_to": 5
+        },
+        "rising_action": {
+            "type": "origins:change_resource",
+            "resource": "ntorigins:dragon/dragon_breath_breath_timer",
+            "change": 0,
+            "operation": "set"
+        }
+    },
+    "breath_tick_actions": {
+        "type": "origins:action_over_time",
+        "interval": 1,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "ntorigins:dragon/dragon_breath_breath_timer",
+                    "comparison": ">",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "ntorigins:dragon/dragon_breath_breath_timer",
+                    "comparison": "<",
+                    "compare_to": 6
+                }
+            ]
+        },
+        "rising_action": {
+            "type": "origins:execute_command",
+            "command": "function ntorigins:dragon/breathe_fire_start"
+        },
+        "falling_action": {
+            "type": "origins:execute_command",
+            "command": "function ntorigins:dragon/breathe_fire_end"
+        },
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute as @s at @s anchored eyes positioned ^ ^ ^0.1 run function ntorigins:dragon/breathe_fire_tick"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute as @e[type=area_effect_cloud,name=Flameicon] at @s run function ntorigins:dragon/fire_effect"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute as @e[type=area_effect_cloud,name=Flameicon] at @s run function ntorigins:dragon/fire_damage"
+                },
+                {
+                    "type": "origins:area_of_effect",
+                    "radius": 15,
+                    "bientity_action": {
+                        "type": "origins:and",
+                        "actions": [
+                            {
+                                "type": "origins:target_action",
+                                "action": {
+                                    "type": "origins:set_on_fire",
+                                    "duration": 10
+                                }
+                            },
+                            {
+                                "type": "origins:damage",
+                                "amount": 2,
+                                "source": {
+                                    "name": "onFire.player",
+                                    "bypasses_armor": true,
+                                    "fire": true
+                                }
+                            }
+                        ]
+                    },
+                    "bientity_condition": {
+                        "type": "origins:target_condition",
+                        "condition": {
+                            "type": "origins:nbt",
+                            "nbt": "{Tags: ['Dragon_Burning']}"
+                        }
+                    }
+                },
+                {
+                    "type": "origins:raycast",
+                    "distance": 15,
+                    "entity": false,
+                    "shape_type": "outline",
+                    "block_action": {
+                        "type": "origins:add_block",
+                        "block": "minecraft:fire"
+                    }
+                }
+            ]
+        }
+    }
+}

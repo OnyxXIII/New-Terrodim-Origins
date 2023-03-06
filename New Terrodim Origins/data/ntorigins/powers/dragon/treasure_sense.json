@@ -1,0 +1,42 @@
+{
+    "type": "origins:multiple",
+    "name": "\u00A7a\u00A7nTreasure Sense",
+    "description": "Your affinity to valuables gives you the inherent ability to find a little more than usual.\n-double loot from cows, sheep, and pigs. Chance to get gold nuggets or raw gold from hostile mobs-",
+    "meat": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "([a-z|0-9|\\-|_]).*:entities\/(cow|pig|sheep)": "ntorigins:double_rolls"
+        }
+    },
+    "monsters": {
+        "type": "origins:action_on_hit",
+        "bientity_action": {
+            "type": "origins:target_action",
+            "action": {
+                "type": "origins:chance",
+                "action": {
+                    "type": "origins:execute_command",
+                    "command": "loot spawn ~ ~ ~ loot ntorigins:dragon_mobs"
+                },
+                "chance": 0.05
+            }
+        },
+        "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+                "type": "origins:and",
+                "conditions": [
+                    {
+                        "type": "origins:in_tag",
+                        "tag": "ntorigins:hostile"
+                    },
+                    {
+                        "type": "origins:health",
+                        "comparison": "==",
+                        "compare_to": 0
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "type": "origins:prevent_item_use",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": [
+            {
+                "item": "minecraft:bow"
+            },
+            {
+                "item": "minecraft:crossbow"
+            }
+        ]
+    },
+    "name": "\u00A7c\u00A7nClawed Fingers",
+    "description": "Your razor sharp claws cut bowstrings, making ranged weapons useless to you.\n-cannot use bows or crossbows-"
+}

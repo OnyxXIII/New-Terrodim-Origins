@@ -1,0 +1,10 @@
+{
+	"type": "origins:attribute",
+	"modifier": {
+		"attribute": "minecraft:generic.armor",
+		"operation": "addition",
+		"value": 4.0
+	},
+	"name": "\u00A7a\u00A7nHardened Scales",
+	"description": "Your draconic heritage lends you natural armor.\n-You naturally have 2 full armor points-"
+}

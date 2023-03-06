@@ -1,0 +1,25 @@
+{
+    "type": "origins:multiple",
+    "tall_in_spirit_callback": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:execute_command",
+            "command": "function ntorigins:dragon/towering_callon"
+        },
+        "entity_action_lost": {
+            "type": "origins:execute_command",
+            "command": "function ntorigins:dragon/towering_callback"
+        },
+        "execute_chosen_when_orb": true
+    },
+    "tall_in_spirit_constant": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "execute unless entity @s[pehkui.scale_nbt={\"pehkui:scale_data_types\":{\"pehkui:base\":{scale:1.25f}}}] run function ntorigins:dragon/towering_callon"
+        },
+        "interval": 50
+    },
+    "name": "\u00A7b\u00A7nTowering Stature",
+    "description": "Your imposing frame towers over lesser creatures (which is to say... all of them)\n-you are 2 blocks wide and 3 blocks tall-"
+}
