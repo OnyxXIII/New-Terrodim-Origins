@@ -1,0 +1,24 @@
+{
+    "hidden": true,
+    "type": "origins:action_over_time",
+    "rising_action": {
+                "type": "origins:add_velocity",
+                "y": 2,
+                "z": 3,
+                "space": "local_horizontal"
+    },
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:swimming"
+            },
+            {
+                "type": "origins:submerged_in",
+                "fluid": "minecraft:water",
+                "inverted": true
+            }
+        ]
+    },
+    "interval": 1
+}

@@ -1,0 +1,177 @@
+{
+    "type": "origins:multiple",
+    "name": "\u00A7a\u00A7nSinger of the Wilds",
+    "description": "The plants love you, and share their bounty with you.\n-double drops from flowers, mushrooms, leaves, berries, grass, melons, and cocoa-",
+    "leaves": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "([a-z|0-9|\\-|_]).*:blocks\/(([a-z|0-9|\\-|_]).*)_leaves": "ntorigins:double_rolls"
+        }
+    },
+    "flowers": {
+        "type": "origins:action_on_block_use",
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "minecraft:small_flowers"
+        },
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:bone_meal"
+            }
+        },
+        "held_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "block_action": {
+            "type": "origins:if_else_list",
+            "actions": [
+                {
+                    "condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:dandelion"
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:dandelion\",Count:1}}"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:poppy"
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:poppy\",Count:1}}"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:blue_orchid"
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:blue_orchid\",Count:1}}"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:allium"
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:allium\",Count:1}}"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:azure_bluet"
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:azure_bluet\",Count:1}}"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:red_tulip"
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:red_tulip\",Count:1}}"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:orange_tulip"
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:orange_tulip\",Count:1}}"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:white_tulip"
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:white_tulip\",Count:1}}"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:pink_tulip"
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:pink_tulip\",Count:1}}"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:oxeye_daisy"
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:oxeye_daisy\",Count:1}}"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:cornflower"
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:cornflower\",Count:1}}"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:lily_of_the_valley"
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:lily_of_the_valley\",Count:1}}"
+                    }
+                }
+            ]
+        }
+    },
+    "mushrooms": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "([a-z|0-9|\\-|_]).*:blocks\/(brown_mushroom_block|red_mushroom_block)": "ntorigins:double_rolls"
+        }
+    },
+    "berries": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "([a-z|0-9|\\-|_]).*:blocks\/(sweet_berry_bush|cave_vines|caves_vines_plant)": "ntorigins:double_rolls"
+        }
+    },
+    "melons_beans": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "([a-z|0-9|\\-|_]).*:blocks\/(melon|cocoa)": "ntorigins:double_rolls"
+        }
+    },
+    "seeds": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "([a-z|0-9|\\-|_]).*:blocks\/(([a-z|0-9|\\-|_]).*)grass": "ntorigins:double_rolls"
+        }
+    }
+}

@@ -1,0 +1,82 @@
+{
+    "type": "origins:action_over_time",
+    "entity_action": {
+        "type": "origins:if_else",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:exposed_to_sun"
+                },
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:in_rain",
+                    "inverted": true
+                }
+            ]
+        },
+        "if_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:hunger",
+                        "is_ambient": true,
+                        "show_particles": false,
+                        "show_icon": false,
+                        "amplifier": 2,
+                        "duration": 250
+                    }
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:weakness",
+                        "is_ambient": true,
+                        "show_particles": false,
+                        "show_icon": false,
+                        "amplifier": 2,
+                        "duration": 250
+                    }
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:slowness",
+                        "is_ambient": true,
+                        "show_particles": false,
+                        "show_icon": false,
+                        "amplifier": 2,
+                        "duration": 250
+                    }
+                }
+            ]
+        },
+        "else_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:hunger"
+                },
+                {
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:weakness"
+                },
+                {
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:slowness"
+                }
+            ]
+        }
+    },
+    "interval": 20,
+    "name": "\u00A7c\u00A7nSurface Aversion",
+    "description": "You don't do well in warm places - your home is the water. Ideally, in the shade.\n-hunger, weakness, and slowness when in the sun and not in water-"
+}

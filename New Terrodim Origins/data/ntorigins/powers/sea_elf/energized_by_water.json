@@ -1,0 +1,24 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "value": ".15",
+        "operation": "multiply_base"
+    },
+    "condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:in_rain"
+            },
+            {
+                "type": "origins:fluid_height",
+                "fluid": "minecraft:water",
+                "comparison": ">",
+                "compare_to": 0
+            }
+        ]
+    },
+    "name": "\u00A7a\u00A7nEnergized by Water",
+    "description": "Even a light sprinkle grants you a burst of energy.\n-+15% move speed in rain"
+}

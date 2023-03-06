@@ -1,0 +1,11 @@
+{
+	"type": "origins:prevent_item_use",
+	"item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"item": "minecraft:bow"
+		}
+	},
+	"name": "\u00A7c\u00A7nArchery Deficiency",
+	"description": "You were not built to use a bow.\n-cannot use bows-"
+}

@@ -1,0 +1,13 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "value": 0.5,
+        "operation": "multiply_base"
+    },
+    "condition": {
+        "type": "origins:swimming"
+    },
+    "name": "\u00A7a\u00A7nAfraid of Sharks",
+    "description": "When you walk the plank, you're well motivated to get back to shore!\n-+15% swim speed-"
+}

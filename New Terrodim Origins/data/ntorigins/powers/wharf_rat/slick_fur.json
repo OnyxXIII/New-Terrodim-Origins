@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_swim_speed",
+    "modifier": {
+        "value": 0.15,
+        "operation": "multiply_base"
+    },
+    "name": "\u00A7a\u00A7nSlick Fur",
+    "description": "Your slick fur is well-suited to working in wet conditions.\n-+15% swim speed-"
+}

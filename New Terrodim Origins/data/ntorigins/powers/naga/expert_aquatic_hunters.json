@@ -1,0 +1,8 @@
+{
+    "type": "origins:replace_loot_table",
+    "name": "\u00A7a\u00A7nExpert Aquatic Hunter",
+    "replace": {
+        "([a-z|0-9|\\-|_]).*:entities\/(cod|dolphin|elder_guardian|glow_squid|guardian|pufferfish|salmon|squid|tropical_fish|drowned)": "ntorigins:double_rolls"
+    },
+    "description": "As a master of hunting under the waves, you know the way to kill sea creatures so that you get the most out of their remains.\n-you get double loot from aquatic creatures-"
+}

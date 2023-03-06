@@ -1,0 +1,50 @@
+{
+    "type": "origins:multiple",
+    "sink": {
+        "type": "origins:ignore_water"
+    },
+    "slow": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:slowness",
+                        "amplifier": 2,
+                        "duration": 300,
+                        "show_particles": false
+                    }
+                },
+                {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:slow_falling",
+                        "duration": 300,
+                        "show_particles": false
+                    }
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+        },
+        "falling_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:slowness"
+                },
+                {
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:slow_falling"
+                }
+            ]
+        }
+    },
+    "name": "\u00A7c\u00A7nDense",
+    "description": "Your hefty constitution packed into a small frame makes you... less than buoyant. You cannot swim.\n-sink in water and get slowness-"
+}

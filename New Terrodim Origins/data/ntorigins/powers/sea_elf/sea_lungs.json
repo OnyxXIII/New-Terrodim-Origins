@@ -1,0 +1,17 @@
+{
+    "type": "origins:action_over_time",
+    "rising_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:water_breathing",
+            "duration": 600,
+            "show_particles": false
+        }
+    },
+    "condition": {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
+    },
+    "name": "\u00A7a\u00A7nSea Lungs",
+    "description": "You have practice holding your breath to work underwater.\n-15s of extra breath when underwater-"
+}

@@ -1,0 +1,21 @@
+{
+    "type": "origins:multiple",
+    "meat": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "ntorigins:non_sea_elf_food"
+            }
+        }
+    },
+    "cakes": {
+        "type": "origins:prevent_block_use",
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "ntorigins:cakes"
+        }
+    },
+    "name": "\u00A7c\u00A7nElven Diet",
+    "description": "You eat fish, but eschew the meat of surface animals, and vegetables grown through agriculture.\n-can only eat fish and berries-"
+}

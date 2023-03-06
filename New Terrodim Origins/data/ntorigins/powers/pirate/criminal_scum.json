@@ -1,0 +1,12 @@
+{
+    "type": "origins:prevent_entity_use",
+    "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:villager"
+        }
+    },
+    "name": "\u00A7c\u00A7nCriminal Scum",
+    "description": "The locals are hesitant to accept your doubloons, as they worry you'll just steal them back later... which you would.\n-villagers won't trade with you-'"
+}

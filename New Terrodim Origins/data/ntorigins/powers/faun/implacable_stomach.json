@@ -1,0 +1,9 @@
+{
+    "type": "origins:effect_immunity",
+    "effects": [
+        "minecraft:nausea",
+        "minecraft:hunger"
+    ],
+    "name": "\u00A7a\u00A7nImplacable Stomach",
+    "description": "You have a stomach for bad food.\n-immunity to hunger and poison-"
+}

@@ -1,0 +1,25 @@
+{
+    "type": "origins:multiple",
+    "aboveground_speed": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "value": -0.35,
+            "operation": "multiply_base"
+        }
+    },
+    "belowground_speed": {
+        "type": "origins:conditioned_attribute",
+        "modifier": {
+            "attribute": "minecraft:generic.movement_speed",
+            "value": 0.1,
+            "operation": "multiply_base"
+        },
+        "condition": {
+            "type": "origins:exposed_to_sky",
+            "inverted": true
+        }
+    },
+    "name": "\u00A7c\u00A7nShort Legs",
+    "description": "Your legs are not adapted to moving at tall-folk speeds. You'll get there when you get there.\n-75% move speed. +10% underground-"
+}

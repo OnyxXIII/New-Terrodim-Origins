@@ -1,0 +1,34 @@
+{
+    "name": "\u00A7a\u00A7nGoat Leap",
+    "description": "You spring up seemingly sheer mountainsides with ease.\n-use ability to leap up several blocks-",
+    "condition": {
+        "type": "origins:on_block"
+    },
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:play_sound",
+                "sound": "entity.goat.long_jump",
+                "volume": 1,
+                "pitch": 1
+            },
+            {
+                "type": "origins:add_velocity",
+                "y": 2,
+                "z": 1,
+                "space": "local_horizontal",
+                "client": true,
+                "server": false
+            }
+        ]
+    },
+    "cooldown": 1200,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
+        "bar_index": 20
+    },
+    "key": "primary"
+}

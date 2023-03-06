@@ -1,0 +1,8 @@
+{
+    "type": "origins:replace_loot_table",
+    "name": "\u00A7a\u00A7nA Nose for Booty",
+    "replace": {
+        "([a-z|0-9|\\-|_]).*:chests\/(buried_treasure|shipwreck_map|shipwreck_supply|shipwreck_treasure)": "ntorigins:double_rolls"
+    },
+    "description": "You can always sniff out where they be hidin' the treasure\n-bonus loot from buried treasure and shipwreck chests-"
+}

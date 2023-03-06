@@ -1,0 +1,11 @@
+{
+	"type": "origins:prevent_item_use",
+	"item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"tag": "ntorigins:meat"
+		}
+	},
+	"name": "\u00A7c\u00A7nSteward of the Wilds",
+	"description": "As a protector of wild things, you only eat that which can be regrown, and do not harm living creatures for your own sustenance.\n-cannot eat meat-"
+}

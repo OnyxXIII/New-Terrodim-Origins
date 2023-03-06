@@ -1,0 +1,25 @@
+{
+    "type": "origins:multiple",
+    "tall_in_spirit_callback": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:execute_command",
+            "command": "function ntorigins:wharf_rat/diminutive_callon"
+        },
+        "entity_action_lost": {
+            "type": "origins:execute_command",
+            "command": "function ntorigins:wharf_rat/diminutive_callback"
+        },
+        "execute_chosen_when_orb": true
+    },
+    "tall_in_spirit_constant": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "execute unless entity @s[pehkui.scale_nbt={\"pehkui:scale_data_types\":{\"pehkui:base\":{scale:0.5f}}}] run function ntorigins:wharf_rat/diminutive_callon"
+        },
+        "interval": 50
+    },
+    "name": "\u00A7b\u00A7nDiminutive",
+    "description": "Your small frame can be a benefit or a detriment at times.\n-you are 1 block tall-"
+}

@@ -1,0 +1,16 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -10,
+    "max_stacks": 10,
+    "duration_per_stack": 10,
+    "effects": [
+        {
+            "effect": "minecraft:luck",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        }
+    ],
+    "name": "\u00A7a\u00A7nLucky",
+    "description": "You've eaten enough four-leaf clovers, it must be worth something.\n-lucky status effect permanently-"
+}

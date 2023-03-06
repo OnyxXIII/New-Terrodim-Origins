@@ -1,0 +1,19 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1
+    },
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "ntorigins:swords"
+            }
+        }
+    },
+    "name": "\u00A7a\u00A7nSwashbuckling",
+    "description": "Yer cutlass be swift and merciless.\n-double damage with swords-"
+}

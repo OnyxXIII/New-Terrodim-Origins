@@ -1,0 +1,14 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "value": -0.15,
+        "operation": "multiply_base"
+    },
+    "condition": {
+        "type": "origins:swimming",
+        "inverted": true
+    },
+    "name": "\u00A7c\u00A7nMal de Debarquement",
+    "description": "You always have your sea legs under you... even on land, which seems to make the shore a bit wobbly.\n-slower movement speed on land-"
+}

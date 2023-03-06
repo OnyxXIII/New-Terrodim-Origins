@@ -1,0 +1,33 @@
+{
+    "name": "\u00A7c\u00A7nWet Fur Coat",
+    "description": "Your warm fur drags you down in the water, limiting your movement speed until you dry out.\n-get slowness when in water, which stacks up to 15s, only counting down on land-",
+    "hidden": false,
+    "loading_priority": 2,
+    "condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:in_rain"
+            },
+            {
+                "type": "origins:fluid_height",
+                "fluid": "minecraft:water",
+                "comparison": ">",
+                "compare_to": 0
+            }
+        ]
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 15,
+    "duration_per_stack": 20,
+    "tick_rate": 10,
+    "effect": {
+        "effect": "minecraft:slowness",
+        "duration": 20,
+        "amplifier": 0,
+        "is_ambient": false,
+        "show_particles": false,
+        "show_icon": true
+    }
+}

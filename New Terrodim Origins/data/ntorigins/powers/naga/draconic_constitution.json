@@ -1,0 +1,11 @@
+{
+    "type": "origins:attribute",
+    "modifier": {
+        "name": " health addition",
+        "attribute": "minecraft:generic.max_health",
+        "value": 4.0,
+        "operation": "addition"
+    },
+    "name": "\u00A7a\u00A7nDraconic Constitution",
+    "description": "Your draconic heritage lends you additional vitality.\n-+2 hearts-"
+}
