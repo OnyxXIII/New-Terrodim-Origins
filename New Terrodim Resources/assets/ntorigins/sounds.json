@@ -1,0 +1,12 @@
+{
+    "naga_song": {
+        "replace": false,
+        "subtitle": "naga singing",
+        "sounds": [
+            {
+                "name": "ntorigins:naga_song",
+                "stream": true
+            }
+        ]
+    }
+}
