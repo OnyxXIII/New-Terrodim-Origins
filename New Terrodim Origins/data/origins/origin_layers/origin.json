@@ -1,0 +1,16 @@
+{
+    "replace": true,
+    "origins": [
+        "ntorigins:dragonborn",
+        "ntorigins:dwarf",
+        "ntorigins:elf",
+        "ntorigins:faun",
+        "ntorigins:human",
+        "ntorigins:minotaur",
+        "ntorigins:naga",
+        "ntorigins:pirate",
+        "ntorigins:sea_elf",
+        "ntorigins:wharf_rat",
+        "ntorigins:wizard"
+    ]
+}
