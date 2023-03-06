@@ -1,0 +1,77 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "staff_toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "key.origins.primary_active"
+        },
+        "retain_state": false,
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "ntorigins:wizard/spell_tree/2spells/3craft_staff"
+        }
+    },
+    "spell_school_resource": {
+        "type": "origins:resource",
+        "min": 1,
+        "max": 5,
+        "hud_render": {
+            "should_render": false
+        },
+        "start_value": 1
+    },
+    "spell_school_select": {
+        "type": "origins:active_self",
+        "key": {
+            "key": "key.origins.tertiary_active"
+        },
+        "entity_action": {
+            "type": "origins:if_else",
+            "condition": {
+                "type": "origins:resource",
+                "resource": "ntorigins:wizard/spellcasting/spell_select_spell_school_resource",
+                "compare_to": 5,
+                "comparison": "=="
+            },
+            "if_action": {
+                "type": "origins:change_resource",
+                "resource": "ntorigins:wizard/spellcasting/spell_select_spell_school_resource",
+                "change": 1,
+                "operation": "set"
+            },
+            "else_action": {
+                "type": "origins:change_resource",
+                "resource": "ntorigins:wizard/spellcasting/spell_select_spell_school_resource",
+                "change": 1,
+                "operation": "add"
+            }
+        }
+    },
+    "spell_select": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "key.origins.quaternary_active"
+        },
+        "retain_state": false,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "ntorigins:wizard/spellcasting/spell_select_spell_school_resource",
+                    "compare_to": 2,
+                    "comparison": "!="
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "ntorigins:wizard/spellcasting/spell_select_spell_school_resource",
+                    "compare_to": 4,
+                    "comparison": "!="
+                }
+            ]
+        }
+    }
+}

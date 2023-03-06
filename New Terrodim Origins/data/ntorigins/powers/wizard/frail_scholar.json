@@ -1,0 +1,84 @@
+{
+    "type": "origins:modify_damage_taken",
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 0.5
+    },
+    "damage_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "inverted": true,
+                "type": "origins:attacker",
+                "entity_condition": {
+                    "type": "origins:entity_type",
+                    "entity_type": "minecraft:vex"
+                }
+            },
+            {
+                "inverted": true,
+                "type": "origins:name",
+                "name": "magic"
+            },
+            {
+                "inverted": true,
+                "type": "origins:name",
+                "name": "magic.player"
+            },
+            {
+                "inverted": true,
+                "type": "origins:name",
+                "name": "indirectMagic"
+            },
+            {
+                "inverted": true,
+                "type": "origins:name",
+                "name": "indirectMagic.item"
+            },
+            {
+                "inverted": true,
+                "type": "origins:name",
+                "name": "dragonBreath"
+            },
+            {
+                "inverted": true,
+                "type": "origins:name",
+                "name": "dragonBreath.player"
+            },
+            {
+                "inverted": true,
+                "type": "origins:attacker",
+                "entity_condition": {
+                    "type": "origins:entity_type",
+                    "entity_type": "minecraft:evoker_fangs"
+                }
+            },
+            {
+                "inverted": true,
+                "type": "origins:attacker",
+                "entity_condition": {
+                    "type": "origins:entity_type",
+                    "entity_type": "minecraft:evoker"
+                }
+            },
+            {
+                "inverted": true,
+                "type": "origins:attacker",
+                "entity_condition": {
+                    "type": "origins:entity_type",
+                    "entity_type": "minecraft:witch"
+                }
+            },
+            {
+                "inverted": true,
+                "type": "origins:attacker",
+                "entity_condition": {
+                    "type": "origins:entity_type",
+                    "entity_type": "minecraft:ender_dragon"
+                }
+            }
+        ]
+    },
+    "name": "\u00A7c\u00A7nFrail Scholar",
+    "description": "You are a scholar, not a warrior; all sources of damage hit twice as hard, except magic"
+}

@@ -1,0 +1,56 @@
+{
+    "right_clicks": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "ntorigins:wizard_no_weapons"
+            }
+        }
+    },
+    "left_clicks": {
+        "type": "origins:modify_damage_dealt",
+        "damage_condition": {
+            "type": "origins:attacker",
+            "entity_condition": {
+                "type": "origins:equipped_item",
+                "equipment_slot": "mainhand",
+                "item_condition": {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "ntorigins:wizard_no_weapons"
+                    }
+                }
+            }
+        },
+        "modifier": {
+            "operation": "addition",
+            "value": -20.0
+        }
+    },
+    "armor": {
+        "type": "origins:restrict_armor",
+        "head": {
+            "inverted": true,
+            "type": "origins:nbt",
+            "nbt": ""
+        },
+        "chest": {
+            "inverted": true,
+            "type": "origins:nbt",
+            "nbt": ""
+        },
+        "legs": {
+            "inverted": true,
+            "type": "origins:nbt",
+            "nbt": ""
+        },
+        "feet": {
+            "inverted": true,
+            "type": "origins:nbt",
+            "nbt": ""
+        }
+    },
+    "name": "\u00A7c\u00A7nUnwarlike Scribe",
+    "description": "Due to your dedication to the study of magic, you have not learned to use nonmagical weapons. As such, you are unable to use any nonmagical weapon.\n-can only use gold armor and gold swords-"
+}

@@ -1,0 +1,26 @@
+{
+    "name": "\u00A7a\u00A7nMagical Fruit",
+    "description": "Chorus fruit is an excellent food source for you, and even restores some of your mana. \n- Chorus fruit is equivalent to golden carrots, and recharged 20 mana -",
+    "type": "origins:modify_food",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:chorus_fruit"
+        }
+    },
+    "food_modifier": {
+        "operation": "addition",
+        "value": 3.0
+    },
+    "saturation_modifier": {
+        "operation": "addition",
+        "value": 12.4
+    },
+    "entity_action": {
+        "type": "origins:change_resource",
+        "resource": "ntorigins:wizard/spellcasting/mana_pool",
+        "change": 20,
+        "operation": "add"
+    },
+    "always_edible": true
+}

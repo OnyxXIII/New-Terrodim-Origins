@@ -1,0 +1,9 @@
+{
+    "name": "\u00A7c\u00A7nWeak Arms",
+    "description": "You are a bookish wizard, and not used to long hours in a mine\n- 75% mining speed -",
+    "type": "origins:modify_break_speed",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": -0.25
+    }
+}

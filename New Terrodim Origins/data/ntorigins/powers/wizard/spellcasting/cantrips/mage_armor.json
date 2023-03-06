@@ -1,0 +1,246 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "toggle": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": { "key": "key.origins.secondary_active" },
+        "retain_state": false,
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "ntorigins:wizard/spellcasting/mana_pool",
+                    "comparison": ">",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "ntorigins:wizard/spell_tree/1cantrips/mage_armor"
+                }
+            ]
+        }
+    },
+    "armor": {
+        "type": "origins:modify_attribute",
+        "attribute": "minecraft:generic.armor",
+        "modifier": {
+            "operation": "add_base_early",
+            "value": 11.0
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "ntorigins:wizard/spellcasting/cantrips/mage_armor_toggle"
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "ntorigins:wizard/spell_tree/1cantrips/mage_armor"
+                }
+            ]
+        }
+    },
+    "upgrade_1": {
+        "type": "origins:modify_attribute",
+        "attribute": "minecraft:generic.armor",
+        "modifier": {
+            "operation": "add_base_early",
+            "value": 4.0
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "ntorigins:wizard/spellcasting/cantrips/mage_armor_toggle"
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "ntorigins:wizard/spell_tree/1cantrips/armor_upgrade_1"
+                }
+            ]
+        }
+    },
+    "upgrade_2": {
+        "type": "origins:modify_attribute",
+        "attribute": "minecraft:generic.armor",
+        "modifier": {
+            "operation": "add_base_early",
+            "value": 5.0
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "ntorigins:wizard/spellcasting/cantrips/mage_armor_toggle"
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "ntorigins:wizard/spell_tree/1cantrips/armor_upgrade_2"
+                }
+            ]
+        }
+    },
+    "upgrade_3": {
+        "type": "origins:modify_attribute",
+        "attribute": "minecraft:generic.armor_toughness",
+        "modifier": {
+            "operation": "add_base_early",
+            "value": 8.0
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "ntorigins:wizard/spellcasting/cantrips/mage_armor_toggle"
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "ntorigins:wizard/spell_tree/1cantrips/armor_upgrade_3"
+                }
+            ]
+        }
+    },
+    "upgrade_3_resist": {
+        "type": "stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "duration_per_stack": 20,
+        "tick_rate": 10,
+        "effect": {
+            "effect": "minecraft:resistance",
+            "amplifier": 1,
+            "show_particles": false,
+            "show_icon": true
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:power_active",
+                    "power": "ntorigins:wizard/spellcasting/cantrips/mage_armor_toggle"
+                },
+                {
+                    "type": "origins:advancement",
+                    "advancement": "ntorigins:wizard/spell_tree/1cantrips/armor_upgrade_3"
+                }
+            ]
+        }
+    },
+    "mana_cost_on_hit": {
+        "type": "origins:self_action_when_hit",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "ntorigins:wizard/spellcasting/mana_pool",
+            "operation": "add",
+            "change": -5
+        },
+        "condition": {
+            "type": "origins:power_active",
+            "power": "ntorigins:wizard/spellcasting/cantrips/mage_armor_toggle"
+        },
+        "damage_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "inverted": true,
+                    "type": "origins:attacker",
+                    "entity_condition": {
+                        "type": "origins:entity_type",
+                        "entity_type": "minecraft:vex"
+                    }
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:name",
+                    "name": "magic"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:name",
+                    "name": "magic.player"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:name",
+                    "name": "indirectMagic"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:name",
+                    "name": "indirectMagic.item"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:name",
+                    "name": "dragonBreath"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:name",
+                    "name": "dragonBreath.player"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:attacker",
+                    "entity_condition": {
+                        "type": "origins:entity_type",
+                        "entity_type": "minecraft:evoker_fangs"
+                    }
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:attacker",
+                    "entity_condition": {
+                        "type": "origins:entity_type",
+                        "entity_type": "minecraft:evoker"
+                    }
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:attacker",
+                    "entity_condition": {
+                        "type": "origins:entity_type",
+                        "entity_type": "minecraft:witch"
+                    }
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:attacker",
+                    "entity_condition": {
+                        "type": "origins:entity_type",
+                        "entity_type": "minecraft:ender_dragon"
+                    }
+                }
+            ]
+        }
+    },
+    "glow_effect": {
+        "type": "origins:self_glow",
+        "bientity_condition": {
+            "type": "origins:can_see"
+        },
+        "use_teams": false,
+        "red": 0.01176470588,
+        "green": 1.0,
+        "blue": 1.0,
+        "condition": {
+            "type": "origins:power_active",
+            "power": "ntorigins:wizard/spellcasting/cantrips/mage_armor_toggle"
+        }
+    },
+    "hide_armor": {
+        "type": "origins:prevent_feature_render",
+        "feature": "armor",
+        "condition": {
+            "inverted": true,
+            "type": "origins:power_active",
+            "power": "ntorigins:wizard/spellcasting/cantrips/mage_armor_toggle"
+        }
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "name": "Spellcasting",
+    "description": "With a crafted wizard's tome, you can cast a variety of magical spells.",
+    "type": "origins:multiple",
+    "spell_selection": {
+        "type": "origins:resource"
+    },
+    "first_click": {
+        "type": "origins:resource"
+    },
+    "second_click": {
+        "type": "origins:resource"
+    },
+    "third_click": {
+        "type": "origins:resource"
+    },
+    "right_click": {
+        "type": "origins:active_self"
+    },
+    "left_click": {
+        "type": "origins:active_self"
+    },
+    "cancel_spell": {
+        "type": "origins:active_self"
+    }
+}
