@@ -1,0 +1,47 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:rabbit_foot",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "Leap",
+        "description": "test",
+        "frame": "task",
+        "announce_to_chat": false
+    },
+    "parent": "ntorigins:wizard/spell_tree/2spells/air/magic_of_air",
+    "criteria": {
+        "brew_leaping_potion": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "type_specific": {
+                                "type": "player",
+                                "advancements": {
+                                    "ntorigins:wizard/spell_tree/2spells/air/magic_of_air": true
+                                }
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:potion"
+                        ],
+                        "potion": "minecraft:leaping"
+                    }
+                ]
+            }
+        }
+    }
+}

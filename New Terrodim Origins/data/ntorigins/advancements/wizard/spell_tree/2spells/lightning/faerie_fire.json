@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:soul_lantern",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "Faerie Fire",
+        "description": "test",
+        "frame": "task",
+        "announce_to_chat": false
+    },
+    "parent": "ntorigins:wizard/spell_tree/2spells/lightning/magic_missile",
+    "criteria": {
+        "avoid_vibration": {
+            "trigger": "minecraft:avoid_vibration",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "type_specific": {
+                                "type": "player",
+                                "advancements": {
+                                    "ntorigins:wizard/spell_tree/2spells/lightning/magic_missile": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lectern"
+        },
+        "title": "Current Study Requirements - Master Wizard",
+        "description": "You are a master of arcane research and power. You have a vast collection of tomes of knowledge, samples from far-off places, items of power, and magical apparatus, which you use to recharge your power and increase your knowledge. You require 100 bookshelves, 5 enchanting tables, 20 brewing stands, 10 lecterns, 100 blocks of amethyst, 30 glowstone, 30 quartz, 50 lapis blocks, 20 end stone, 20 purpur, 3 end crystals, 10 crimson wood blocks, 10 warped wood blocks, 20 soul sand, 5 soul fires (or torches, lanterns, or campfires), 20 gold blocks, 20 obsidian, 5 sculk sensors, a sculk shrieker, 20 sculk, 3 sculk catalysts, 1 netherite block, 5 diamond blocks, 1 dragon egg, 1 dragon head.",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "ntorigins:wizard/spell_tree/4study/study_requirements_5",
+    "criteria": {
+        "player": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

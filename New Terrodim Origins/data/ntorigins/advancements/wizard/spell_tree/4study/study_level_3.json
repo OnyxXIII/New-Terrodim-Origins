@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bookshelf"
+        },
+        "title": "Current Study Level - Running out of Pages",
+        "description": "Your notebook is filled to the brim with notes, overflowing into the margins. Worse, you've started jotting notes on scrap paper. Soon, you'll be reduced to writing on your arms... you'd best get home soon and transcribe what you've learned before its lost. Your mana will only recharge 6 points per second, to a maximum of 300 mana.",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "ntorigins:wizard/spell_tree/4study/study_level_2",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

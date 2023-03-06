@@ -1,0 +1,39 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:end_portal_frame"
+        },
+        "title": "Ritual Path of Dimensions",
+        "description": "Learning about air and lightning, elements of change, has led you to new knowledge, that of dimensions - naturally, since the world is divided in three, there are magical channels between the dimensions that can be harnessed with proper understanding.",
+        "frame": "goal",
+        "announce_to_chat": false
+    },
+    "parent": "ntorigins:wizard/spell_tree/3rituals/4rituals",
+    "criteria": {
+        "wizard": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "type_specific": {
+                                "type": "player",
+                                "advancements": {
+                                    "ntorigins:wizard/spell_tree/2spells/air/mastery_of_air": true,
+                                    "ntorigins:wizard/spell_tree/2spells/lightning/mastery_of_lightning": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

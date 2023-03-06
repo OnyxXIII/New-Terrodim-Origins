@@ -1,0 +1,46 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:tnt",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "Shockwave",
+        "description": "test",
+        "frame": "task",
+        "announce_to_chat": false
+    },
+    "parent": "ntorigins:wizard/spell_tree/2spells/earth/magic_of_earth",
+    "criteria": {
+        "find_ancient_debris": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "type_specific": {
+                                "type": "player",
+                                "advancements": {
+                                    "ntorigins:wizard/spell_tree/2spells/earth/magic_of_earth": true
+                                }
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:ancient_debris"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

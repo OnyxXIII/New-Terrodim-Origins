@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bookshelf"
+        },
+        "title": "Current Study Level - Missing your Desk & Armchair",
+        "description": "You're learning a lot out here, but you're starting to miss having a stable writing surface, and a comfy chair to sink into and ruminate. Soggy stumps just don't facilitate proper academic thought. Your mana will only recharge 9 points per second, to a maximum of 450 mana.",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "ntorigins:wizard/spell_tree/4study/study_level_3",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

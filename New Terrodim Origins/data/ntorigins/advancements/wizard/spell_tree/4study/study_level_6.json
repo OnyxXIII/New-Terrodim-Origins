@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bookshelf"
+        },
+        "title": "Current Study Level - Enjoying New Knowledge",
+        "description": "You're out of the library, and gathering knowledge everywhere you look. You're certain that you'll have new spells and magical theories by the dozen when you return home with all this new information. Your mana recharges at a rate of 16 points per second, to a maximum of 800 mana!",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "ntorigins:wizard/spell_tree/4study/study_level_5",
+    "criteria": {
+        "requirement": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

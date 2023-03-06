@@ -1,0 +1,167 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:spawner"
+        },
+        "title": "Summon",
+        "description": "test",
+        "frame": "task",
+        "announce_to_chat": false
+    },
+    "parent": "ntorigins:wizard/spell_tree/3rituals/1matter/alchemy",
+    "criteria": {
+        "tame_cat": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "type_specific": {
+                                "type": "player",
+                                "advancements": {
+                                    "ntorigins:wizard/spell_tree/3rituals/1matter/alchemy": true
+                                }
+                            }
+                        }
+                    }
+                ],
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:cat"
+                        }
+                    }
+                ]
+            }
+        },
+        "tame_donkey": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ],
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:donkey"
+                        }
+                    }
+                ]
+            }
+        },
+        "tame_horse": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ],
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:horse"
+                        }
+                    }
+                ]
+            }
+        },
+        "tame_llama": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ],
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:llama"
+                        }
+                    }
+                ]
+            }
+        },
+        "tame_mule": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ],
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:mule"
+                        }
+                    }
+                ]
+            }
+        },
+        "tame_parrot": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ],
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:parrot"
+                        }
+                    }
+                ]
+            }
+        },
+        "tame_wolf": {
+            "trigger": "minecraft:tame_animal",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ],
+                "entity": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:wolf"
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
