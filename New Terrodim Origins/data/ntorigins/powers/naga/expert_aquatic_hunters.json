@@ -1,8 +1,33 @@
 {
-    "type": "origins:replace_loot_table",
+    "type": "origins:action_on_hit",
     "name": "\u00A7a\u00A7nExpert Aquatic Hunter",
-    "replace": {
-        "([a-z|0-9|\\-|_]).*:entities\/(cod|dolphin|elder_guardian|glow_squid|guardian|pufferfish|salmon|squid|tropical_fish|drowned)": "ntorigins:double_rolls"
+    "description": "As a master of hunting under the waves, you know the way to kill sea creatures so that you get the most out of their remains.\n-you sometimes get prismarine shards or crystals from killing aquatic creatures-",
+    "bientity_action": {
+        "type": "origins:target_action",
+        "action": {
+            "type": "origins:chance",
+            "action": {
+                "type": "origins:execute_command",
+                "command": "loot spawn ~ ~ ~ loot ntorigins:naga_prismarine"
+            },
+            "chance": 0.15
+        }
     },
-    "description": "As a master of hunting under the waves, you know the way to kill sea creatures so that you get the most out of their remains.\n-you get double loot from aquatic creatures-"
+    "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:in_tag",
+                    "tag": "ntorigins:aquatic"
+                },
+                {
+                    "type": "origins:health",
+                    "comparison": "==",
+                    "compare_to": 0
+                }
+            ]
+        }
+    }
 }
