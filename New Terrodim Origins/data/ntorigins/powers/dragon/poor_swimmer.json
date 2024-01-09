@@ -1,48 +1,31 @@
 {
     "type": "origins:multiple",
-    "sink": {
-        "type": "origins:ignore_water"
-    },
     "slow": {
-        "type": "origins:action_over_time",
-        "entity_action": {
-            "type": "origins:and",
-            "actions": [
-                {
-                    "type": "origins:apply_effect",
-                    "effect": {
-                        "effect": "minecraft:slowness",
-                        "amplifier": 2,
-                        "duration": 300,
-                        "show_particles": false
-                    }
-                },
-                {
-                    "type": "origins:apply_effect",
-                    "effect": {
-                        "effect": "minecraft:slow_falling",
-                        "duration": 300,
-                        "show_particles": false
-                    }
-                }
-            ]
+        "type": "origins:modify_swim_speed",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -0.5
         },
+        "condition": {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:lava",
+            "comparison": ">",
+            "compare_to": 1.1
+        }
+    },
+    "no_swim": {
+        "type": "origins:prevent_sprinting",
         "condition": {
             "type": "origins:submerged_in",
             "fluid": "minecraft:water"
-        },
-        "falling_action": {
-            "type": "origins:and",
-            "actions": [
-                {
-                    "type": "origins:clear_effect",
-                    "effect": "minecraft:slowness"
-                },
-                {
-                    "type": "origins:clear_effect",
-                    "effect": "minecraft:slow_falling"
-                }
-            ]
+        }
+    },
+    "sink": {
+        "type": "origins:modify_falling",
+        "velocity": 0.3,
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
         }
     },
     "name": "\u00A7c\u00A7nDense",
