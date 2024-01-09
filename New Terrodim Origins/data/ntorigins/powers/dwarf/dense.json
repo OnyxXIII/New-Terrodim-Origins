@@ -5,6 +5,7 @@
     },
     "slow": {
         "type": "origins:action_over_time",
+        "interval": 250,
         "entity_action": {
             "type": "origins:and",
             "actions": [
@@ -28,8 +29,10 @@
             ]
         },
         "condition": {
-            "type": "origins:submerged_in",
-            "fluid": "minecraft:water"
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": ">",
+            "compare_to": 0
         },
         "falling_action": {
             "type": "origins:and",
