@@ -165,7 +165,7 @@
     "melons_beans": {
         "type": "origins:replace_loot_table",
         "replace": {
-            "([a-z|0-9|\\-|_]).*:blocks\/(melon|cocoa)": "ntorigins:double_rolls"
+            "([a-z|0-9|\\-|_]).*:blocks\/(cocoa)": "ntorigins:double_rolls"
         }
     },
     "seeds": {
