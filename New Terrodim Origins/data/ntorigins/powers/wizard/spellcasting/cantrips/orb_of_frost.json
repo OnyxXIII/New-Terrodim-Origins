@@ -43,14 +43,14 @@
             "actions": [
                 {
                     "type": "origins:grant_power",
-                    "power": "ntorigins:wizard/spellcasting/applied_effects/chilled",
+                    "power": "ntorigins:wizard/spellcasting/applied_effects/slowed",
                     "source": "ntorigins:orb_of_frost"
                 },
                 {
                     "type": "origins:change_resource",
-                    "resource": "ntorigins:wizard/spellcasting/applied_effects/chilled_resource",
+                    "resource": "ntorigins:wizard/spellcasting/applied_effects/slowed_resource",
                     "change": 1,
-                    "operation": "add"
+                    "operation": "set"
                 }
             ]
         },

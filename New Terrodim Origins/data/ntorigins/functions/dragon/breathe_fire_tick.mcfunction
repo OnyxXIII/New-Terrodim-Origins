@@ -1,3 +1,4 @@
-summon area_effect_cloud ^ ^-0.75 ^1 {CustomName:'{"text":"Flameicon"}',Duration:35,Tags:["Fresh"]}
-execute as @e[type=area_effect_cloud,name=Flameicon,tag=Fresh,limit=1,distance=..5] at @s rotated as @p[tag=Dragon_Breathing] run tp @s ~ ~ ~ ~ ~ 
-tag @e[type=area_effect_cloud,name=Flameicon,tag=Fresh,limit=1,distance=..5] remove Fresh
+particle firework ~ ~0.5 ~ 0.1 0.1 0.1 0.001 1 force
+particle flame ~ ~0.5 ~ 0.3 0.3 0.3 0.001 5 force
+execute as @e[distance=..3,tag=!Dragon] run power grant @s ntorigins:dragon/applied_effects/dragon_roasted
+setblock ~ ~ ~ fire keep

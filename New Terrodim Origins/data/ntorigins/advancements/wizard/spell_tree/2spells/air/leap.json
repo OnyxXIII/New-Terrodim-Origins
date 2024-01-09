@@ -1,47 +1,102 @@
 {
     "display": {
-        "icon": {
-            "item": "minecraft:rabbit_foot",
-            "nbt": "{Enchantments:[{}]}"
+      "icon": {
+        "item": "minecraft:rabbit_foot",
+        "nbt": "{Enchantments:[{}]}"
+      },
+      "title": {
+        "text": "Air Spell I - Leap                ",
+        "color": "#69B8FF"
+      },
+      "description": [
+        "",
+        {
+          "text": "Gather the winds behind you to provide you with a burst of supernatural speed.\n\nInstantly shoots you forward with a burst of velocity.\n\n",
+          "color": "#69B8FF"
         },
-        "title": "Leap",
-        "description": "test",
-        "frame": "task",
-        "announce_to_chat": false
+        {
+          "text": "Cost:",
+          "color": "#69B8FF",
+          "bold": true
+        },
+        {
+          "text": " 20 mana\n",
+          "color": "#69B8FF"
+        },
+        {
+          "text": "Tool:",
+          "color": "#69B8FF",
+          "bold": true
+        },
+        {
+          "text": " Spellbook\n",
+          "color": "#69B8FF"
+        },
+        {
+          "text": "Duration:",
+          "color": "#69B8FF",
+          "bold": true
+        },
+        {
+          "text": " Instantaneous\n",
+          "color": "#69B8FF"
+        },
+        {
+          "text": "Cooldown:",
+          "color": "#69B8FF",
+          "bold": true
+        },
+        {
+          "text": " 2.5s\n\n",
+          "color": "#69B8FF"
+        },
+        {
+          "text": "To Unlock:",
+          "color": "#69B8FF",
+          "bold": true
+        },
+        {
+          "text": " Brew a Potion of Leaping",
+          "color": "#69B8FF"
+        }
+      ],
+      "frame": "task",
+      "announce_to_chat": false
     },
     "parent": "ntorigins:wizard/spell_tree/2spells/air/magic_of_air",
     "criteria": {
-        "brew_leaping_potion": {
-            "trigger": "minecraft:inventory_changed",
-            "conditions": {
-                "player": [
-                    {
-                        "condition": "minecraft:reference",
-                        "name": "ntorigins:wizard"
-                    },
-                    {
-                        "condition": "minecraft:entity_properties",
-                        "entity": "this",
-                        "predicate": {
-                            "type": "minecraft:player",
-                            "type_specific": {
-                                "type": "player",
-                                "advancements": {
-                                    "ntorigins:wizard/spell_tree/2spells/air/magic_of_air": true
-                                }
-                            }
-                        }
-                    }
-                ],
-                "items": [
-                    {
-                        "items": [
-                            "minecraft:potion"
-                        ],
-                        "potion": "minecraft:leaping"
-                    }
-                ]
+      "brew_leaping_potion": {
+        "trigger": "minecraft:inventory_changed",
+        "conditions": {
+          "player": [
+            {
+              "condition": "minecraft:reference",
+              "name": "ntorigins:wizard"
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type": "minecraft:player",
+                "type_specific": {
+                  "type": "player",
+                  "advancements": {
+                    "ntorigins:wizard/spell_tree/2spells/air/magic_of_air": true
+                  }
+                }
+              }
             }
+          ],
+          "items": [
+            {
+              "items": [
+                "minecraft:potion"
+              ],
+              "potion": "minecraft:leaping"
+            }
+          ]
         }
+      }
     }
-}
+  }
+  

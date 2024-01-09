@@ -1,5 +1,6 @@
 {
     "type": "origins:multiple",
+    "hidden": true,
     "spell_active": {
         "type": "origins:resource",
         "min": 0,
@@ -93,7 +94,6 @@
         "key": {
             "key": "key.origins.primary_active"
         },
-        "hidden": true,
         "condition": {
             "type": "origins:and",
             "conditions": [

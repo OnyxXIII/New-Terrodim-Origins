@@ -1,0 +1,50 @@
+{
+    "type": "origins:multiple",
+    "hidden": true,
+    "timer_tick": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "ntorigins:dragon/applied_effects/dragon_roasted_burn_timer",
+            "change": 1,
+            "operation": "add"
+        }
+    },
+    "burn_timer": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 10,
+        "max_action": {
+            "type": "origins:revoke_power",
+            "power": "ntorigins:dragon/applied_effects/dragon_roasted",
+            "source": "apoli:command"
+        },
+        "hud_render": {
+            "should_render": false
+        },
+        "start_value": 0
+    },
+    "intiate_burning": {
+        "type": "origins:action_on_callback",
+        "entity_action_added": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:set_on_fire",
+                    "duration": 10
+                },
+                {
+                    "type": "origins:damage",
+                    "amount": 2,
+                    "source": {
+                        "name": "onFire.player",
+                        "bypasses_armor": true,
+                        "fire": true
+                    }
+                }
+            ]
+        }
+    }
+    
+}

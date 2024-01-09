@@ -1,5 +1,5 @@
 {
-    "type": "origins_multiple",
+    "type": "origins:multiple",
     "name": "\u00A7c\u00A7nComforts of Home",
     "description": "As a shut-in scholar, you prefer to spend your time at home, among your things, studying and relaxing. The longer you spend out exploring and adventuring, the more you long for the comforts of home.",
     "meter": {
@@ -23,15 +23,13 @@
         },
         "interval": 20,
         "condition": {
-            "type": "origins:block_in_radius",
-            "block_condition": {
-                "type": "origins:block",
-                "tag": "minecraft:bookshelf"
-            },
-            "radius": 5,
-            "shape": "cube",
-            "comparison": ">=",
-            "compare_to": 4
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:constant",
+                    "value": true
+                }
+            ]
         }
     },
     "discharge": {
@@ -45,15 +43,13 @@
         "interval": 20,
         "condition": {
             "inverted": true,
-            "type": "origins:block_in_radius",
-            "block_condition": {
-                "type": "origins:block",
-                "tag": "minecraft:bookshelf"
-            },
-            "radius": 5,
-            "shape": "cube",
-            "comparison": ">=",
-            "compare_to": 4
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:constant",
+                    "value": true
+                }
+            ]
         }
     }
 }

@@ -25,12 +25,6 @@
                     "compare_to": 0
                 },
                 {
-                    "type": "origins:resource",
-                    "resource": "ntorigins:wizard/spellcasting/applied_effects/chilled_resource",
-                    "comparison": "<",
-                    "compare_to": 31
-                },
-                {
                     "type": "origins:origin",
                     "origin": "ntorigins:wizard",
                     "inverted": true
@@ -48,12 +42,6 @@
                     "resource": "ntorigins:wizard/spellcasting/applied_effects/chilled_resource",
                     "comparison": ">",
                     "compare_to": 0
-                },
-                {
-                    "type": "origins:resource",
-                    "resource": "ntorigins:wizard/spellcasting/applied_effects/chilled_resource",
-                    "comparison": "<",
-                    "compare_to": 31
                 },
                 {
                     "type": "origins:origin",
@@ -101,12 +89,6 @@
                     "resource": "ntorigins:wizard/spellcasting/applied_effects/chilled_resource",
                     "comparison": ">",
                     "compare_to": 0
-                },
-                {
-                    "type": "origins:resource",
-                    "resource": "ntorigins:wizard/spellcasting/applied_effects/chilled_resource",
-                    "comparison": "<",
-                    "compare_to": 31
                 },
                 {
                     "type": "origins:origin",

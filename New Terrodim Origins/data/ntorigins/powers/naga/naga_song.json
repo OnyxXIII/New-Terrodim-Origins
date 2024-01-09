@@ -32,7 +32,7 @@
     "song_timer": {
         "type": "origins:resource",
         "min": 0,
-        "max": 151,
+        "max": 16,
         "hud_render": {
             "should_render": false
         }
@@ -67,7 +67,7 @@
             "type": "origins:resource",
             "resource": "ntorigins:naga/naga_song_song_timer",
             "comparison": ">",
-            "compare_to": 150
+            "compare_to": 15
         },
         "rising_action": {
             "type": "origins:and",

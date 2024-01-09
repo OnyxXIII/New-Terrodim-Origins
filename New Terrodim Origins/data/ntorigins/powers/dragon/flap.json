@@ -28,7 +28,7 @@
         "condition": {
             "type": "origins:fall_flying"
         },
-        "interval": 1200
+        "interval": 20
     },
     "name": "\u00A7a\u00A7nFlap",
     "description": "While in the air you can beat your wings to keep your self in the air.\n-press the key to get a small vertical boost-"

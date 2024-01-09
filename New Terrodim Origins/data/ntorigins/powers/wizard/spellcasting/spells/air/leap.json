@@ -61,6 +61,27 @@
                 "resource": "ntorigins:wizard/spellcasting/mana_pool",
                 "comparison": ">=",
                 "compare_to": 20
+            },
+            {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "mainhand",
+                        "item_condition": {
+                            "type": "origins:nbt",
+                            "nbt": "{spellbook:1b}"
+                        }
+                    },
+                    {
+                        "type": "origins:equipped_item",
+                        "equipment_slot": "offhand",
+                        "item_condition": {
+                            "type": "origins:nbt",
+                            "nbt": "{spellbook:1b}"
+                        }
+                    }
+                ]
             }
         ]
     },

@@ -5,5 +5,13 @@
     "modifier": {
         "operation": "multiply_base",
         "value": -0.25
+    },
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "inverted": true,
+            "type": "origins:empty"
+        }
     }
 }

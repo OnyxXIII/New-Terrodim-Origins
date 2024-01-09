@@ -25,7 +25,7 @@
     "spell_school_select": {
         "type": "origins:active_self",
         "key": {
-            "key": "key.origins.tertiary_active"
+            "key": "key.origins.ternary_active"
         },
         "entity_action": {
             "type": "origins:if_else",
@@ -72,6 +72,417 @@
                     "comparison": "!="
                 }
             ]
+        }
+    },
+    "spell_selection_display": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:if_else_list",
+            "actions": [
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "ntorigins:wizard/spellcasting/spell_select_spell_school_resource",
+                                "comparison": "==",
+                                "compare_to": 1
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_staff_toggle"
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_spell_select"
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "function ntorigins:wizard/spell_display/air/leap"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "ntorigins:wizard/spellcasting/spell_select_spell_school_resource",
+                                "comparison": "==",
+                                "compare_to": 1
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_staff_toggle"
+                            },
+                            {
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_spell_select"
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "function ntorigins:wizard/spell_display/air/reflect_missiles"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "ntorigins:wizard/spellcasting/spell_select_spell_school_resource",
+                                "comparison": "==",
+                                "compare_to": 1
+                            },
+                            {
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_staff_toggle"
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_spell_select"
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "function ntorigins:wizard/spell_display/air/far_step"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "ntorigins:wizard/spellcasting/spell_select_spell_school_resource",
+                                "comparison": "==",
+                                "compare_to": 1
+                            },
+                            {
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_staff_toggle"
+                            },
+                            {
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_spell_select"
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "function ntorigins:wizard/spell_display/air/fly"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "ntorigins:wizard/spellcasting/spell_select_spell_school_resource",
+                                "comparison": "==",
+                                "compare_to": 2
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_staff_toggle"
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "function ntorigins:wizard/spell_display/earth/shockwave"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "ntorigins:wizard/spellcasting/spell_select_spell_school_resource",
+                                "comparison": "==",
+                                "compare_to": 2
+                            },
+                            {
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_staff_toggle"
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "function ntorigins:wizard/spell_display/earth/meld_into_earth"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "ntorigins:wizard/spellcasting/spell_select_spell_school_resource",
+                                "comparison": "==",
+                                "compare_to": 3
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_staff_toggle"
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_spell_select"
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "function ntorigins:wizard/spell_display/fire/fireball"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "ntorigins:wizard/spellcasting/spell_select_spell_school_resource",
+                                "comparison": "==",
+                                "compare_to": 3
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_staff_toggle"
+                            },
+                            {
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_spell_select"
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "function ntorigins:wizard/spell_display/fire/fire_shield"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "ntorigins:wizard/spellcasting/spell_select_spell_school_resource",
+                                "comparison": "==",
+                                "compare_to": 3
+                            },
+                            {
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_staff_toggle"
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_spell_select"
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "function ntorigins:wizard/spell_display/fire/dragons_wrath"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "ntorigins:wizard/spellcasting/spell_select_spell_school_resource",
+                                "comparison": "==",
+                                "compare_to": 3
+                            },
+                            {
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_staff_toggle"
+                            },
+                            {
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_spell_select"
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "function ntorigins:wizard/spell_display/fire/banish_to_hell"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "ntorigins:wizard/spellcasting/spell_select_spell_school_resource",
+                                "comparison": "==",
+                                "compare_to": 4
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_staff_toggle"
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "function ntorigins:wizard/spell_display/ice/permafrost"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "ntorigins:wizard/spellcasting/spell_select_spell_school_resource",
+                                "comparison": "==",
+                                "compare_to": 4
+                            },
+                            {
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_staff_toggle"
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "function ntorigins:wizard/spell_display/ice/wall_of_ice"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "ntorigins:wizard/spellcasting/spell_select_spell_school_resource",
+                                "comparison": "==",
+                                "compare_to": 5
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_staff_toggle"
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_spell_select"
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "function ntorigins:wizard/spell_display/lightning/magic_missile"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "ntorigins:wizard/spellcasting/spell_select_spell_school_resource",
+                                "comparison": "==",
+                                "compare_to": 5
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_staff_toggle"
+                            },
+                            {
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_spell_select"
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "function ntorigins:wizard/spell_display/lightning/faerie_fire"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "ntorigins:wizard/spellcasting/spell_select_spell_school_resource",
+                                "comparison": "==",
+                                "compare_to": 5
+                            },
+                            {
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_staff_toggle"
+                            },
+                            {
+                                "inverted": true,
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_spell_select"
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "function ntorigins:wizard/spell_display/lightning/lightning_bolt"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:and",
+                        "conditions": [
+                            {
+                                "type": "origins:resource",
+                                "resource": "ntorigins:wizard/spellcasting/spell_select_spell_school_resource",
+                                "comparison": "==",
+                                "compare_to": 5
+                            },
+                            {
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_staff_toggle"
+                            },
+                            {
+                                "type": "origins:power_active",
+                                "power": "ntorigins:wizard/spellcasting/spell_select_spell_select"
+                            }
+                        ]
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "function ntorigins:wizard/spell_display/lightning/lightning_cage"
+                    }
+                }
+            ]
+        },
+        "interval": 20,
+        "condition": {
+            "type": "origins:advancement",
+            "advancement": "ntorigins:wizard/spell_tree/2spells/2craft_spellbook"
         }
     }
 }
