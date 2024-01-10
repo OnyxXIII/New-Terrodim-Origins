@@ -4,16 +4,16 @@ These Origins have been developed for the [Minecraft Origins mod](https://modrin
 
 Origins:
 
-- [Dragonborn](https://github.com/OnyxXIII/New-Terrodim-Origins/wiki/Dragonborn)
-- [Dwarf](https://github.com/OnyxXIII/New-Terrodim-Origins/wiki/Dwarves)
-- Elf
-- Faun
-- Human
-- Naga
-- Pirate
-- Sea Elf [deprecated]
-- Wharf Rat
-- Wizard
+* [Dragonborn](https://github.com/OnyxXIII/New-Terrodim-Origins/wiki/Origin-‐-Dragonborn)
+* [Dwarves](https://github.com/OnyxXIII/New-Terrodim-Origins/wiki/Origin-‐-Dwarves)
+* [Elves](https://github.com/OnyxXIII/New-Terrodim-Origins/wiki/Origin-‐-Elves)
+* [Fauns](https://github.com/OnyxXIII/New-Terrodim-Origins/wiki/Origin-‐-Fauns)
+* [Naga](https://github.com/OnyxXIII/New-Terrodim-Origins/wiki/Origin-‐-Naga)
+* [Wharf Rats](https://github.com/OnyxXIII/New-Terrodim-Origins/wiki/Origin-‐-Wharf-Rats)
+* Human [wip]
+* Pirate [deprecated]
+* Sea Elf [deprecated]
+* Wizard [wip]
 
 You have my permission to use these origins in your own server, copy and edit them for your own origin development, or do anything else you would like with them - with or without credit.
 
