@@ -67,7 +67,7 @@
                 },
                 "action": {
                     "type": "origins:area_of_effect",
-                    "radius": 256,
+                    "radius": 64,
                     "bientity_action": {
                         "type": "origins:target_action",
                         "action": {
@@ -99,7 +99,7 @@
                 },
                 "action": {
                     "type": "origins:area_of_effect",
-                    "radius": 256,
+                    "radius": 64,
                     "bientity_action": {
                         "type": "origins:target_action",
                         "action": {
@@ -182,7 +182,7 @@
                 },
                 "action": {
                     "type": "origins:area_of_effect",
-                    "radius": 256,
+                    "radius": 64,
                     "bientity_action": {
                         "type": "origins:target_action",
                         "action": {
@@ -214,7 +214,7 @@
                 },
                 "action": {
                     "type": "origins:area_of_effect",
-                    "radius": 256,
+                    "radius": 64,
                     "bientity_action": {
                         "type": "origins:target_action",
                         "action": {
@@ -246,7 +246,7 @@
                 },
                 "action": {
                     "type": "origins:area_of_effect",
-                    "radius": 256,
+                    "radius": 64,
                     "bientity_action": {
                         "type": "origins:target_action",
                         "action": {
@@ -278,7 +278,7 @@
                 },
                 "action": {
                     "type": "origins:area_of_effect",
-                    "radius": 256,
+                    "radius": 64,
                     "bientity_action": {
                         "type": "origins:target_action",
                         "action": {
