@@ -8,7 +8,7 @@
             "type": "origins:chance",
             "action": {
                 "type": "origins:execute_command",
-                "command": "loot spawn ~ ~ ~ loot ntorigins:naga_prismarine"
+                "command": "loot spawn ~ ~ ~ loot ntorigins:naga_extras"
             },
             "chance": 0.15
         }

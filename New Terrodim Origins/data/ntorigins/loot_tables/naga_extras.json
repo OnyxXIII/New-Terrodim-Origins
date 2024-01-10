@@ -6,7 +6,7 @@
               {
                   "type": "minecraft:item",
                   "weight": 9,
-                  "name": "minecraft:prismarine_shard",
+                  "name": "minecraft:cod",
                   "functions": [
                       {
                           "function": "minecraft:set_count",
@@ -20,7 +20,7 @@
               {
                   "type": "minecraft:item",
                   "weight": 1,
-                  "name": "minecraft:prismarine_crystals",
+                  "name": "minecraft:pufferfish",
                   "functions": [
                       {
                           "function": "minecraft:set_count",
