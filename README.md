@@ -4,8 +4,8 @@ These Origins have been developed for the [Minecraft Origins mod](https://modrin
 
 Origins:
 
-- Dragonborn
-- Dwarf
+- [Dragonborn](https://github.com/OnyxXIII/New-Terrodim-Origins/wiki/Dragonborn)
+- [Dwarf](https://github.com/OnyxXIII/New-Terrodim-Origins/wiki/Dwarves)
 - Elf
 - Faun
 - Human
