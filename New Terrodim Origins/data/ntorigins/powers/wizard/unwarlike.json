@@ -1,4 +1,5 @@
 {
+    "type": "origins:multiple",
     "right_clicks": {
         "type": "origins:prevent_item_use",
         "item_condition": {
