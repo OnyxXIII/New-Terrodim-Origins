@@ -14,8 +14,18 @@
             "continuous": true
         },
         "condition": {
-            "type": "origins:on_block",
-            "inverted": true
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:on_block",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:submerged_in",
+                    "fluid": "minecraft:water",
+                    "inverted": true
+                }
+            ]
         },
         "sound": "minecraft:entity.ender_dragon.flap"
     },

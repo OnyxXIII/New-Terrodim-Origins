@@ -22,12 +22,12 @@
     },
     "sink": {
         "type": "origins:modify_falling",
-        "velocity": 0.3,
+        "velocity": 0.4,
         "condition": {
             "type": "origins:submerged_in",
             "fluid": "minecraft:water"
         }
     },
     "name": "\u00A7c\u00A7nDense",
-    "description": "Your towering draconic majesty makes you... less than buoyant. You cannot swim.\n-you sink in water, and get slowness-"
+    "description": "Your towering draconic majesty makes you... less than buoyant. You cannot swim.\n-you sink quickly in water, and swim much slower. You cannot sprint-swim.-"
 }
