@@ -9,11 +9,8 @@
             "type": "origins:and",
             "actions": [
                 {
-                    "type": "origins:play_sound",
-                    "sound": "minecraft:rat_scream",
-                    "volume": 1,
-                    "pitch": 1,
-                    "category": "player"
+                    "type": "origins:execute_command",
+                    "command": "playsound minecraft:rat_scream player @e[type=minecraft:player,distance=..64]"
                 },
                 {
                     "type": "origins:change_resource",
@@ -95,6 +92,7 @@
         }
     },
     "timer_reset": {
+        "interval": 20,
         "type": "origins:action_over_time",
         "condition": {
             "type": "origins:resource",

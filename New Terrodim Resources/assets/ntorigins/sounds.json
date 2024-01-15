@@ -1,11 +1,21 @@
 {
     "naga_song": {
         "replace": false,
-        "subtitle": "naga singing",
+        "subtitle": "Naga sings",
         "sounds": [
             {
-                "name": "ntorigins:naga_song",
+                "name": "naga_song",
                 "stream": true
+            }
+        ]
+    },
+    "rat_scream": {
+        "replace": false,
+        "subtitle": "Wharf Rat screams",
+        "sounds": [
+            {
+                "name": "rat_scream",
+                "stream": false
             }
         ]
     }
