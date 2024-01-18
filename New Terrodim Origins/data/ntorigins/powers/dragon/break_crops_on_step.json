@@ -1,0 +1,24 @@
+{
+    "name": "\u00A7c\u00A7nHeavy Tread",
+    "description": "Crops, like all things, fear your presence!\n-you trample farmland you walk over-",
+    "type": "origins:action_over_time",
+    "rising_action": {
+        "type": "origins:block_action_at",
+        "block_action": {
+            "type": "origins:offset",
+            "action": {
+                "type": "origins:set_block",
+                "block": "minecraft:dirt"
+            },
+            "y": -1
+        }
+    },
+    "interval": 5,
+    "condition": {
+        "type": "origins:on_block",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:farmland"
+        }
+    }
+}

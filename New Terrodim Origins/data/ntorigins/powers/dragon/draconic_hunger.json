@@ -1,9 +1,0 @@
-{
-    "type": "origins:modify_exhaustion",
-    "modifier": {
-        "operation": "multiply_base_additive",
-        "value": 10
-    },
-    "name": "\u00A7c\u00A7nDraconic Hunger",
-    "description": "Your massive, powerful frame consumes energy at a voracious rate.\n-get hungry much faster-"
-}

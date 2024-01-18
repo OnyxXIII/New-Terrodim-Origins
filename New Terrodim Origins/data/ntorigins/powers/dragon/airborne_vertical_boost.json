@@ -1,0 +1,45 @@
+{
+    "type": "origins:multiple",
+    "launch": {
+        "type": "origins:launch",
+        "cooldown": 30,
+        "speed": 0.6,
+        "hud_render": {
+            "sprite_location": "origins:textures/gui/resource_bar.png",
+            "bar_index": 2,
+            "should_render": true
+        },
+        "key": {
+            "key": "key.jump",
+            "continuous": true
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:on_block",
+                    "inverted": true
+                },
+                {
+                    "type": "origins:submerged_in",
+                    "fluid": "minecraft:water",
+                    "inverted": true
+                }
+            ]
+        },
+        "sound": "minecraft:entity.ender_dragon.flap"
+    },
+    "exhaust": {
+        "type": "origins:action_over_time",
+        "entity_action": {
+            "type": "origins:exhaust",
+            "amount": 1
+        },
+        "condition": {
+            "type": "origins:fall_flying"
+        },
+        "interval": 20
+    },
+    "name": "\u00A7a\u00A7nFlap",
+    "description": "While in the air you can beat your wings to keep your self in the air.\n-press the key to get a small vertical boost-"
+}

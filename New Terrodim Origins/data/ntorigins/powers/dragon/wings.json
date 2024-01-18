@@ -1,0 +1,7 @@
+{
+    "type": "origins:elytra_flight",
+    "render_elytra": true,
+    "texture_location": "ntorigins:textures/entity/crimson_elytra.png",
+    "name": "\u00A7a\u00A7nDragon's Wings",
+    "description": "You have wings, and are a master of the skies.\n-permanent elytra-"
+}

@@ -1,0 +1,33 @@
+{
+    "type": "origins:restrict_armor",
+    "head": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "tag": "ntorigins:dragon_wearable_armor"
+        },
+        "inverted": true
+    },
+    "chest": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "tag": "ntorigins:dragon_wearable_armor"
+        },
+        "inverted": true
+    },
+    "legs": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "tag": "ntorigins:dragon_wearable_armor"
+        },
+        "inverted": true
+    },
+    "feet": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "tag": "ntorigins:dragon_wearable_armor"
+        },
+        "inverted": true
+    },
+    "name": "\u00A7c\u00A7nVain",
+    "description": "You'll only wear something if it's at least as beautiful as your natural scales\n-can only wear gold & diamond armor-"
+}
