@@ -1,1 +1,0 @@
-power revoke @s ntorigins:naga/dive

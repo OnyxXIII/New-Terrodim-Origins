@@ -1,1 +1,0 @@
-power grant @s ntorigins:naga/dive
