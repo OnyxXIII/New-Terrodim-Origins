@@ -51,7 +51,7 @@
                         "type": "origins:target_condition",
                         "condition": {
                             "type": "origins:in_tag",
-                            "tag": "ntorigins:faun_allies"
+                            "tag": "ntorigins:faun_horn_power_allies"
                         }
                     }
                 }
@@ -83,7 +83,7 @@
                         "type": "origins:target_condition",
                         "condition": {
                             "type": "origins:in_tag",
-                            "tag": "ntorigins:faun_allies"
+                            "tag": "ntorigins:faun_horn_power_allies"
                         }
                     }
                 }
@@ -134,7 +134,7 @@
                         "type": "origins:target_condition",
                         "condition": {
                             "type": "origins:in_tag",
-                            "tag": "ntorigins:faun_enemies"
+                            "tag": "ntorigins:faun_horn_power_enemies"
                         }
                     }
                 }
@@ -166,7 +166,7 @@
                         "type": "origins:target_condition",
                         "condition": {
                             "type": "origins:in_tag",
-                            "tag": "ntorigins:faun_allies"
+                            "tag": "ntorigins:faun_horn_power_allies"
                         }
                     }
                 }
@@ -198,7 +198,7 @@
                         "type": "origins:target_condition",
                         "condition": {
                             "type": "origins:in_tag",
-                            "tag": "ntorigins:faun_allies"
+                            "tag": "ntorigins:faun_horn_power_allies"
                         }
                     }
                 }
@@ -230,7 +230,7 @@
                         "type": "origins:target_condition",
                         "condition": {
                             "type": "origins:in_tag",
-                            "tag": "ntorigins:faun_enemies"
+                            "tag": "ntorigins:faun_horn_power_enemies"
                         }
                     }
                 }
@@ -262,7 +262,7 @@
                         "type": "origins:target_condition",
                         "condition": {
                             "type": "origins:in_tag",
-                            "tag": "ntorigins:faun_allies"
+                            "tag": "ntorigins:faun_horn_power_allies"
                         }
                     }
                 }
@@ -290,7 +290,7 @@
                         "type": "origins:target_condition",
                         "condition": {
                             "type": "origins:in_tag",
-                            "tag": "ntorigins:faun_allies"
+                            "tag": "ntorigins:faun_horn_power_allies"
                         }
                     }
                 }

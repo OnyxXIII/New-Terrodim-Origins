@@ -5,7 +5,7 @@
         "type": "origins:block_in_radius",
         "block_condition": {
             "type": "origins:in_tag",
-            "tag": "ntorigins:dragon_hoard"
+            "tag": "ntorigins:dragon_xp_from_treasure_whitelist"
         },
         "radius": 16
     },

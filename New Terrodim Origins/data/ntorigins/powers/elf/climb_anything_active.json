@@ -6,7 +6,7 @@
         "type": "origins:active_self",
         "entity_action": {
             "type": "origins:change_resource",
-            "resource": "ntorigins:elf/nimble_climber_timer",
+            "resource": "ntorigins:elf/climb_anything_active_climber_timer",
             "change": 1,
             "operation": "set"
         },
@@ -32,12 +32,12 @@
         "interval": 20,
         "entity_action": {
             "type": "origins:change_resource",
-            "resource": "ntorigins:elf/nimble_climber_timer",
+            "resource": "ntorigins:elf/climb_anything_active_climber_timer",
             "change": 1
         },
         "condition": {
             "type": "origins:resource",
-            "resource": "ntorigins:elf/nimble_climber_timer",
+            "resource": "ntorigins:elf/climb_anything_active_climber_timer",
             "comparison": ">",
             "compare_to": 0
         }
@@ -52,13 +52,13 @@
                 },
                 {
                     "type": "origins:resource",
-                    "resource": "ntorigins:elf/nimble_climber_timer",
+                    "resource": "ntorigins:elf/climb_anything_active_climber_timer",
                     "comparison": ">",
                     "compare_to": 0
                 },
                 {
                     "type": "origins:resource",
-                    "resource": "ntorigins:elf/nimble_climber_timer",
+                    "resource": "ntorigins:elf/climb_anything_active_climber_timer",
                     "comparison": "<",
                     "compare_to": 31
                 }
@@ -70,15 +70,16 @@
     },
     "timer_reset": {
         "type": "origins:action_over_time",
+        "interval": 20,
         "condition": {
             "type": "origins:resource",
-            "resource": "ntorigins:elf/nimble_climber_timer",
+            "resource": "ntorigins:elf/climb_anything_active_climber_timer",
             "comparison": ">",
             "compare_to": 30
         },
         "rising_action": {
             "type": "origins:change_resource",
-            "resource": "ntorigins:elf/nimble_climber_timer",
+            "resource": "ntorigins:elf/climb_anything_active_climber_timer",
             "change": 0,
             "operation": "set"
         }

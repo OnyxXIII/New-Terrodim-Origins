@@ -4,6 +4,7 @@
         "minecraft:boat",
         "minecraft:chest_boat",
         "smallships:cog",
-        "smallships:brigg"
+        "smallships:brigg",
+        "smallships:galley"
     ]
 }

@@ -56,7 +56,7 @@
         "distance": 16,
         "block_condition": {
             "type": "origins:in_tag",
-            "tag": "ntorigins:lightable"
+            "tag": "ntorigins:dragon_fuel_block_whitelist"
         },
         "hit_bientity_condition": {
             "type": "origins:target_condition",

@@ -14,7 +14,7 @@
                 },
                 {
                     "type": "origins:change_resource",
-                    "resource": "ntorigins:wharf_rat/scream_timer",
+                    "resource": "ntorigins:wharf_rat/highlight_predators_timer",
                     "change": 1,
                     "operation": "set"
                 }
@@ -42,12 +42,12 @@
         "interval": 20,
         "entity_action": {
             "type": "origins:change_resource",
-            "resource": "ntorigins:wharf_rat/scream_timer",
+            "resource": "ntorigins:wharf_rat/highlight_predators_timer",
             "change": 1
         },
         "condition": {
             "type": "origins:resource",
-            "resource": "ntorigins:wharf_rat/scream_timer",
+            "resource": "ntorigins:wharf_rat/highlight_predators_timer",
             "comparison": ">",
             "compare_to": 0
         }
@@ -59,13 +59,13 @@
             "conditions": [
                 {
                     "type": "origins:resource",
-                    "resource": "ntorigins:wharf_rat/scream_timer",
+                    "resource": "ntorigins:wharf_rat/highlight_predators_timer",
                     "comparison": ">",
                     "compare_to": 0
                 },
                 {
                     "type": "origins:resource",
-                    "resource": "ntorigins:wharf_rat/scream_timer",
+                    "resource": "ntorigins:wharf_rat/highlight_predators_timer",
                     "comparison": "<",
                     "compare_to": 31
                 }
@@ -76,7 +76,7 @@
             "conditions": [
                 {
                     "type": "origins:in_tag",
-                    "tag": "ntorigins:rat_predators"
+                    "tag": "ntorigins:rat_highlight_predators_whitelist"
                 },
                 {
                     "type": "origins:origin",
@@ -95,13 +95,13 @@
         "type": "origins:action_over_time",
         "condition": {
             "type": "origins:resource",
-            "resource": "ntorigins:wharf_rat/scream_timer",
+            "resource": "ntorigins:wharf_rat/highlight_predators_timer",
             "comparison": ">",
             "compare_to": 30
         },
         "rising_action": {
             "type": "origins:change_resource",
-            "resource": "ntorigins:wharf_rat/scream_timer",
+            "resource": "ntorigins:wharf_rat/highlight_predators_timer",
             "change": 0,
             "operation": "set"
         }

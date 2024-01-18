@@ -20,7 +20,7 @@
             "conditions": [
                 {
                     "type": "origins:in_tag",
-                    "tag": "ntorigins:aquatic"
+                    "tag": "ntorigins:naga_aquatic_loot_bonus_whitelist"
                 },
                 {
                     "type": "origins:health",

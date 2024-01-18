@@ -63,6 +63,7 @@
     },
     "break_song": {
         "type": "origins:action_over_time",
+        "interval": 20,
         "condition": {
             "type": "origins:resource",
             "resource": "ntorigins:naga/pacify_mobs_song_timer",
