@@ -1,0 +1,19 @@
+{
+	"type": "origins:modify_damage_dealt",
+	"modifier": {
+		"operation": "addition",
+		"value": 2
+	},
+	"condition": {
+		"type": "origins:equipped_item",
+		"equipment_slot": "mainhand",
+		"item_condition": {
+			"type": "origins:ingredient",
+			"ingredient": {
+				"tag": "ntorigins:axes"
+			}
+		}
+	},
+	"name": "\u00A7a\u00A7nExpert Weaponsmith",
+	"description": "You are an expert at crafting and wielding axes.\n-bonus damage with axes-"
+}

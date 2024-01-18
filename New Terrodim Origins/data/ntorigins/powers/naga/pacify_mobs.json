@@ -9,13 +9,13 @@
             "actions": [
                 {
                     "type": "origins:change_resource",
-                    "resource": "ntorigins:naga/naga_song_song_timer",
+                    "resource": "ntorigins:naga/pacify_mobs_song_timer",
                     "change": 1,
                     "operation": "set"
                 },
                 {
                     "type": "origins:execute_command",
-                    "command": "playsound minecraft:naga_song player @e[type=minecraft:player,distance=..64]"
+                    "command": "playsound minecraft:pacify_mobs player @e[type=minecraft:player,distance=..64]"
                 }
             ]
         },
@@ -45,18 +45,18 @@
             "actions": [
                 {
                     "type": "origins:execute_command",
-                    "command": "function ntorigins:naga/naga_song_power"
+                    "command": "function ntorigins:naga/pacify_mobs_power"
                 },
                 {
                     "type": "origins:change_resource",
-                    "resource": "ntorigins:naga/naga_song_song_timer",
+                    "resource": "ntorigins:naga/pacify_mobs_song_timer",
                     "change": 1
                 }
             ]
         },
         "condition": {
             "type": "origins:resource",
-            "resource": "ntorigins:naga/naga_song_song_timer",
+            "resource": "ntorigins:naga/pacify_mobs_song_timer",
             "comparison": ">",
             "compare_to": 0
         }
@@ -65,7 +65,7 @@
         "type": "origins:action_over_time",
         "condition": {
             "type": "origins:resource",
-            "resource": "ntorigins:naga/naga_song_song_timer",
+            "resource": "ntorigins:naga/pacify_mobs_song_timer",
             "comparison": ">",
             "compare_to": 15
         },
@@ -74,13 +74,13 @@
             "actions": [
                 {
                     "type": "origins:change_resource",
-                    "resource": "ntorigins:naga/naga_song_song_timer",
+                    "resource": "ntorigins:naga/pacify_mobs_song_timer",
                     "change": 0,
                     "operation": "set"
                 },
                 {
                     "type": "origins:execute_command",
-                    "command": "function ntorigins:naga/naga_song_break"
+                    "command": "function ntorigins:naga/pacify_mobs_break"
                 }
             ]
         }
@@ -89,7 +89,7 @@
         "type": "origins:target_action_on_hit",
         "entity_action": {
             "type": "origins:execute_command",
-            "command": "function ntorigins:naga/naga_song_break_hit"
+            "command": "function ntorigins:naga/pacify_mobs_break_hit"
         },
         "cooldown": 0
     },

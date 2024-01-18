@@ -1,0 +1,27 @@
+{
+    "type": "origins:multiple",
+    "slow": {
+        "type": "origins:modify_swim_speed",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -0.5
+        }
+    },
+    "no_swim": {
+        "type": "origins:prevent_sprinting",
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+        }
+    },
+    "sink": {
+        "type": "origins:modify_falling",
+        "velocity": 0.3,
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+        }
+    },
+    "name": "\u00A7c\u00A7nDense",
+    "description": "Your hefty constitution packed into a small frame makes you... less than buoyant. You cannot swim.\n-sink in water and get slowness-"
+}

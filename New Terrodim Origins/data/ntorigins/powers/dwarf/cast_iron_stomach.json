@@ -1,8 +1,0 @@
-{
-    "type": "origins:effect_immunity",
-    "effects": [
-        "minecraft:hunger"
-    ],
-    "name": "\u00A7a\u00A7nCast-Iron Stomach",
-    "description": "When necessary, you can stomach foods that would make others sick.\n-immune to hunger effect-"
-}
