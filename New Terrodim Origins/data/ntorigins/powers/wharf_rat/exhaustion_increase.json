@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "operation": "multiply_base_additive",
+        "value": 1.5
+    },
+    "name": "\u00A7c\u00A7nRavenous",
+    "description": "You are constantly eating.\n-get hungry 250% as fast-"
+}

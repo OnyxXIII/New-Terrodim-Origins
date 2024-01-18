@@ -1,0 +1,11 @@
+{
+    "type": "origins:climbing",
+    "condition": {
+        "type": "origins:collided_horizontally"
+    },
+    "hold_condition": {
+        "type": "origins:collided_horizontally"
+    },
+    "name": "\u00A7a\u00A7nRigging Runner",
+    "description": "Your lifetime on sailing vessels has trained you to quickly scale almost any surface.\n-spider climb-"
+}

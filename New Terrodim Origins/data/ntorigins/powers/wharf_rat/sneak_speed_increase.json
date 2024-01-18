@@ -1,0 +1,13 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "multiply_base",
+        "value": 0.1
+    },
+    "condition": {
+        "type": "origins:sneaking"
+    },
+    "name": "\u00A7a\u00A7nSneaky Steps",
+    "description": "You have soft pads on your feet that muffle the sounds of your footsteps, allowing you to move slightly faster while sneaking.\n-+10% move speed while sneaking-"
+}

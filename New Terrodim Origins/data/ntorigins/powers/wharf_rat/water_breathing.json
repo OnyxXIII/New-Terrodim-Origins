@@ -1,0 +1,18 @@
+{
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "rising_action": {
+        "type": "origins:apply_effect",
+        "effect": {
+            "effect": "minecraft:water_breathing",
+            "duration": 300,
+            "show_particles": false
+        }
+    },
+    "condition": {
+        "type": "origins:submerged_in",
+        "fluid": "minecraft:water"
+    },
+    "name": "\u00A7a\u00A7nDiver",
+    "description": "You are well-used to dipping into the water for hidden treasures, and can spend a little longer scrounging on the bottom.\n-15s bonus breath underwater-"
+}
