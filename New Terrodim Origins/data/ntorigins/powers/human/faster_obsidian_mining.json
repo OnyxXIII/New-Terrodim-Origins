@@ -1,0 +1,22 @@
+{
+    "type": "origins:modify_break_speed",
+    "block_condition": {
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:block",
+                "block": "minecraft:obsidian"
+            },
+            {
+                "type": "origins:block",
+                "block": "minecraft:crying_obsidian"
+            }
+        ]
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 1
+    },
+    "name": "\u00A7a\u00A7nParanoid About Creepers",
+    "description": "Long experience building creeper-proof structures has given you an expert's ability to harvest blast-proof obsidian at great speed.\n-You mine obsidian twice as fast.-'"
+}
