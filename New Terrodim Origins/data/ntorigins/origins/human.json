@@ -1,7 +1,7 @@
 {
     "powers": [
         "ntorigins:human/craft_cannon",
-        "ntorigins:human/keep_valuables",
+        "ntorigins:human/safe_inventory",
         "ntorigins:human/better_villager_trades",
         "ntorigins:human/extra_damage_from_zombies",
         "ntorigins:human/extra_wheat_drops",

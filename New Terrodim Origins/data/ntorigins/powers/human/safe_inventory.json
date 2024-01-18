@@ -1,0 +1,10 @@
+{
+    "type": "origins:inventory",
+    "title": "Anti-Creeper Stash",
+    "container_type": "hopper",
+    "drop_on_death": false,
+    "recoverable": true,
+    "key": "key.origins.secondary_active",
+    "name": "\u00A7a\u00A7nAnti-Creeper Stash",
+    "description": "Long experience fighting creepers has taught you to stash away your valuables so that they aren't lost when you are blown to smithereens.\n-You have an extra 5 inventory slots that don't drop when you die (Press your\"Origins Active (Secondary)\" key to open)-'"
+}
