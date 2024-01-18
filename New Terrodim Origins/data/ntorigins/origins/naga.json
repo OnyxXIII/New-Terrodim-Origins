@@ -1,8 +1,8 @@
 {
     "powers": [
         "ntorigins:tnt_crafting",
-        "ntorigins:naga/naga_song",
-        "ntorigins:naga/dolphin_leap",
+        "ntorigins:naga/pacify_mobs",
+        "ntorigins:naga/launch_from_water",
         "origins:aquatic",
         "origins:swim_speed",
         "origins:like_water",
@@ -11,14 +11,14 @@
         "origins:water_breathing",
         "origins:conduit_power_on_land",
         "origins:air_from_potions",
-        "ntorigins:naga/draconic_constitution",
-        "ntorigins:naga/hardened_scales",
-        "ntorigins:naga/dragon_claws",
-        "ntorigins:naga/unused_to_warfare",
-        "ntorigins:naga/piscivore",
+        "ntorigins:naga/health_bonus",
+        "ntorigins:naga/armor_bonus",
+        "ntorigins:naga/unarmed_damage_bonus",
+        "ntorigins:naga/weapon_armor_restrictions",
+        "ntorigins:naga/dietary_restrictions",
         "ntorigins:craft_mana_crystal",
-        "ntorigins:dragon/feared_by_villagers",
-        "ntorigins:naga/expert_aquatic_hunters"
+        "ntorigins:naga/trading_restriction",
+        "ntorigins:naga/aquatic_loot_bonus"
     ],
     "icon": "minecraft:prismarine_shard",
     "impact": 3,

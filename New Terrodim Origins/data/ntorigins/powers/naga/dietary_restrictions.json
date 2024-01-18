@@ -1,0 +1,21 @@
+{
+    "type": "origins:multiple",
+    "meat": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "ntorigins:non_fish"
+            }
+        }
+    },
+    "cakes": {
+        "type": "origins:prevent_block_use",
+        "block_condition": {
+            "type": "origins:in_tag",
+            "tag": "ntorigins:cakes"
+        }
+    },
+    "name": "\u00A7c\u00A7nPiscivore",
+    "description": "Your diet consists entirely of fish.\n-can only eat fish-"
+}

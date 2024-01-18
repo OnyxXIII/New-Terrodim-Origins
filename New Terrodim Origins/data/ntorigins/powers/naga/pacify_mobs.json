@@ -1,0 +1,117 @@
+{
+    "type": "origins:multiple",
+    "name": "\u00A7a\u00A7nNaga Song",
+    "description": "You can weave an enchantment into a song of your people, causing nearby foes to become calm and cease fighting.\n-activate the ability to briefly make nearby mobs passive to you (until you hit them)-",
+    "activate_song": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "ntorigins:naga/naga_song_song_timer",
+                    "change": 1,
+                    "operation": "set"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "playsound minecraft:naga_song player @e[type=minecraft:player,distance=..64]"
+                }
+            ]
+        },
+        "cooldown": 3900,
+        "key": {
+            "key": "key.origins.secondary_active",
+            "continuous": false
+        },
+        "hud_render": {
+            "bar_index": 10,
+            "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png"
+        }
+    },
+    "song_timer": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 16,
+        "hud_render": {
+            "should_render": false
+        }
+    },
+    "song_tick": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "function ntorigins:naga/naga_song_power"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "ntorigins:naga/naga_song_song_timer",
+                    "change": 1
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "ntorigins:naga/naga_song_song_timer",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+    "break_song": {
+        "type": "origins:action_over_time",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "ntorigins:naga/naga_song_song_timer",
+            "comparison": ">",
+            "compare_to": 15
+        },
+        "rising_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "ntorigins:naga/naga_song_song_timer",
+                    "change": 0,
+                    "operation": "set"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "function ntorigins:naga/naga_song_break"
+                }
+            ]
+        }
+    },
+    "break_on_hit": {
+        "type": "origins:target_action_on_hit",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "function ntorigins:naga/naga_song_break_hit"
+        },
+        "cooldown": 0
+    },
+    "callback": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "team add NagaSong"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "team join NagaSong @s"
+                }
+            ]
+        },
+        "entity_action_lost": {
+            "type": "origins:execute_command",
+            "command": "team leave NagaSong"
+        },
+        "execute_chosen_when_orb": true
+    }
+}
