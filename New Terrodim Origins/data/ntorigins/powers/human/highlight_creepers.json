@@ -18,7 +18,8 @@
         },
         "cooldown": 1800,
         "hud_render": {
-            "should_render": false
+            "sprite_location": "origins:textures/gui/resource_bar.png",
+            "bar_index": 0
         },
         "key": {
             "key": "key.origins.primary_active"
@@ -29,8 +30,7 @@
         "min": 0,
         "max": 31,
         "hud_render": {
-            "sprite_location": "origins:textures/gui/resource_bar.png",
-            "bar_index": 1
+            "should_render": false
         }
     },
     "timer_tick": {
