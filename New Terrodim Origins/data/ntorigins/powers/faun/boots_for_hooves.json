@@ -1,9 +1,0 @@
-{
-    "type": "origins:restrict_armor",
-    "feet": {
-        "type": "origins:empty",
-        "inverted": true
-    },
-    "name": "\u00A7c\u00A7nNo Boots for Hooves",
-    "description": "You cannot seem to find boots that will stay on your hooves.\n-you cannot wear boots-"
-}

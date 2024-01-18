@@ -1,0 +1,10 @@
+{
+    "type": "origins:modify_status_effect_duration",
+    "status_effect": "minecraft:hero_of_the_village",
+    "modifier": {
+        "operation": "multiply_base_additive",
+        "value": 1
+    },
+    "name": "\u00A7a\u00A7nLovable Hero",
+    "description": "When people like you, they love you.\n-Hero of the Village lasts twice as long-"
+}

@@ -1,0 +1,12 @@
+{
+    "type": "origins:prevent_entity_use",
+    "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+            "type": "origins:in_tag",
+            "tag": "ntorigins:untameables"
+        }
+    },
+    "name": "\u00A7c\u00A7nUncivilized Animal Lover",
+    "description": "You love wild animals, and prefer them to stay wild.\n-cannot tame or ride anything-"
+}

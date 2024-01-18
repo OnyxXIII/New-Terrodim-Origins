@@ -1,0 +1,9 @@
+{
+    "type": "origins:modify_exhaustion",
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 3
+    },
+    "name": "\u00A7c\u00A7nVoracious Appetite",
+    "description": "You are constantly eating. CONSTANTLY. EATING.\n-get hungry seriously much faster-"
+}

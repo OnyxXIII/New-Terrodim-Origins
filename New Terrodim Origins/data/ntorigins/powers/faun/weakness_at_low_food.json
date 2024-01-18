@@ -1,0 +1,21 @@
+{
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -10,
+    "max_stacks": 10,
+    "duration_per_stack": 10,
+    "effects": [
+        {
+            "effect": "minecraft:weakness",
+            "is_ambient": true,
+            "show_particles": false,
+            "show_icon": true
+        }
+    ],
+    "condition": {
+        "type": "origins:food_level",
+        "comparison": "<",
+        "compare_to": 18
+    },
+    "name": "\u00A7c\u00A7nTimeout, Need a Cracker",
+    "description": "You can't fight when you're hungry.\n-weakness when at 17 or less hunger-"
+}
