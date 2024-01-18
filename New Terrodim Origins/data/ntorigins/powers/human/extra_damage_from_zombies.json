@@ -1,0 +1,16 @@
+{
+    "type": "origins:modify_damage_taken",
+    "bientity_condition": {
+        "type": "origins:actor_condition",
+        "condition": {
+            "type": "origins:in_tag",
+            "tag": "ntorigins:human_zombies_list"
+        }
+    },
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 0.5
+    },
+    "name": "\u00A7a\u00A7nProne to Infection",
+    "description": "The infection that creates Zombies is extra effective on humans. You take additional damage from Zombies' attacks.\n-+50% damage dealt to you by zombies.-"
+}

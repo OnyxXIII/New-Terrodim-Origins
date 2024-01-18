@@ -1,0 +1,16 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+            "type": "origins:entity_type",
+            "entity_type": "minecraft:creeper"
+        }
+    },
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 1
+    },
+    "name": "\u00A7a\u00A7nCreeper Slayer",
+    "description": "You are an expert at killing creepers. All your attacks to them deal double damage.\n-+100% damage dealt to creepers.-"
+}
