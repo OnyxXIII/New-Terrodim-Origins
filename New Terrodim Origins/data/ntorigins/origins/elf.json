@@ -1,14 +1,14 @@
 {
     "powers": [
         "ntorigins:tnt_crafting",
-        "ntorigins:elf/master_archer",
-        "ntorigins:elf/combat_awareness",
-        "ntorigins:elf/nimble",
-        "ntorigins:elf/light_feet",
-        "ntorigins:elf/quick",
-        "ntorigins:elf/elf_eyes",
-        "ntorigins:elf/pointy_ear",
-        "ntorigins:elf/steward",
+        "ntorigins:elf/bow_damage_increase",
+        "ntorigins:elf/highlight_attackers",
+        "ntorigins:elf/climb_anything_active",
+        "ntorigins:elf/fall_damage_reduction",
+        "ntorigins:elf/speed_increase",
+        "ntorigins:elf/night_vision",
+        "ntorigins:elf/axe_melee_restriction",
+        "ntorigins:elf/dietary_restrictions",
         "ntorigins:craft_mana_crystal"
     ],
     "icon": "minecraft:bow",

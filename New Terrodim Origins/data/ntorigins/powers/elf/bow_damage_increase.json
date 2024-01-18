@@ -1,0 +1,13 @@
+{
+	"type": "origins:modify_projectile_damage",
+	"damage_condition": {
+		"type": "origins:projectile",
+		"projectile": "minecraft:arrow"
+	},
+	"modifier": {
+		"operation": "addition",
+		"value": 3.5
+	},
+	"name": "\u00A7a\u00A7nMaster Archer",
+	"description": "Expert skill with the bow sends your arrows to the right place to hurt your foes the worst.\n-bonus damage with bows-"
+}
