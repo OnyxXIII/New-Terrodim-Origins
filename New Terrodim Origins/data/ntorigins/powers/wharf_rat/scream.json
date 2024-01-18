@@ -21,10 +21,9 @@
             ]
             
         },
-        "cooldown": 3600,
+        "cooldown": 20,
         "hud_render": {
-            "bar_index": 8,
-            "sprite_location": "origins:textures/gui/resource_bar.png"
+            "should_render": false
         },
         "key": {
             "key": "key.origins.primary_active"
