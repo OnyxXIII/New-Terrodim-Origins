@@ -3,28 +3,28 @@
     "head": {
         "type": "origins:ingredient",
         "ingredient": {
-            "tag": "ntorigins:dragon_bling"
+            "tag": "ntorigins:dragon_wearable_armor"
         },
         "inverted": true
     },
     "chest": {
         "type": "origins:ingredient",
         "ingredient": {
-            "tag": "ntorigins:dragon_bling"
+            "tag": "ntorigins:dragon_wearable_armor"
         },
         "inverted": true
     },
     "legs": {
         "type": "origins:ingredient",
         "ingredient": {
-            "tag": "ntorigins:dragon_bling"
+            "tag": "ntorigins:dragon_wearable_armor"
         },
         "inverted": true
     },
     "feet": {
         "type": "origins:ingredient",
         "ingredient": {
-            "tag": "ntorigins:dragon_bling"
+            "tag": "ntorigins:dragon_wearable_armor"
         },
         "inverted": true
     },
