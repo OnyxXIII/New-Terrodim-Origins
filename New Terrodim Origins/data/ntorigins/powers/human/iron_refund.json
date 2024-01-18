@@ -1,0 +1,98 @@
+{
+    "type": "origins:modify_crafting",
+    "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+            "tag": "ntorigins:human_iron_refund_list"
+        }
+    },
+    "entity_action": {
+        "type": "origins:choice",
+        "actions": [
+            {
+                "element": {
+                    "type": "origins:choice",
+                    "actions": [
+                        {
+                            "element": {
+                                "type": "origins:give",
+                                "stack": {
+                                    "item": "minecraft:iron",
+                                    "amount": 1
+                                }
+                            },
+                            "weight": 70
+                        },
+                        {
+                            "element": {
+                                "type": "origins:give",
+                                "stack": {
+                                    "item": "minecraft:iron",
+                                    "amount": 2
+                                }
+                            },
+                            "weight": 30
+                        }
+                    ]
+                },
+                "weight": 30
+            },
+            {
+                "element": {
+                    "type": "origins:choice",
+                    "actions": [
+                        {
+                            "element": {
+                                "type": "origins:give",
+                                "stack": {
+                                    "item": "minecraft:iron_nugget",
+                                    "amount": 2
+                                }
+                            },
+                            "weight": 30
+                        },
+                        {
+                            "element": {
+                                "type": "origins:give",
+                                "stack": {
+                                    "item": "minecraft:iron_nugget",
+                                    "amount": 4
+                                }
+                            },
+                            "weight": 30
+                        },
+                        {
+                            "element": {
+                                "type": "origins:give",
+                                "stack": {
+                                    "item": "minecraft:iron_nugget",
+                                    "amount": 6
+                                }
+                            },
+                            "weight": 30
+                        },
+                        {
+                            "element": {
+                                "type": "origins:give",
+                                "stack": {
+                                    "item": "minecraft:iron_nugget",
+                                    "amount": 8
+                                }
+                            },
+                            "weight": 10
+                        }
+                    ]
+                },
+                "weight": 60
+            },
+            {
+                "element": {
+                    "type": "origins:nothing"
+                },
+                "weight": 10
+            }
+        ]
+    },
+    "name": "\u00A7a\u00A7nMass Manufacturing",
+    "description": "Your technological advancement in the war against the creepers taught you how to conserve iron when smithing.\n-You occasionally get iron back from recipes with iron.-'"
+}
