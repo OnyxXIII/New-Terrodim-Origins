@@ -1,0 +1,10 @@
+{
+    "type": "origins:inventory",
+    "title": "Saddlebags",
+    "container_type": "chest",
+    "drop_on_death": true,
+    "recoverable": true,
+    "key": "key.origins.secondary_active",
+    "name": "\u00A7a\u00A7nSaddlebags",
+    "description": "You can carry a considerable amount of additional weight in saddlebags on your back.\n-You have an extra 27 inventory slots (Press your\"Origins Active (Secondary)\" key to open)-'"
+}

@@ -1,0 +1,25 @@
+{
+    "type": "origins:multiple",
+    "slow": {
+        "type": "origins:modify_swim_speed",
+        "modifier": {
+            "operation": "multiply_total",
+            "value": -0.59
+        },
+        "condition": {
+            "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": ">",
+            "compare_to": 1.1
+        }
+    },
+    "no_swim": {
+        "type": "origins:prevent_sprinting",
+        "condition": {
+            "type": "origins:submerged_in",
+            "fluid": "minecraft:water"
+        }
+    },
+    "name": "\u00A7c\u00A7nPoor Swimmer",
+    "description": "Your body does not have the right limbs to swim with any speed.\n-You swim much slower, and cannot sprint-swim.-"
+}

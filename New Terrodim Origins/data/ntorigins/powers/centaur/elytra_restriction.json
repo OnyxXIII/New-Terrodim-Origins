@@ -1,0 +1,5 @@
+{
+    "type": "origins:prevent_elytra_flight",
+    "name": "\u00A7c\u00A7nFlight Incapable",
+    "description": "You are not aerodynamic, and cannot use Elytra.\n-cannot use elytra to fly.-"
+}

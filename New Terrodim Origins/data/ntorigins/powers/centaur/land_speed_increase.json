@@ -1,0 +1,14 @@
+{
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.movement_speed",
+        "value": 0.55,
+        "operation": "multiply_base"
+    },
+    "condition": {
+        "type": "origins:swimming",
+        "inverted": true
+    },
+    "name": "\u00A7a\u00A7nHorsepower",
+    "description": "You move lightning-quick on land.\n-155% move speed on land-"
+}

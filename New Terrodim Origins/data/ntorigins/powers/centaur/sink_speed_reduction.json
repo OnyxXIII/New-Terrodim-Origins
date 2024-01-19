@@ -1,0 +1,12 @@
+{
+    "type": "origins:modify_falling",
+    "velocity": 0,
+    "condition": {
+        "type": "origins:fluid_height",
+            "fluid": "minecraft:water",
+            "comparison": ">",
+            "compare_to": 1.1
+    },
+    "name": "\u00A7a\u00A7nBuoyant",
+	"description": "While you have trouble swimming, you do not sink.\n-do not sink in water-"
+}

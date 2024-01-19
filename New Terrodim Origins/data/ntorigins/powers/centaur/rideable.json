@@ -1,0 +1,17 @@
+{
+    "type": "origins:action_on_being_used",
+    "bientity_action": {
+        "type": "origins:mount"
+    },
+    "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+            "type": "origins:passenger",
+            "inverted": true,
+            "comparison": ">=",
+            "compare_to": 1
+        }
+    },
+    "name": "\u00A7a\u00A7nRideable",
+    "description": "Other players can ride on your back. \n-another player will mount after right-clicking on you.-"
+}
