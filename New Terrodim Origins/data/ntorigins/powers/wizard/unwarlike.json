@@ -5,7 +5,7 @@
         "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-                "tag": "ntorigins:wizard_no_weapons"
+                "tag": "ntorigins:wizard_weapons_blacklist"
             }
         }
     },
@@ -19,7 +19,7 @@
                 "item_condition": {
                     "type": "origins:ingredient",
                     "ingredient": {
-                        "tag": "ntorigins:wizard_no_weapons"
+                        "tag": "ntorigins:wizard_weapons_blacklist"
                     }
                 }
             }

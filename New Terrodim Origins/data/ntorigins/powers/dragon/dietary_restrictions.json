@@ -3,7 +3,7 @@
     "item_condition": {
         "type": "origins:ingredient",
         "ingredient": {
-            "tag": "ntorigins:dragon_inedibles"
+            "tag": "ntorigins:dragon_dietary_restrictions"
         }
     },
     "name": "\u00A7c\u00A7nCarnivore",

@@ -19,7 +19,7 @@
 				"item_condition": {
 					"type": "origins:ingredient",
 					"ingredient": {
-						"tag": "ntorigins:naga_no_weapons"
+						"tag": "ntorigins:naga_weapons_blacklist"
 					}
 				}
 			}
@@ -34,25 +34,25 @@
 		"head": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"tag": "ntorigins:naga_no_armor"
+				"tag": "ntorigins:naga_armor_blacklist"
 			}
 		},
 		"chest": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"tag": "ntorigins:naga_no_armor"
+				"tag": "ntorigins:naga_armor_blacklist"
 			}
 		},
 		"legs": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"tag": "ntorigins:naga_no_armor"
+				"tag": "ntorigins:naga_armor_blacklist"
 			}
 		},
 		"feet": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"tag": "ntorigins:naga_no_armor"
+				"tag": "ntorigins:naga_armor_blacklist"
 			}
 		}
 	},

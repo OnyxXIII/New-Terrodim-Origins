@@ -5,7 +5,7 @@
         "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-                "tag": "ntorigins:non_fish"
+                "tag": "ntorigins:naga_dietary_restrictions"
             }
         }
     },

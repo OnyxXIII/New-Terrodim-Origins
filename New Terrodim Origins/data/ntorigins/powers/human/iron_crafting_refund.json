@@ -3,7 +3,7 @@
     "item_condition": {
         "type": "origins:ingredient",
         "ingredient": {
-            "tag": "ntorigins:human_iron_refund_list"
+            "tag": "ntorigins:human_iron_refund_whitelist"
         }
     },
     "entity_action": {

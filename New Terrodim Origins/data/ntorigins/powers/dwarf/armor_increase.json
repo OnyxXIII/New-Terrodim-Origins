@@ -13,7 +13,7 @@
 			"item_condition": {
 				"type": "origins:ingredient",
 				"ingredient": {
-					"tag": "ntorigins:dwarven_armour"
+					"tag": "ntorigins:dwarf_armor_bonus_whitelist"
 				}
 			}
 		}
@@ -31,7 +31,7 @@
 			"item_condition": {
 				"type": "origins:ingredient",
 				"ingredient": {
-					"tag": "ntorigins:dwarven_armour"
+					"tag": "ntorigins:dwarf_armor_bonus_whitelist"
 				}
 			}
 		}
@@ -49,7 +49,7 @@
 			"item_condition": {
 				"type": "origins:ingredient",
 				"ingredient": {
-					"tag": "ntorigins:dwarven_armour"
+					"tag": "ntorigins:dwarf_armor_bonus_whitelist"
 				}
 			}
 		}
@@ -67,7 +67,7 @@
 			"item_condition": {
 				"type": "origins:ingredient",
 				"ingredient": {
-					"tag": "ntorigins:dwarven_armour"
+					"tag": "ntorigins:dwarf_armor_bonus_whitelist"
 				}
 			}
 		}

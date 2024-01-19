@@ -1,0 +1,19 @@
+{
+    "replace": false,
+    "values": [
+        "minecraft:cookie",
+        "minecraft:poisonous_potato",
+        "minecraft:suspicious_stew",
+        "minecraft:pufferfish",
+        "minecraft:beef",
+        "minecraft:chicken",
+        "minecraft:cod",
+        "minecraft:mutton",
+        "minecraft:porkchop",
+        "minecraft:rabbit",
+        "minecraft:salmon",
+        "minecraft:rotten_flesh",
+        "minecraft:spider_eye",
+        "minecraft:tropical_fish"
+    ]
+}

@@ -43,7 +43,7 @@
             "item_condition": {
                 "type": "origins:ingredient",
                 "ingredient": {
-                    "tag": "ntorigins:faun_food"
+                    "tag": "ntorigins:faun_food_additions"
                 }
             }
         },

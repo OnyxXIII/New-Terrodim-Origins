@@ -84,7 +84,7 @@
         "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-                "tag": "ntorigins:rat_food"
+                "tag": "ntorigins:rat_food_bonus_whitelist"
             }
         }
     },

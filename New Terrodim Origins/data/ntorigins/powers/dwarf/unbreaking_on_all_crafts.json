@@ -5,10 +5,7 @@
         "nbt": "{Enchantments:[{id:\"minecraft:unbreaking\",lvl:1s}]}"
     },
     "item_condition": {
-        "type": "origins:ingredient",
-        "ingredient": {
-            "tag": "ntorigins:artisan_tools"
-        }
+        "type": "origins:is_damageable"
     },
     "name": "\u00A7a\u00A7nMaster Artisan",
     "description": "Items you craft are more durable than those made by inferior craftsmen.\n-tools and armor you craft get Unbreaking I-"

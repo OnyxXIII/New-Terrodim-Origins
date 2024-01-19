@@ -5,7 +5,7 @@
 		"item_condition": {
 			"type": "origins:ingredient",
 			"ingredient": {
-				"tag": "ntorigins:rabbit_food"
+				"tag": "ntorigins:dwarf_dietary_restrictions"
 			}
 		}
 	},

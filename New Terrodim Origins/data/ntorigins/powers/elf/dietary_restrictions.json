@@ -3,7 +3,7 @@
 	"item_condition": {
 		"type": "origins:ingredient",
 		"ingredient": {
-			"tag": "ntorigins:meat"
+			"tag": "ntorigins:elf_dietary_restrictions"
 		}
 	},
 	"name": "\u00A7c\u00A7nSteward of the Wilds",
