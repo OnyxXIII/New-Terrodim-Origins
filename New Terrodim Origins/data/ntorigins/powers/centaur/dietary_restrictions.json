@@ -1,0 +1,11 @@
+{
+	"type": "origins:prevent_item_use",
+	"item_condition": {
+		"type": "origins:ingredient",
+		"ingredient": {
+			"tag": "ntorigins:centaur_dietary_restrictions"
+		}
+	},
+	"name": "\u00A7c\u00A7nHorse's Diet",
+	"description": "Your equine stomach cannot handle meat.\n-cannot eat meat-"
+}

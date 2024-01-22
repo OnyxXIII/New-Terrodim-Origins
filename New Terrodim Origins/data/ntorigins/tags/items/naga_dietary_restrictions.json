@@ -6,13 +6,7 @@
         "minecraft:beetroot",
         "minecraft:beetroot_soup",
         "minecraft:carrot",
-        "minecraft:chorus_fruit",
         "minecraft:cookie",
-        "minecraft:enchanted_golden_apple",
-        "minecraft:golden_apple",
-        "minecraft:glow_berries",
-        "minecraft:golden_carrot",
-        "minecraft:honey_bottle",
         "minecraft:melon_slice",
         "minecraft:mushroom_stew",
         "minecraft:poisonous_potato",
@@ -31,7 +25,6 @@
         "minecraft:rabbit",
         "minecraft:rotten_flesh",
         "minecraft:spider_eye",
-        "minecraft:bread",
-        "minecraft:sweet_berries"
+        "minecraft:bread"
     ]
 }
