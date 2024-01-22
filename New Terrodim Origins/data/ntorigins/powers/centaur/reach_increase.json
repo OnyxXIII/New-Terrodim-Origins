@@ -1,1 +1,5 @@
-This can be bundled into pehkui, I think
+{
+    "type": "origins:simple",
+    "name": "\u00A7a\u00A7nLong Reach",
+    "description": "You are accustomed to working around your larger frame, and can reach further.\n-You can reach further than an average human to attack, mine, and interact with things.-"
+}

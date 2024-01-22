@@ -1,1 +1,6 @@
-I think this can be included in the pehkui setup
+{
+    "type": "origins:simple",
+    "name": "\u00A7a\u00A7nHigh Steps",
+    "description": "You can step up single blocks as rapidly as stairs.\n-You step up blocks without jumping.-"
+    
+}
