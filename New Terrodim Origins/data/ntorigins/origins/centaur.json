@@ -1,0 +1,29 @@
+{
+    "powers": [
+        "ntorigins:tnt_crafting",
+        "ntorigins:craft_mana_crystal",
+        "ntorigins:centaur/boat_restriction",
+        "ntorigins:centaur/bow_damage_increase",
+        "ntorigins:centaur/charge_attack",
+        "ntorigins:centaur/dietary_restrictions",
+        "ntorigins:centaur/elytra_restriction",
+        "ntorigins:centaur/horse_armor_replace_leggings",
+        "ntorigins:centaur/horse_breeding_quality_increase",
+        "ntorigins:centaur/inventory_increase",
+        "ntorigins:centaur/jump_power_increase",
+        "ntorigins:centaur/ladder_restriction",
+        "ntorigins:centaur/land_speed_increase",
+        "ntorigins:centaur/reach_increase",
+        "ntorigins:centaur/rideable",
+        "ntorigins:centaur/riding_restriction",
+        "ntorigins:centaur/sink_speed_reduction",
+        "ntorigins:centaur/size_increase",
+        "ntorigins:centaur/step_up_full_block",
+        "ntorigins:centaur/swim_speed_reduction"
+    ],
+    "icon": "minecraft:iron_horse_armor",
+    "impact": 3,
+    "order": 1,
+    "name": "Centaur",
+    "description": "Description."
+}
