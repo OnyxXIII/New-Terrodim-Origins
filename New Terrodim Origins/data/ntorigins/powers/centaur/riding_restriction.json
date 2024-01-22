@@ -1,0 +1,30 @@
+{
+    "type": "origins:action_on_entity_use",
+    "name": "\u00A7c\u00A7nMore a Mount than a Rider",
+    "description": "You are too large to mount other creatures.\n-cannot ride horses, pigs, or other mobs.-",
+    "condition": {
+        "type": "origins:sneaking",
+        "inverted": true
+    },
+    "bientity_condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:target_condition",
+                "condition": {
+                    "type": "origins:in_tag",
+                    "tag": "ntorigins:rideable"
+                }
+            },
+            {
+                "type": "origins:riding"
+            }
+        ]
+    },
+    "bientity_action": {
+        "type": "origins:actor_action",
+        "action": {
+            "type": "origins:dismount"
+        }
+    }
+}
