@@ -1,7 +1,10 @@
 {
     "type": "origins:restrict_armor",
     "feet": {
-        "type": "origins:empty",
+        "type": "origins:ingredient",
+        "ingredient": {
+            "item": "minecraft:leather_boots"
+        },
         "inverted": true
     },
     "name": "\u00A7c\u00A7nNo Boots for Hooves",
