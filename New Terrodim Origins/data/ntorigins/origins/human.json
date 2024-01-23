@@ -11,8 +11,7 @@
         "ntorigins:human/damage_to_creepers_increase",
         "ntorigins:human/creeper_loot_increase",
         "ntorigins:human/damage_from_creeper_increase",
-        "ntorigins:craft_mana_crystal",
-        "ntorigins:test_loot_tables"
+        "ntorigins:craft_mana_crystal"
     ],
     "icon": "minecraft:player_head",
     "order": 1,
