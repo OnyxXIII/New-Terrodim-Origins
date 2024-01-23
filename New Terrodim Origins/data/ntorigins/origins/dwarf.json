@@ -1,6 +1,5 @@
 {
     "powers": [
-        "ntorigins:tnt_crafting",
         "ntorigins:dwarf/size_reduction",
         "ntorigins:dwarf/haste_and_ore_loot_increase_underground",
         "ntorigins:dwarf/unbreaking_on_all_crafts",
@@ -17,6 +16,7 @@
         "ntorigins:dwarf/dietary_restrictions",
         "ntorigins:dwarf/bow_restriction",
         "ntorigins:dwarf/mine_stone_without_tool",
+        "ntorigins:tnt_crafting",
         "ntorigins:craft_mana_crystal"
     ],
     "icon": "minecraft:iron_pickaxe",

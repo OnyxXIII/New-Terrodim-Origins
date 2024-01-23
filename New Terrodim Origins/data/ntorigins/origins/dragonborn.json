@@ -1,6 +1,5 @@
 {
     "powers": [
-        "ntorigins:tnt_crafting",
         "ntorigins:dragon/dragon_breath",
         "ntorigins:dragon/wings",
         "ntorigins:dragon/airborne_vertical_boost",
@@ -22,6 +21,7 @@
         "ntorigins:dragon/land_speed_reduction",
         "ntorigins:dragon/bows_restriction",
         "ntorigins:dragon/riding_restriction",
+        "ntorigins:tnt_crafting",
         "ntorigins:craft_mana_crystal"
     ],
     "icon": "minecraft:dragon_head",

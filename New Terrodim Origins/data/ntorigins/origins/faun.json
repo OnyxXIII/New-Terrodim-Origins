@@ -1,6 +1,5 @@
 {
     "powers": [
-        "ntorigins:tnt_crafting",
         "ntorigins:faun/aoe_buffs_on_horn_use",
         "ntorigins:faun/edible_enchanted_books",
         "ntorigins:faun/launch_active",
@@ -18,6 +17,7 @@
         "ntorigins:faun/boot_restriction",
         "ntorigins:faun/slowness_in_water",
         "ntorigins:faun/slipperiness_reduction",
+        "ntorigins:tnt_crafting",
         "ntorigins:craft_mana_crystal"
     ],
     "icon": "minecraft:goat_horn",
