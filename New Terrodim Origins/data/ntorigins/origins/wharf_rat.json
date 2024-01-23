@@ -14,9 +14,7 @@
         "ntorigins:wharf_rat/melee_damage_reduction",
         "ntorigins:wharf_rat/trading_restriction",
         "ntorigins:wharf_rat/ride_anything",
-        "ntorigins:wharf_rat/highlight_predators",
-        "ntorigins:tnt_crafting",
-        "ntorigins:craft_mana_crystal"
+        "ntorigins:wharf_rat/highlight_predators"
     ],
     "icon": "minecraft:oak_boat",
     "impact": 2,

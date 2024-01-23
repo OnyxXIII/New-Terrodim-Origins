@@ -16,9 +16,7 @@
         "ntorigins:faun/exhaustion_increase",
         "ntorigins:faun/boot_restriction",
         "ntorigins:faun/slowness_in_water",
-        "ntorigins:faun/slipperiness_reduction",
-        "ntorigins:tnt_crafting",
-        "ntorigins:craft_mana_crystal"
+        "ntorigins:faun/slipperiness_reduction"
     ],
     "icon": "minecraft:goat_horn",
     "impact": 2,

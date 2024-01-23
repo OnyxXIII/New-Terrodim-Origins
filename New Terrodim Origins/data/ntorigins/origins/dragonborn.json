@@ -20,9 +20,7 @@
         "ntorigins:dragon/break_crops_on_step",
         "ntorigins:dragon/land_speed_reduction",
         "ntorigins:dragon/bows_restriction",
-        "ntorigins:dragon/riding_restriction",
-        "ntorigins:tnt_crafting",
-        "ntorigins:craft_mana_crystal"
+        "ntorigins:dragon/riding_restriction"
     ],
     "icon": "minecraft:dragon_head",
     "impact": 3,

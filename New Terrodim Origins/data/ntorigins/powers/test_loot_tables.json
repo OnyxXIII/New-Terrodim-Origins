@@ -1,6 +1,0 @@
-{
-    "type": "origins:replace_loot_table",
-    "replace": {
-        "minecraft:entities/chicken": "ntorigins:double_rolls"
-    }
-}

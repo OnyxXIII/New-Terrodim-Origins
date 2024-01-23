@@ -49,32 +49,11 @@
         }
     },
     "double_tnt_crafted": {
-        "type": "origins:recipe",
-        "recipe": {
-            "id": "ntorigins:pirate/boom_boom",
-            "type": "minecraft:crafting_shaped",
-            "pattern": [
-                "#@#",
-                "@#@",
-                "#@#"
-            ],
-            "key": {
-                "#": {
-                    "item": "minecraft:gunpowder"
-                },
-                "@": [
-                    {
-                        "item": "minecraft:sand"
-                    },
-                    {
-                        "item": "minecraft:red_sand"
-                    }
-                ]
-            },
-            "result": {
-                "item": "minecraft:tnt",
-                "count": 2
-            }
+        "type": "origins:modify_crafting",
+        "recipe": "minecraft:tnt",
+        "result": {
+            "item": "minecraft:tnt",
+            "amount": 2
         }
     },
     "name": "\u00A7a\u00A7nGunpowder Inventor",

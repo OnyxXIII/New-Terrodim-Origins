@@ -1,9 +1,0 @@
-{
-    "hidden": true,
-    "type": "origins:modify_crafting",
-    "recipe": "ntorigins:wizard/mana_crystal",
-    "result": {
-        "item": "minecraft:echo_shard",
-        "tag": "{Enchantments: [{}], CustomModelData:2130001}"
-    }
-}

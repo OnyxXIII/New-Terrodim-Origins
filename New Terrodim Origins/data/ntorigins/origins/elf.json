@@ -7,9 +7,7 @@
         "ntorigins:elf/speed_increase",
         "ntorigins:elf/night_vision",
         "ntorigins:elf/axe_melee_restriction",
-        "ntorigins:elf/dietary_restrictions",
-        "ntorigins:tnt_crafting",
-        "ntorigins:craft_mana_crystal"
+        "ntorigins:elf/dietary_restrictions"
     ],
     "icon": "minecraft:bow",
     "impact": 1,

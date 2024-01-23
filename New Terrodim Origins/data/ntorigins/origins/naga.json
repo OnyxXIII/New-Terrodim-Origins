@@ -1,7 +1,5 @@
 {
     "powers": [
-        "ntorigins:tnt_crafting",
-        "ntorigins:craft_mana_crystal",
         "ntorigins:naga/pacify_mobs",
         "ntorigins:naga/launch_from_water",
         "origins:aquatic",

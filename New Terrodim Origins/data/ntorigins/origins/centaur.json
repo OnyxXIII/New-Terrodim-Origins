@@ -1,7 +1,5 @@
 {
     "powers": [
-        "ntorigins:tnt_crafting",
-        "ntorigins:craft_mana_crystal",
         "ntorigins:centaur/boat_restriction",
         "ntorigins:centaur/bow_damage_increase",
         "ntorigins:centaur/charge_attack",
