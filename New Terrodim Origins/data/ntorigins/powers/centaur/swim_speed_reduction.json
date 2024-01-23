@@ -4,13 +4,22 @@
         "type": "origins:modify_swim_speed",
         "modifier": {
             "operation": "multiply_total",
-            "value": -0.59
+            "value": -0.7
         },
         "condition": {
-            "type": "origins:fluid_height",
-            "fluid": "minecraft:water",
-            "comparison": ">",
-            "compare_to": 1.1
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:fluid_height",
+                    "fluid": "minecraft:water",
+                    "comparison": ">",
+                    "compare_to": 0.1
+                },
+                {
+                    "type": "origins:on_block",
+                    "inverted": true
+                }
+            ]
         }
     },
     "no_swim": {

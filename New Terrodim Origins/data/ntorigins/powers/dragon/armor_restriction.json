@@ -1,31 +1,67 @@
 {
     "type": "origins:restrict_armor",
     "head": {
-        "type": "origins:ingredient",
-        "ingredient": {
-            "tag": "ntorigins:dragon_armor_whitelist"
-        },
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "ntorigins:dragon_armor_whitelist"
+                }
+            },
+            {
+                "type": "origins:nbt",
+                "nbt": "{Trim:{material:gold}}"
+            }
+        ],
         "inverted": true
     },
     "chest": {
-        "type": "origins:ingredient",
-        "ingredient": {
-            "tag": "ntorigins:dragon_armor_whitelist"
-        },
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "ntorigins:dragon_armor_whitelist"
+                }
+            },
+            {
+                "type": "origins:nbt",
+                "nbt": "{Trim:{material:gold}}"
+            }
+        ],
         "inverted": true
     },
     "legs": {
-        "type": "origins:ingredient",
-        "ingredient": {
-            "tag": "ntorigins:dragon_armor_whitelist"
-        },
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "ntorigins:dragon_armor_whitelist"
+                }
+            },
+            {
+                "type": "origins:nbt",
+                "nbt": "{Trim:{material:gold}}"
+            }
+        ],
         "inverted": true
     },
     "feet": {
-        "type": "origins:ingredient",
-        "ingredient": {
-            "tag": "ntorigins:dragon_armor_whitelist"
-        },
+        "type": "origins:or",
+        "conditions": [
+            {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "tag": "ntorigins:dragon_armor_whitelist"
+                }
+            },
+            {
+                "type": "origins:nbt",
+                "nbt": "{Trim:{material:gold}}"
+            }
+        ],
         "inverted": true
     },
     "name": "\u00A7c\u00A7nVain",
