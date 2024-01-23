@@ -1,0 +1,108 @@
+{
+    "type": "origins:multiple",
+    "brain": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "brain_coral_crafting",
+            "type": "minecraft:crafting_shaped",
+            "pattern": [
+                "##",
+                "##"
+            ],
+            "key": {
+                "#": {
+                    "tag": "ntorigins:coral/brain_coral"
+                }
+            },
+            "result": {
+                "item": "minecraft:brain_coral_block",
+                "count": 1
+            },
+            "group": "coral_blocks"
+        }
+    },
+    "bubble": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "bubble_coral_crafting",
+            "type": "minecraft:crafting_shaped",
+            "pattern": [
+                "##",
+                "##"
+            ],
+            "key": {
+                "#": {
+                    "tag": "ntorigins:coral/bubble_coral"
+                }
+            },
+            "result": {
+                "item": "minecraft:bubble_coral_block",
+                "count": 1
+            },
+            "group": "coral_blocks"
+        }
+    },
+    "fire": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "fire_coral_crafting",
+            "type": "minecraft:crafting_shapeless",
+            "pattern": [
+                "##",
+                "##"
+            ],
+            "key": {
+                "#": {
+                    "tag": "ntorigins:coral/fire_coral"
+                }
+            },
+            "result": {
+                "item": "minecraft:fire_coral_block",
+                "count": 1
+            },
+            "group": "coral_blocks"
+        }
+    },
+    "horn": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "horn_coral_crafting",
+            "type": "minecraft:crafting_shaped",
+            "pattern": [
+                "##",
+                "##"
+            ],
+            "key": {
+                "#": {
+                    "tag": "ntorigins:coral/horn_coral"
+                }
+            },
+            "result": {
+                "item": "minecraft:horn_coral_block",
+                "count": 1
+            },
+            "group": "coral_blocks"
+        }
+    },
+    "tube": {
+        "type": "origins:recipe",
+        "recipe": {
+            "id": "tube_coral_crafting",
+            "type": "minecraft:crafting_shaped",
+            "pattern": [
+                "##",
+                "##"
+            ],
+            "key": {
+                "#": {
+                    "tag": "ntorigins:coral/tube_coral"
+                }
+            },
+            "result": {
+                "item": "minecraft:tube_coral_block",
+                "count": 1
+            },
+            "group": "coral_blocks"
+        }
+    }
+}
