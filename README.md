@@ -14,9 +14,6 @@ Origins:
 * [Wharf Rats](https://github.com/OnyxXIII/New-Terrodim-Origins/wiki/Origin-‐-Wharf-Rats)
 * [Wizard](https://github.com/OnyxXIII/New-Terrodim-Origins/wiki/Origin-‐-Wizard)
 
-* Pirate [deprecated]
-* Sea Elf [deprecated]
-
 
 You have my permission to use these origins in your own server, copy and edit them for your own origin development, or do anything else you would like with them - with or without credit.
 
