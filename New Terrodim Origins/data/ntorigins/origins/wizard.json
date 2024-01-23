@@ -42,7 +42,7 @@
     ],
     "icon": "minecraft:enchanting_table",
     "impact": 3,
-    "order": 1,
+    "order": 9,
     "name": "Wizard",
     "description": "Wizards are no different from ordinary folk, except that they value knowledge above all else. Their focus on learning has allowed them to ferret out the secrets of the magical forces pervading this world, and as they accumulate more knowledge, they become more and more able to manipulate those forces into powerful spells. Their studies, however, render them physically frail and weak, and they dislike being away from their comfortable libraries for too long. Spells take significant adventuring to discover, but a wizard will need to head home to recharge their powers before they can set out again."
 }

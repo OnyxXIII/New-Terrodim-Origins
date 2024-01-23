@@ -20,7 +20,7 @@
     ],
     "icon": "minecraft:iron_horse_armor",
     "impact": 3,
-    "order": 1,
+    "order": 8,
     "name": "Centaur",
     "description": "Description."
 }
