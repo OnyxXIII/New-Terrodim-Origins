@@ -2,14 +2,6 @@
 	"name": "\u00A7a\u00A7nCharge",
 	"description": "You can charge at your foes, knocking them back.\n-Use G (origins.primary) to charge.-",
 	"type": "origins:multiple",
-	"resource": {
-		"type": "origins:resource",
-		"min": 0,
-		"max": 1,
-		"hud_render": {
-			"should_render": false
-		}
-	},
 	"activate": {
 		"type": "origins:active_self",
 		"entity_action": {
@@ -19,21 +11,6 @@
 				"type": "origins:add_velocity",
 				"z": 3,
 				"space": "local"
-			},
-			{
-				"type": "origins:change_resource",
-				"resource": "ntorigins:centaur/charge_attack_resource",
-				"change": 1
-			},
-			{
-				"type": "origins:delay",
-				"ticks": 16,
-				"action": {
-					"type": "origins:change_resource",
-					"resource": "ntorigins:centaur/charge_attack_resource",
-					"change": 0,
-					"operation": "set"
-				}
 			}
 			]
 		},
@@ -89,49 +66,9 @@
 						}
 						]
 					}
-				},
-				{
-					"type": "origins:actor_action",
-					"action": {
-						"type": "origins:change_resource",
-						"resource": "ntorigins:centaur/charge_attack_resource",
-						"change": 0,
-						"operation": "set"
-					}
-				}
-				]
-			},
-			"bientity_condition": {
-				"type": "origins:and",
-				"conditions": [
-				{
-					"type": "origins:can_see"
-				},
-				{
-					"type": "origins:target_condition",
-					"condition": {
-						"type": "origins:living"
-					}
 				}
 				]
 			}
-		},
-		"condition": {
-			"type": "origins:and",
-			"conditions": [
-			{
-				"type": "origins:resource",
-				"resource": "ntorigins:centaur/charge_attack_resource",
-				"comparison": ">",
-				"compare_to": 0
-			},
-			{
-				"type": "origins:command",
-				"command": "execute if entity @e[distance=..1.5,sort=nearest,limit=1]",
-				"comparison": "==",
-				"compare_to": 1
-			}
-			]
 		}
 	}
 }
