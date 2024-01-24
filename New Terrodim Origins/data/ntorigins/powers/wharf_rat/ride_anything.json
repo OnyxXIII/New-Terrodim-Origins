@@ -33,23 +33,23 @@
                             },
                             {
                                 "type": "origins:passenger",
-                                "comparison": "==",
-                                "compare_to": 0
+                                "comparison": "<",
+                                "compare_to": 1
                             }
                         ]
+                    }
+                },
+                {
+                    "type": "origins:actor_condition",
+                    "condition": {
+                        "type": "origins:sneaking",
+                        "inverted": true
                     }
                 }
             ]
         },
         "item_condition": {
             "type": "origins:empty"
-        },
-        "hands": [
-            "main_hand"
-        ],
-        "condition": {
-            "type": "origins:sneaking",
-            "inverted": true
         }
     },
     "hostile_kick": {
