@@ -2,7 +2,7 @@
     "type": "origins:action_on_hit",
     "bientity_action": {
         "type": "origins:add_velocity",
-        "z": 2,
+        "z": 3,
         "y": 0.2
     },
     "bientity_condition": {

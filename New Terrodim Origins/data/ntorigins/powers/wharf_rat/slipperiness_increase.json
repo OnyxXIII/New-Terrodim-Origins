@@ -1,0 +1,14 @@
+{
+    "name": "\u00A7a\u00A7nNimble on All Terrain",
+    "description": "Terrain others find difficult is even more trouble for you.\n-You slip extra fast on ice-",
+    "type": "origins:modify_slipperiness",
+    "modifier": {
+        "operation": "multiply_total",
+        "value": 0.15
+    },
+    "block_condition": {
+        "type": "origins:slipperiness",
+        "comparison": ">",
+        "compare_to": 0.97
+    }
+}
