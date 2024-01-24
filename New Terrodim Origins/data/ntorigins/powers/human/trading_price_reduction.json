@@ -1,3 +1,31 @@
 {
-    "type": "origins:simple"
+    "name": "\u00A7a\u00A7nGood Neighbor",
+    "description": "You are a pleasant person for Villagers to have around.\n-Villagers give you a minor discount on goods.-'",
+    "type": "origins:multiple",
+    "apply_tag": {
+        "type": "origins:action_on_callback",
+        "entity_action_added": {
+            "type": "origins:execute_command",
+            "command": "tag @s add Human"
+        }
+    },
+    "discount": {
+        "type": "origins:action_over_time",
+        "interval": 10,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s as @e[type=villager,distance=..7] run data merge entity @s {Gossips:[{Target:[I;1,1,1,1],Type:'minor_positive',Value:110}]}",
+                    "permission_level": 2
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "execute at @s as @e[type=villager,distance=..7] run data modify entity @s Gossips[{Target:[I;1,1,1,1]}].Target set from entity @p[tag=Human] UUID",
+                    "permission_level": 2
+                }
+            ]
+        }
+    }
 }

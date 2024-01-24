@@ -5,7 +5,7 @@
         "block": "minecraft:wheat"
     },
     "replace": {
-
+        "minecraft:blocks/wheat": "ntorigins:human_wheat"
     },
     "name": "\u00A7a\u00A7nAdvanced Milling Techniques",
     "description": "Your technological advancement allows you to get the maximum value out of wheat you harvest.\n-You obtain 3 wheat from each wheat you harvest.-'"
