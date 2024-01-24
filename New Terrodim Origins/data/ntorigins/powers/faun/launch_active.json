@@ -21,6 +21,10 @@
                 "space": "local_horizontal",
                 "client": true,
                 "server": false
+            },
+            {
+                "type": "origins:exhaust",
+                "amount": 3
             }
         ]
     },
