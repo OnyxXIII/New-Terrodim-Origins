@@ -129,7 +129,7 @@
                             ]
                         }
                     },
-                    "include_target": true,
+                    "include_target": false,
                     "bientity_condition": {
                         "type": "origins:target_condition",
                         "condition": {
@@ -225,7 +225,7 @@
                             }
                         }
                     },
-                    "include_target": true,
+                    "include_target": false,
                     "bientity_condition": {
                         "type": "origins:target_condition",
                         "condition": {

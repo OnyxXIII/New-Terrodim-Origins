@@ -1,17 +1,21 @@
 {
     "type": "origins:multiple",
     "rotten_flesh": {
-        "type": "origins:action_on_item_use",
-        "entity_action": {
-            "type": "origins:clear_effect",
-            "effect": "minecraft:hunger"
-        },
-        "item_condition": {
-            "type": "origins:ingredient",
-            "ingredient": {
-                "item": "minecraft:rotten_flesh"
+            "type": "origins:action_on_item_use",
+            "entity_action": {
+                "type": "origins:delay",
+                "action": {
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:hunger"
+                },
+                "ticks": 2
+            },
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "minecraft:rotten_flesh"
+                }
             }
-        }
     },
     "pufferfish": {
         "type": "origins:action_on_item_use",
@@ -19,12 +23,20 @@
             "type": "origins:and",
             "actions": [
                 {
-                    "type": "origins:clear_effect",
-                    "effect": "minecraft:hunger"
+                    "type": "origins:delay",
+                    "action": {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:hunger"
+                    },
+                    "ticks": 2
                 },
                 {
-                    "type": "origins:clear_effect",
-                    "effect": "minecraft:poison"
+                    "type": "origins:delay",
+                    "action": {
+                        "type": "origins:clear_effect",
+                        "effect": "minecraft:poison"
+                    },
+                    "ticks": 2
                 }
             ]
         },
@@ -38,8 +50,12 @@
     "raw_chicken": {
         "type": "origins:action_on_item_use",
         "entity_action": {
-            "type": "origins:clear_effect",
-            "effect": "minecraft:hunger"
+            "type": "origins:delay",
+            "action": {
+                "type": "origins:clear_effect",
+                "effect": "minecraft:hunger"
+            },
+            "ticks": 2
         },
         "item_condition": {
             "type": "origins:ingredient",
@@ -51,8 +67,12 @@
     "poisonous_potato": {
         "type": "origins:action_on_item_use",
         "entity_action": {
-            "type": "origins:clear_effect",
-            "effect": "minecraft:poison"
+            "type": "origins:delay",
+            "action": {
+                "type": "origins:clear_effect",
+                "effect": "minecraft:poison"
+            },
+            "ticks": 2
         },
         "item_condition": {
             "type": "origins:ingredient",
@@ -64,8 +84,12 @@
     "spider_eye": {
         "type": "origins:action_on_item_use",
         "entity_action": {
-            "type": "origins:clear_effect",
-            "effect": "minecraft:poison"
+            "type": "origins:delay",
+            "action": {
+                "type": "origins:clear_effect",
+                "effect": "minecraft:poison"
+            },
+            "ticks": 2
         },
         "item_condition": {
             "type": "origins:ingredient",
