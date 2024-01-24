@@ -1,10 +1,201 @@
 {
-    "type": "origins:attribute",
-    "modifier": {
-        "attribute": "minecraft:generic.knockback_resistance",
-        "value": -1,
-        "operation": "addition"
-    },
     "name": "\u00A7c\u00A7nLightweight",
-    "description": "Your body is small, and easy to throw around.\n-You take more knockback.-"
+    "description": "Your body is small, and easy to throw around.\n-You take more knockback.-",
+	"type": "origins:multiple",
+"arrow": {
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+		"type": "origins:add_velocity",
+		"z": 1,
+		"space": "velocity_horizontal"
+    },
+    "cooldown": 0,
+	"damage_condition": {
+    "type": "origins:name",
+    "name": "arrow"
+}
+},
+"explosion_player": {
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+		"type": "origins:add_velocity",
+		"z": 2,
+		"space": "velocity_horizontal"
+    },
+    "cooldown": 0,
+	"damage_condition": {
+    "type": "origins:name",
+    "name": "explosion.player"
+}
+},
+"explosion_player_vertical": {
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+		"type": "origins:add_velocity",
+		"z": 1,
+		"space": "velocity"
+    },
+    "cooldown": 0,
+	"damage_condition": {
+    "type": "origins:name",
+    "name": "explosion.player"
+}
+},
+
+"explosion": {
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+		"type": "origins:add_velocity",
+		"z": 2,
+		"space": "velocity_horizontal"
+    },
+    "cooldown": 0,
+	"damage_condition": {
+    "type": "origins:name",
+    "name": "explosion"
+}
+},
+"explosion_vertical": {
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+		"type": "origins:add_velocity",
+		"z": 1,
+		"space": "velocity"
+    },
+    "cooldown": 0,
+	"damage_condition": {
+    "type": "origins:name",
+    "name": "explosion"
+}
+},
+"fireworks": {
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+		"type": "origins:add_velocity",
+		"z": 1,
+		"space": "velocity"
+    },
+    "cooldown": 0,
+	"damage_condition": {
+    "type": "origins:name",
+    "name": "fireworks"
+}
+},
+"generic": {
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+		"type": "origins:add_velocity",
+		"z": 1,
+		"space": "velocity_horizontal"
+    },
+    "cooldown": 0,
+	"damage_condition": {
+    "type": "origins:name",
+    "name": "generic"
+}
+},
+"mob": {
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+		"type": "origins:add_velocity",
+		"z": 1,
+		"space": "velocity_horizontal"
+    },
+    "cooldown": 0,
+	"damage_condition": {
+    "type": "origins:name",
+    "name": "mob"
+}
+},
+"onfire": {
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+		"type": "origins:add_velocity",
+		"z": 1,
+		"space": "velocity"
+    },
+    "cooldown": 0,
+	"damage_condition": {
+    "type": "origins:name",
+    "name": "onFire"
+}
+},
+"player": {
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+		"type": "origins:add_velocity",
+		"z": 1,
+		"space": "velocity_horizontal"
+    },
+    "cooldown": 0,
+	"damage_condition": {
+    "type": "origins:name",
+    "name": "player"
+}
+},
+"sting": {
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+		"type": "origins:add_velocity",
+		"z": 1,
+		"space": "velocity_horizontal"
+    },
+    "cooldown": 0,
+	"damage_condition": {
+    "type": "origins:name",
+    "name": "sting"
+}
+},
+"thorns": {
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+		"type": "origins:add_velocity",
+		"z": 1,
+		"space": "velocity"
+    },
+    "cooldown": 0,
+	"damage_condition": {
+    "type": "origins:name",
+    "name": "thorns"
+}
+},
+"thrown": {
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+		"type": "origins:add_velocity",
+		"z": 1,
+		"space": "velocity_horizontal"
+    },
+    "cooldown": 0,
+	"damage_condition": {
+    "type": "origins:name",
+    "name": "thrown"
+}
+},
+"trident": {
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+		"type": "origins:add_velocity",
+		"z": 1,
+		"space": "velocity_horizontal"
+    },
+    "cooldown": 0,
+	"damage_condition": {
+    "type": "origins:name",
+    "name": "trident"
+}
+},
+"witherskull": {
+    "type": "origins:self_action_when_hit",
+    "entity_action": {
+		"type": "origins:add_velocity",
+		"z": 1,
+		"space": "velocity_horizontal"
+    },
+    "cooldown": 0,
+	"damage_condition": {
+    "type": "origins:name",
+    "name": "witherSkull"
+}
+}
 }
