@@ -8,7 +8,7 @@
                     "type": "origins:clear_effect",
                     "effect": "minecraft:hunger"
                 },
-                "ticks": 2
+                "ticks": 1
             },
             "item_condition": {
                 "type": "origins:ingredient",
@@ -28,7 +28,7 @@
                         "type": "origins:clear_effect",
                         "effect": "minecraft:hunger"
                     },
-                    "ticks": 2
+                    "ticks": 1
                 },
                 {
                     "type": "origins:delay",
@@ -36,7 +36,7 @@
                         "type": "origins:clear_effect",
                         "effect": "minecraft:poison"
                     },
-                    "ticks": 2
+                    "ticks": 1
                 }
             ]
         },
@@ -55,7 +55,7 @@
                 "type": "origins:clear_effect",
                 "effect": "minecraft:hunger"
             },
-            "ticks": 2
+            "ticks": 1
         },
         "item_condition": {
             "type": "origins:ingredient",
@@ -72,7 +72,7 @@
                 "type": "origins:clear_effect",
                 "effect": "minecraft:poison"
             },
-            "ticks": 2
+            "ticks": 1
         },
         "item_condition": {
             "type": "origins:ingredient",
@@ -89,7 +89,7 @@
                 "type": "origins:clear_effect",
                 "effect": "minecraft:poison"
             },
-            "ticks": 2
+            "ticks": 1
         },
         "item_condition": {
             "type": "origins:ingredient",
