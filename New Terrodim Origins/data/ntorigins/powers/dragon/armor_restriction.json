@@ -11,7 +11,7 @@
             },
             {
                 "type": "origins:nbt",
-                "nbt": "{Trim:{material:gold}}"
+                "nbt": "{Trim:{material:\"minecraft:gold\"}}"
             }
         ],
         "inverted": true
@@ -27,7 +27,7 @@
             },
             {
                 "type": "origins:nbt",
-                "nbt": "{Trim:{material:gold}}"
+                "nbt": "{Trim:{material:\"minecraft:gold\"}}"
             }
         ],
         "inverted": true
@@ -43,7 +43,7 @@
             },
             {
                 "type": "origins:nbt",
-                "nbt": "{Trim:{material:gold}}"
+                "nbt": "{Trim:{material:\"minecraft:gold\"}}"
             }
         ],
         "inverted": true
@@ -59,7 +59,7 @@
             },
             {
                 "type": "origins:nbt",
-                "nbt": "{Trim:{material:gold}}"
+                "nbt": "{Trim:{material:\"minecraft:gold\"}}"
             }
         ],
         "inverted": true
