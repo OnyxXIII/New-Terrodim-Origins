@@ -12,7 +12,7 @@
         "type": "origins:action_on_block_use",
         "block_condition": {
             "type": "origins:in_tag",
-            "tag": "minecraft:small_flowers"
+            "tag": "ntorigins:faun_bonemeal_duplication_whitelist"
         },
         "item_condition": {
             "type": "origins:ingredient",
@@ -146,6 +146,56 @@
                         "type": "origins:execute_command",
                         "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:lily_of_the_valley\",Count:1}}"
                     }
+                },
+                {
+                    "condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:big_dripleaf_stem"
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:small_dripleaf\",Count:1}}"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:large_fern"
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:fern\",Count:1}}"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:lily_pad"
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:lily_pad\",Count:1}}"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:tall_grass"
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:short_grass\",Count:1}}"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:block",
+                        "block": "minecraft:spore_blossom"
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "summon minecraft:item ~ ~ ~ {Item:{id:\"minecraft:spore_blossom\",Count:1}}"
+                    }
                 }
             ]
         }
@@ -172,6 +222,48 @@
         "type": "origins:replace_loot_table",
         "replace": {
             "([a-z|0-9|\\-|_]).*:blocks\/(([a-z|0-9|\\-|_]).*)grass": "ntorigins:double_rolls"
+        }
+    },
+    "dead_bush": {
+        "type": "origins:action_on_block_use",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:small_fern"
+        },
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:shears"
+            }
+        },
+        "held_item_action": {
+            "type": "origins:damage",
+            "amount": 1
+        },
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:dead_bush"
+        }
+    },
+    "chorus_plant": {
+        "type": "origins:action_on_block_use",
+        "block_condition": {
+            "type": "origins:block",
+            "block": "minecraft:chorus_plant"
+        },
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:fermented_spider_eye"
+            }
+        },
+        "held_item_action": {
+            "type": "origins:consume",
+            "amount": 1
+        },
+        "block_action": {
+            "type": "origins:set_block",
+            "block": "minecraft:chorus_flower"
         }
     }
 }

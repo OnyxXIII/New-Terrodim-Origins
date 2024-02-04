@@ -1,21 +1,30 @@
 {
-    "type": "origins:stacking_status_effect",
-    "min_stacks": -10,
-    "max_stacks": 10,
-    "duration_per_stack": 10,
-    "effects": [
-        {
-            "effect": "minecraft:weakness",
-            "is_ambient": true,
-            "show_particles": false,
-            "show_icon": true
+    "type": "origins:modify_damage_dealt",
+    "damage_condition": {
+        "type": "origins:attacker",
+        "entity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "mainhand",
+                    "item_condition": {
+                        "type": "origins:empty",
+                        "inverted": true
+                    }
+                },
+                {
+                    "type": "origins:food_level",
+                    "comparison": "<",
+                    "compare_to": 17
+                }
+            ]
         }
-    ],
-    "condition": {
-        "type": "origins:food_level",
-        "comparison": "<",
-        "compare_to": 14
+    },
+    "modifier": {
+        "operation": "addition",
+        "value": -4.0
     },
     "name": "\u00A7c\u00A7nTimeout, Need a Cracker",
-    "description": "You can't fight when you're hungry.\n-weakness when at 17 or less hunger-"
+    "description": "You can't fight when you're hungry.\n-Damage -4 when at 17 or less hunger.-"
 }
