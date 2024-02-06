@@ -5,6 +5,7 @@
         "ntorigins:faun/boot_restriction",
         "ntorigins:faun/constant_luck",
         "ntorigins:faun/craft_log_from_sapling",
+        "ntorigins:faun/damage_to_creatures_reduction",
         "ntorigins:faun/dietary_additions",
         "ntorigins:faun/edible_enchanted_books",
         "ntorigins:faun/exhaustion_increase",

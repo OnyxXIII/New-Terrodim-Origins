@@ -46,7 +46,7 @@
         "type": "origins:recipe",
         "recipe": {
             "id": "fire_coral_crafting",
-            "type": "minecraft:crafting_shapeless",
+            "type": "minecraft:crafting_shaped",
             "pattern": [
                 "##",
                 "##"

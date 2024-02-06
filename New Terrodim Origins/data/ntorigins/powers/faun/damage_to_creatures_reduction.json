@@ -1,0 +1,13 @@
+{
+    "type": "origins:modify_damage_dealt",
+    "target_condition": {
+        "type": "origins:in_tag",
+        "tag": "ntorigins:faun_creature_damage_blacklist"
+    },
+    "modifier": {
+        "operation": "multiply_total",
+        "value": -1
+    },
+    "name": "\u00A7c\u00A7nBoth Friends And Food!",
+    "description": "The world is filled with friends - and food - and you are careful to make that distinction, when applicable!"
+}
