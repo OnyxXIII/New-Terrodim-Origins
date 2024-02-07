@@ -3,7 +3,8 @@
         "ntorigins:wizard/magical_secrets",
         "ntorigins:wizard/in_tune_with_magic",
         "ntorigins:wizard/magical_fruit",
-        "ntorigins:wizard/spellcasting/rituals/dimensions/impossible_harvest"
+        "ntorigins:wizard/spellcasting/rituals/dimensions/impossible_harvest",
+        "ntorigins:hide_armor_toggle"
     ],
     "icon": "minecraft:enchanting_table",
     "impact": 3,

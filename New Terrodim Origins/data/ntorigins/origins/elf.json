@@ -7,7 +7,8 @@
         "ntorigins:elf/fall_damage_reduction",
         "ntorigins:elf/highlight_attackers",
         "ntorigins:elf/night_vision",
-        "ntorigins:elf/speed_increase"
+        "ntorigins:elf/speed_increase",
+        "ntorigins:hide_armor_toggle"
     ],
     "icon": "minecraft:bow",
     "impact": 1,

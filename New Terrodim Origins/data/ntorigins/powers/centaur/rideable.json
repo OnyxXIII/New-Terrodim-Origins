@@ -35,7 +35,9 @@
     },
     "toggle": {
         "type": "origins:toggle",
-        "key": "key.origins.secondary_active"
+        "key": {
+            "key": "key.origins.secondary_active"
+        }
     },
     "name": "\u00A7a\u00A7nRideable",
     "description": "Other players can ride on your back. \n-another player will mount after right-clicking on you. Kick them off by sneaking. You can toggle this power with your Origins Secondary kebind.-"

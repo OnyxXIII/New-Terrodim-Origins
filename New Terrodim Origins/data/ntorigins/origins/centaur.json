@@ -15,7 +15,8 @@
         "ntorigins:centaur/sink_speed_reduction",
         "ntorigins:centaur/size_increase",
         "ntorigins:centaur/step_up_full_block",
-        "ntorigins:centaur/swim_speed_reduction"
+        "ntorigins:centaur/swim_speed_reduction",
+        "ntorigins:hide_armor_toggle"
     ],
     "icon": "minecraft:iron_horse_armor",
     "impact": 3,

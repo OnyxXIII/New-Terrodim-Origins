@@ -10,7 +10,8 @@
         "ntorigins:human/obsidian_mining_speed_increase",
         "ntorigins:human/safe_inventory",
         "ntorigins:human/trading_price_reduction",
-        "ntorigins:human/wheat_loot_increase"
+        "ntorigins:human/wheat_loot_increase",
+        "ntorigins:hide_armor_toggle"
     ],
     "icon": "minecraft:player_head",
     "order": 1,

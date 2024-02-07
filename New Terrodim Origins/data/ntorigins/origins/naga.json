@@ -17,7 +17,8 @@
         "ntorigins:naga/pacify_mobs",
         "ntorigins:naga/trading_restriction",
         "ntorigins:naga/unarmed_damage_bonus",
-        "ntorigins:naga/weapon_armor_restrictions"
+        "ntorigins:naga/weapon_armor_restrictions",
+        "ntorigins:hide_armor_toggle"
     ],
     "icon": "minecraft:prismarine_shard",
     "impact": 3,

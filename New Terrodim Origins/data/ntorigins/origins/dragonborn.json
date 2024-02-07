@@ -20,7 +20,8 @@
         "ntorigins:dragon/swim_speed_reduction",
         "ntorigins:dragon/trading_restriction",
         "ntorigins:dragon/wings",
-        "ntorigins:dragon/xp_from_treasure"
+        "ntorigins:dragon/xp_from_treasure",
+        "ntorigins:hide_armor_toggle"
     ],
     "icon": "minecraft:dragon_head",
     "impact": 3,

@@ -15,7 +15,8 @@
         "ntorigins:dwarf/speed_reduction",
         "ntorigins:dwarf/swim_speed_reduction",
         "ntorigins:dwarf/unbreaking_on_all_crafts",
-        "ntorigins:dwarf/warden_attention_increase"
+        "ntorigins:dwarf/warden_attention_increase",
+        "ntorigins:hide_armor_toggle"
     ],
     "icon": "minecraft:iron_pickaxe",
     "impact": 2,

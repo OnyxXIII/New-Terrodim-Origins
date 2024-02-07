@@ -18,7 +18,8 @@
         "ntorigins:faun/slowness_in_water",
         "ntorigins:faun/sprint_speed_increase",
         "ntorigins:faun/unarmed_knockback_increase",
-        "ntorigins:faun/weakness_at_low_food"
+        "ntorigins:faun/weakness_at_low_food",
+        "ntorigins:hide_armor_toggle"
     ],
     "icon": "minecraft:goat_horn",
     "impact": 2,

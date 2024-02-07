@@ -1,0 +1,20 @@
+{
+    "type": "origins:multiple",
+    "value": {
+        "type": "origins:toggle",
+        "active_by_default": false,
+        "key": {
+            "key": "key.origins.denary_active"
+        }
+    },
+    "hide_armor": {
+        "type": "origins:prevent_feature_render",
+        "feature": "armor",
+        "condition": {
+            "type": "origins:power_active",
+            "power": "ntorigins:hide_armor_toggle_value"
+        }
+    },
+    "name": "\u00A7b\u00A7nHide Armor",
+    "description": "Press the Origins Active Denary key to hide or show your armor."
+}

@@ -16,7 +16,8 @@
         "ntorigins:wharf_rat/sneak_speed_increase",
         "ntorigins:wharf_rat/swim_speed_increase",
         "ntorigins:wharf_rat/trading_restriction",
-        "ntorigins:wharf_rat/water_breathing"
+        "ntorigins:wharf_rat/water_breathing",
+        "ntorigins:hide_armor_toggle"
     ],
     "icon": "minecraft:oak_boat",
     "impact": 2,
