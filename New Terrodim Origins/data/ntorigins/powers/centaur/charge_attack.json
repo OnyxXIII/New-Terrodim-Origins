@@ -7,68 +7,88 @@
 		"entity_action": {
 			"type": "origins:and",
 			"actions": [
-			{
-				"type": "origins:add_velocity",
-				"z": 3,
-				"space": "local"
-			}
-			]
-		},
-		"cooldown": 60,
-		"hud_render": {
-			"should_render": true,
-			"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-			"bar_index": 0
-		},
-		"key": {
-			"key": "key.origins.primary_active"
-		}
-	},
-	"hit": {
-		"type": "origins:action_over_time",
-		"interval": 1,
-		"entity_action": {
-			"type": "origins:area_of_effect",
-			"radius": 1.5,
-			"bientity_action": {
-				"type": "origins:and",
-				"actions": [
 				{
-					"type": "origins:damage",
-					"amount": 4,
-					"source": {
-						"name": "generic.player",
-						"bypasses_armor": true
-					}
+					"type": "origins:change_resource",
+					"resource": "ntorigins:centaur/charge_attack_timer",
+					"operation": "set",
+					"change": 1
+				},
+				{
+					"type": "origins:exhaust",
+					"amount": 1
+				},
+				{
+					"type": "origins:play_sound",
+					"sound": "minecraft:entity.goat.ram_impact"
+				},
+				{
+					"type": "origins:swing_hand"
 				},
 				{
 					"type": "origins:add_velocity",
-					"z": 0.5,
-					"y": 0.1,
-					"space": "local_horizontal"
+					"z": 5,
+					"space": "local_horizontal_normalized"
+				}
+			]
+		},
+		"key": {
+			"key": "key.origins.primary_active"
+		},
+		"cooldown": 200
+	},
+	"damage": {
+		"type": "origins:action_over_time",
+		"interval": 1,
+		"entity_action": {
+			"type": "origins:and",
+			"actions": [
+				{
+					"type": "origins:change_resource",
+					"resource": "ntorigins:centaur/charge_attack_timer",
+					"operation": "add",
+					"change": 1
 				},
 				{
-					"type": "origins:target_action",
-					"action": {
+					"type": "origins:area_of_effect",
+					"radius": 3,
+					"bientity_action": {
 						"type": "origins:and",
 						"actions": [
-						{
-							"type": "origins:play_sound",
-							"sound": "minecraft:block.anvil.land",
-							"volume": 0.2,
-							"pitch": 1.5
-						},
-						{
-							"type": "origins:play_sound",
-							"sound": "minecraft:entity.zombie.attack_iron_door",
-							"volume": 0.7,
-							"pitch": 2
-						}
+							{
+								"type": "origins:add_velocity",
+								"z": 3
+							},
+							{
+								"type": "origins:damage",
+								"amount": 8
+							}
 						]
+					},
+					"bientity_condition": {
+						"type": "origins:can_see"
 					}
 				}
-				]
-			}
+			]
+		},
+		"condition": {
+			"type": "origins:resource",
+			"resource": "ntorigins:centaur/charge_attack_timer",
+			"compare_to": 0,
+			"comparison": ">"
+		}
+	},
+	"timer": {
+		"type": "origins:resource",
+		"min": 0,
+		"max": 31,
+		"max_action": {
+			"type": "origins:change_resource",
+			"resource": "ntorigins:centaur/charge_attack_timer",
+			"operation": "set",
+			"change": 0
+		},
+		"hud_render": {
+			"should_render": false
 		}
 	}
 }
