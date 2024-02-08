@@ -2,10 +2,25 @@
     "hidden": true,
     "type": "origins:action_over_time",
     "rising_action": {
-                "type": "origins:add_velocity",
-                "y": 2,
-                "z": 3,
-                "space": "local_horizontal"
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:add_velocity",
+                        "y": 2,
+                        "z": 3,
+                        "space": "local_horizontal"
+                    },
+                    {
+                        "type": "origins:grant_power",
+                        "power": "ntorigins:naga/swim_when_airborne",
+                        "source": "ntorigins:launch_from_water"
+                    }
+                ]
+    },
+    "falling_action": {
+        "type": "origins:revoke_power",
+        "power": "ntorigins:naga/swim_when_airborne",
+        "source": "ntorigins:launch_from_water"
     },
     "condition": {
         "type": "origins:and",
@@ -16,6 +31,10 @@
             {
                 "type": "origins:submerged_in",
                 "fluid": "minecraft:water",
+                "inverted": true
+            },
+            {
+                "type": "origins:on_block",
                 "inverted": true
             }
         ]

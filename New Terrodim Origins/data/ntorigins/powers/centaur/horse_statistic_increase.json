@@ -8,7 +8,8 @@
                     "type": "origins:target_action",
                     "action": {
                         "type": "origins:grant_power",
-                        "power": "ntorigins:centaur/horse_boosts/health_increase"
+                        "power": "ntorigins:centaur/horse_boosts/health_increase",
+                        "source": "ntorigins:centaur/horse_statistic_increase"
                     }
                 },
                 "weight": 1
@@ -18,7 +19,8 @@
                     "type": "origins:target_action",
                     "action": {
                         "type": "origins:grant_power",
-                        "power": "ntorigins:centaur/horse_boosts/jump_increase"
+                        "power": "ntorigins:centaur/horse_boosts/jump_increase",
+                        "source": "ntorigins:centaur/horse_statistic_increase"
                     }
                 },
                 "weight": 2
@@ -28,7 +30,8 @@
                     "type": "origins:target_action",
                     "action": {
                         "type": "origins:grant_power",
-                        "power": "ntorigins:centaur/horse_boosts/speed_increase"
+                        "power": "ntorigins:centaur/horse_boosts/speed_increase",
+                        "source": "ntorigins:centaur/horse_statistic_increase"
                     }
                 },
                 "weight": 3
