@@ -1,33 +1,8 @@
 {
-    "type": "origins:action_on_hit",
+    "type": "origins:replace_loot_table",
     "name": "\u00A7a\u00A7nExpert Aquatic Hunter",
     "description": "As a master of hunting under the waves, you know the way to kill sea creatures so that you get the most out of their remains.\n-you sometimes get prismarine shards or crystals from killing aquatic creatures-",
-    "bientity_action": {
-        "type": "origins:target_action",
-        "action": {
-            "type": "origins:chance",
-            "action": {
-                "type": "origins:execute_command",
-                "command": "loot spawn ~ ~ ~ loot ntorigins:naga_extras"
-            },
-            "chance": 0.15
-        }
-    },
-    "bientity_condition": {
-        "type": "origins:target_condition",
-        "condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:in_tag",
-                    "tag": "ntorigins:naga_aquatic_loot_bonus_whitelist"
-                },
-                {
-                    "type": "origins:health",
-                    "comparison": "==",
-                    "compare_to": 0
-                }
-            ]
-        }
+    "replace": {
+        "minecraft:entities/(axolotl|cod|dolphin|drowned|glow_squid|elder_guardian|guardian|pufferfish|salmon|squid|tadpole|tropical_fish|turtle)": "ntorigins:double_rolls"
     }
 }

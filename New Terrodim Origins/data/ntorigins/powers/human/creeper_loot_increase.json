@@ -1,14 +1,7 @@
 {
     "type": "origins:replace_loot_table",
-    "bientity_condition": {
-        "type": "origins:target_condition",
-        "condition": {
-            "type": "origins:entity_type",
-            "entity_type": "minecraft:creeper"
-        }
-    },
     "replace": {
-
+        "minecraft:entities/creeper": "ntorigins:double_rolls"
     },
     "name": "\u00A7a\u00A7nGunpowder Collector",
     "description": "Your experience slaying creepers allows you to get the maximum gunpowder from their corpses. Plus, you collect their heads more frequently.\n-You get triple the gunpowder from creepers and double the chance of creeper heads.-'"
