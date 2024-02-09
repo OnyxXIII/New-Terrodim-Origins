@@ -3,8 +3,6 @@
 	"values": [
 		"minecraft:ender_dragon",
 		"minecraft:wither",
-		"minecraft:warden",
-		"minecraft:wolf",
-		"minecraft:polar_bear"
+		"minecraft:warden"
 	]
 }
