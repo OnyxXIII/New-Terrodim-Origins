@@ -35,6 +35,7 @@
             "resource": "ntorigins:naga/angry_mob_timer",
             "comparison": ">",
             "compare_to": 0
-        }
+        },
+        "interval": 20
     }
 }
