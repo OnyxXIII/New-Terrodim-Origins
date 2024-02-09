@@ -68,6 +68,11 @@
                                     },
                                     "count": 3,
                                     "speed": 0.2
+                                },
+                                {
+                                    "type": "origins:grant_power",
+                                    "power": "ntorigins:naga/break_on_hit",
+                                    "source": "ntorigins:naga/pacify_mobs"
                                 }
                             ]
                         }

@@ -1,0 +1,55 @@
+{
+    "type": "origins:multiple",
+    "timer": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 16,
+        "hud_render": {
+            "should_render": false
+        },
+        "max_action": {
+            "type": "origins:change_resource",
+            "resource": "ntorigins:naga/break_on_hit_timer",
+            "change": 0,
+            "operation": "set"
+        }
+    },
+    "tick": {
+        "type": "origins:action_over_time",
+        "falling_action": {
+            "type": "origins:revoke_power",
+            "power": "ntorigins:naga/break_on_hit",
+            "source": "ntorigins:naga/pacify_mobs"
+        },
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "ntorigins:naga/break_on_hit_timer",
+            "change": 1
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "ntorigins:naga/break_on_hit_timer",
+            "comparison": ">",
+            "compare_to": 0
+        },
+        "interval": 20
+    },
+    "hit": {
+        "type": "origins:target_action_on_hit",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "team leave @s"
+                },
+                {
+                    "type": "origins:grant_power",
+                    "power": "ntorigins:naga/angry_mob",
+                    "source": "ntorigins:naga/pacify_mobs"
+                }
+            ]
+        },
+        "cooldown": 0
+    }
+}
