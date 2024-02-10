@@ -35,12 +35,6 @@
         "max": 16,
         "hud_render": {
             "should_render": false
-        },
-        "max_action": {
-            "type": "origins:change_resource",
-            "resource": "ntorigins:naga/pacify_mobs_song_timer",
-            "change": 0,
-            "operation": "set"
         }
     },
     "song_tick": {
@@ -50,53 +44,8 @@
             "type": "origins:and",
             "actions": [
                 {
-                    "type": "origins:area_of_effect",
-                    "radius": 64,
-                    "bientity_action": {
-                        "type": "origins:target_action",
-                        "action": {
-                            "type": "origins:and",
-                            "actions": [
-                                {
-                                    "type": "origins:execute_command",
-                                    "command": "team join NagaSong @s"
-                                },
-                                {
-                                    "type": "origins:spawn_particles",
-                                    "particle": {
-                                        "type": "note"
-                                    },
-                                    "count": 3,
-                                    "speed": 0.2
-                                },
-                                {
-                                    "type": "origins:grant_power",
-                                    "power": "ntorigins:naga/break_on_hit",
-                                    "source": "ntorigins:naga/pacify_mobs"
-                                }
-                            ]
-                        }
-                    },
-                    "bientity_condition": {
-                        "type": "origins:target_condition",
-                        "condition": {
-                            "type": "origins:and",
-                            "conditions": [
-                                {
-                                    "type": "origins:power",
-                                    "power": "ntorigins:naga/angry_mob",
-                                    "source": "ntorigins:naga/pacify_mobs",
-                                    "inverted": true
-                                },
-                                {
-                                    "type": "origins:in_tag",
-                                    "tag": "ntorigins:naga_pacify_mobs_exceptions",
-                                    "inverted": true
-                                }
-                            ]
-                            
-                        }
-                    }
+                    "type": "origins:execute_command",
+                    "command": "function ntorigins:naga/pacify_mobs_power"
                 },
                 {
                     "type": "origins:change_resource",
@@ -110,8 +59,44 @@
             "resource": "ntorigins:naga/pacify_mobs_song_timer",
             "comparison": ">",
             "compare_to": 0
+        }
+    },
+    "break_song": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "condition": {
+            "type": "origins:resource",
+            "resource": "ntorigins:naga/pacify_mobs_song_timer",
+            "comparison": ">",
+            "compare_to": 15
         },
         "rising_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "ntorigins:naga/pacify_mobs_song_timer",
+                    "change": 0,
+                    "operation": "set"
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "function ntorigins:naga/pacify_mobs_break"
+                }
+            ]
+        }
+    },
+    "break_on_hit": {
+        "type": "origins:target_action_on_hit",
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "function ntorigins:naga/pacify_mobs_break_hit"
+        },
+        "cooldown": 0
+    },
+    "callback": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
             "type": "origins:and",
             "actions": [
                 {
@@ -124,32 +109,10 @@
                 }
             ]
         },
-        "falling_action": {
-            "type": "origins:and",
-            "actions": [
-                {
-                    "type": "origins:execute_command",
-                    "command": "team remove NagaSong"
-                }
-            ]
-        }
-    },
-    "break_on_hit": {
-        "type": "origins:target_action_on_hit",
-        "entity_action": {
-            "type": "origins:and",
-            "actions": [
-                {
-                    "type": "origins:execute_command",
-                    "command": "team leave @s"
-                },
-                {
-                    "type": "origins:grant_power",
-                    "power": "ntorigins:naga/angry_mob",
-                    "source": "ntorigins:naga/pacify_mobs"
-                }
-            ]
+        "entity_action_lost": {
+            "type": "origins:execute_command",
+            "command": "team leave NagaSong"
         },
-        "cooldown": 0
+        "execute_chosen_when_orb": true
     }
 }
