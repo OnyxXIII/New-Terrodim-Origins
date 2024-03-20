@@ -1,7 +1,7 @@
-scale reset pehkui:base
-scale persist reset pehkui:base @s
-scale reset pehkui:width
-scale persist reset pehkui:width @s
+scale reset pehkui:hitbox_height
+scale persist reset pehkui:hitbox_height @s
+scale reset pehkui:hitbox_width
+scale persist reset pehkui:hitbox_width @s
 scale reset pehkui:motion
 scale reset pehkui:reach
 scale reset pehkui:step_height
