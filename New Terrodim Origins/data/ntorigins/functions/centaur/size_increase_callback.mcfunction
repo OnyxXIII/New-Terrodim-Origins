@@ -1,5 +1,7 @@
 scale reset pehkui:hitbox_height
 scale persist reset pehkui:hitbox_height @s
+scale reset pehkui:eye_height
+scale persist reset pehkui:eye_height @s
 scale reset pehkui:hitbox_width
 scale persist reset pehkui:hitbox_width @s
 scale reset pehkui:motion
