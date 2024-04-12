@@ -22,7 +22,7 @@
     "toggle": {
         "type": "origins:toggle",
         "key": {
-            "key": "key.origins.ternary_active"
+            "key": "key.origins.quaternary_active"
         }
     },
     "name": "\u00A7a\u00A7nRideable",

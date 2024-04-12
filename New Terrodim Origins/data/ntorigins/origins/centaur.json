@@ -2,7 +2,6 @@
     "powers": [
         "ntorigins:centaur/boat_restriction",
         "ntorigins:centaur/bow_damage_increase",
-        "ntorigins:centaur/charge_attack",
         "ntorigins:centaur/dietary_restrictions",
         "ntorigins:centaur/elytra_restriction",
         "ntorigins:centaur/force_dismount",
