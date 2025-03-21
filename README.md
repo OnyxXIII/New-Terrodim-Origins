@@ -26,5 +26,4 @@ Warnings: If you use this datapack for yourself, please be aware of the followin
    - [Small Ships](https://www.curseforge.com/minecraft/mc-mods/small-ships) (for some Pirate powers only, though some tag lists preventing boat use also prevent use of small ships)
    - I also recommend [Towelette](https://www.curseforge.com/minecraft/mc-mods/towelette/files), as Naga cannot sleep without the ability to waterlog beds. The curse forge page isn't clear, but Towelette depends on [Statement](https://www.curseforge.com/minecraft/mc-mods/statement).
 
-Credit: Naturally, primary credit to Apace100 for developing the Origins mod. Additionally, in developing these origins, we referenced a number of other origins and datapacks, including but not limited to:
-* [Dragon Breath (Torch) by SonicRushXII](https://www.planetminecraft.com/data-pack/dragon-breath-torch-datapack/) for Dragon's fire breath effects
+Credit: Naturally, primary credit to Apace100 for developing the Origins mod. Additionally, in developing these origins, we referenced a number of other origins and datapacks, and thank everyone on the Origins discord for their help.
