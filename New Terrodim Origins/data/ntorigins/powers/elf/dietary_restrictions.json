@@ -1,11 +1,26 @@
 {
-	"type": "origins:prevent_item_use",
-	"item_condition": {
-		"type": "origins:ingredient",
-		"ingredient": {
-			"tag": "ntorigins:elf_dietary_restrictions"
-		}
-	},
-	"name": "\u00A7c\u00A7nSteward of the Wilds",
-	"description": "As a protector of wild things, you only eat that which can be regrown, and do not harm living creatures for your own sustenance.\n-cannot eat meat-"
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:all_of",
+    "conditions": [
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins:ignore_diet"
+        },
+        "inverted": true
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins:meat"
+        }
+      },
+      {
+        "type": "origins:food"
+      }
+    ]
+  },
+  "name": "\u00A7c\u00A7nSteward of the Wilds",
+  "description": "As a protector of wild things, you only eat that which can be regrown, and do not harm living creatures for your own sustenance.\n-cannot eat meat-"
 }
