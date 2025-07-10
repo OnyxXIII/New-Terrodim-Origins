@@ -4,8 +4,9 @@
 		"type": "origins:conditioned_attribute",
 		"modifier": {
 			"attribute": "generic.armor",
-			"operation": "addition",
-			"value": 1
+			"operation": "add_value",
+			"value": 1,
+			"id": "ntorigins:armor_increase"
 		},
 		"condition": {
 			"type": "origins:equipped_item",
