@@ -5,7 +5,7 @@
 		"modifier": {
 			"attribute": "generic.armor",
 			"operation": "add_value",
-			"value": 1,
+			"amount": 1,
 			"id": "ntorigins:armor_increase"
 		},
 		"condition": {
