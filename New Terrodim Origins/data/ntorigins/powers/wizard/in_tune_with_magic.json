@@ -5,7 +5,7 @@
         "value": -0.5
     },
     "damage_condition": {
-        "type": "origins:or",
+        "type": "origins:any_of",
         "conditions": [
             {
                 "type": "origins:attacker",

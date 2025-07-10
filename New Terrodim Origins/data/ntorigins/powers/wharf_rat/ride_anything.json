@@ -8,7 +8,7 @@
         "bientity_condition": {
             "type": "origins:target_condition",
             "condition": {
-                "type": "origins:or",
+                "type": "origins:any_of",
                 "conditions": [
                     {
                         "type": "origins:predicate",

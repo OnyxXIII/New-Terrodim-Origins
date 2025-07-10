@@ -55,7 +55,7 @@
         "type": "origins:action_over_time",
         "interval": 1,
         "condition": {
-            "type": "origins:and",
+            "type": "origins:all_of",
             "conditions": [
                 {
                     "type": "origins:resource",

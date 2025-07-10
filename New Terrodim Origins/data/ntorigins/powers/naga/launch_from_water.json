@@ -23,7 +23,7 @@
         "source": "ntorigins:launch_from_water"
     },
     "condition": {
-        "type": "origins:and",
+        "type": "origins:all_of",
         "conditions": [
             {
                 "type": "origins:swimming"
