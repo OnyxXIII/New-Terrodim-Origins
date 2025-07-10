@@ -20,8 +20,8 @@
 		"if_action": {
 			"type": "origins:apply_effect",
 			"effect": {
-				"effect": "minecraft:blindness",
-				"is_ambient": true,
+				"id": "minecraft:blindness",
+				"ambient": true,
 				"show_particles": false,
 				"show_icon": false,
 				"amplifier": 2,
@@ -30,7 +30,7 @@
 		},
 		"else_action": {
 			"type": "origins:clear_effect",
-			"effect": "minecraft:blindness"
+			"id": "minecraft:blindness"
 		}
 	},
 	"interval": 20,

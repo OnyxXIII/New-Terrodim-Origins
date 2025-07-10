@@ -5,8 +5,8 @@
     "duration_per_stack": 10,
     "effects": [
         {
-            "effect": "minecraft:luck",
-            "is_ambient": true,
+            "id": "minecraft:luck",
+            "ambient": true,
             "show_particles": false,
             "show_icon": true
         }
