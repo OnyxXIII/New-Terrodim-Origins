@@ -2,8 +2,9 @@
     "type": "origins:attribute",
         "modifier": {
             "attribute": "minecraft:generic.movement_speed",
-            "value": -0.35,
-            "operation": "multiply_base"
+            "amount": -0.35,
+            "operation": "add_multiplied_base",
+            "id": "ntorigins:dwarf_speed_reduction"
         },
     "name": "\u00A7c\u00A7nShort Legs",
     "description": "Your legs are not adapted to moving at tall-folk speeds. You'll get there when you get there.\n-75% move speed-"
