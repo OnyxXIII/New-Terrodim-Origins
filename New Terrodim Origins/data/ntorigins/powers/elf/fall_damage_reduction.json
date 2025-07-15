@@ -1,12 +1,12 @@
 {
-    "type": "origins:modify_damage_taken",
-    "damage_condition": {
-        "type": "origins:from_falling"
-    },
-    "modifier": {
-        "operation": "multiply_base_additive",
-        "value": -0.5
-    },
-    "name": "\u00A7a\u00A7nLight on your Feet",
-    "description": "Your natural dexterity makes you more able to absorb the force from a fall.\n-50% fall damage-"
+  "type": "origins:modify_damage_taken",
+  "damage_condition": {
+    "type": "origins:from_falling"
+  },
+  "modifier": {
+    "operation": "multiply_base_additive",
+    "amount": -0.5
+  },
+  "name": "\u00A7a\u00A7nLight on your Feet",
+  "description": "Your natural dexterity makes you more able to absorb the force from a fall.\n-50% fall damage-"
 }
