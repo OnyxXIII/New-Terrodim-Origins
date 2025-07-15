@@ -3,7 +3,7 @@
 	"entity_action": {
 		"type": "origins:if_else",
 		"condition": {
-			"type": "origins:all_of",
+			"type": "origins:and",
 			"conditions": [
 				{
 					"type": "origins:exposed_to_sun"
@@ -20,8 +20,8 @@
 		"if_action": {
 			"type": "origins:apply_effect",
 			"effect": {
-				"id": "minecraft:blindness",
-				"ambient": true,
+				"effect": "minecraft:blindness",
+				"is_ambient": true,
 				"show_particles": false,
 				"show_icon": false,
 				"amplifier": 2,
@@ -30,7 +30,7 @@
 		},
 		"else_action": {
 			"type": "origins:clear_effect",
-			"id": "minecraft:blindness"
+			"effect": "minecraft:blindness"
 		}
 	},
 	"interval": 20,

@@ -34,7 +34,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:speed",
+                                "effect": "minecraft:speed",
                                 "duration": 400
                             }
                         },
@@ -44,7 +44,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:slowness",
+                                "effect": "minecraft:slowness",
                                 "duration": 400
                             }
                         },
@@ -54,7 +54,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:haste",
+                                "effect": "minecraft:haste",
                                 "duration": 400
                             }
                         },
@@ -64,7 +64,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:mining_fatigue",
+                                "effect": "minecraft:mining_fatigue",
                                 "duration": 400
                             }
                         },
@@ -74,7 +74,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:strength",
+                                "effect": "minecraft:strength",
                                 "duration": 400
                             }
                         },
@@ -84,7 +84,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:instant_health",
+                                "effect": "minecraft:instant_health",
                                 "duration": 400
                             }
                         },
@@ -94,7 +94,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:instant_damage",
+                                "effect": "minecraft:instant_damage",
                                 "duration": 400
                             }
                         },
@@ -104,7 +104,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:jump_boost",
+                                "effect": "minecraft:jump_boost",
                                 "duration": 400
                             }
                         },
@@ -114,7 +114,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:nausea",
+                                "effect": "minecraft:nausea",
                                 "duration": 400
                             }
                         },
@@ -124,7 +124,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:regeneration",
+                                "effect": "minecraft:regeneration",
                                 "duration": 400
                             }
                         },
@@ -134,7 +134,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:resistance",
+                                "effect": "minecraft:resistance",
                                 "duration": 400
                             }
                         },
@@ -144,7 +144,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:fire_resistance",
+                                "effect": "minecraft:fire_resistance",
                                 "duration": 400
                             }
                         },
@@ -154,7 +154,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:water_breathing",
+                                "effect": "minecraft:water_breathing",
                                 "duration": 400
                             }
                         },
@@ -164,7 +164,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:invisibility",
+                                "effect": "minecraft:invisibility",
                                 "duration": 400
                             }
                         },
@@ -174,7 +174,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:blindness",
+                                "effect": "minecraft:blindness",
                                 "duration": 400
                             }
                         },
@@ -184,7 +184,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:night_vision",
+                                "effect": "minecraft:night_vision",
                                 "duration": 400
                             }
                         },
@@ -194,7 +194,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:hunger",
+                                "effect": "minecraft:hunger",
                                 "duration": 400
                             }
                         },
@@ -204,7 +204,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:weakness",
+                                "effect": "minecraft:weakness",
                                 "duration": 400
                             }
                         },
@@ -214,7 +214,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:poison",
+                                "effect": "minecraft:poison",
                                 "duration": 400
                             }
                         },
@@ -224,7 +224,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:wither",
+                                "effect": "minecraft:wither",
                                 "duration": 400
                             }
                         },
@@ -234,7 +234,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:health_boost",
+                                "effect": "minecraft:health_boost",
                                 "duration": 400
                             }
                         },
@@ -244,7 +244,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:absorption",
+                                "effect": "minecraft:absorption",
                                 "duration": 400
                             }
                         },
@@ -254,7 +254,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:saturation",
+                                "effect": "minecraft:saturation",
                                 "duration": 400
                             }
                         },
@@ -264,7 +264,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:glowing",
+                                "effect": "minecraft:glowing",
                                 "duration": 400
                             }
                         },
@@ -274,7 +274,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:levitation",
+                                "effect": "minecraft:levitation",
                                 "duration": 400
                             }
                         },
@@ -284,7 +284,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:unluck",
+                                "effect": "minecraft:unluck",
                                 "duration": 400
                             }
                         },
@@ -294,7 +294,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:slow_falling",
+                                "effect": "minecraft:slow_falling",
                                 "duration": 400
                             }
                         },
@@ -304,7 +304,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:conduit_power",
+                                "effect": "minecraft:conduit_power",
                                 "duration": 400
                             }
                         },
@@ -314,7 +314,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:dolphins_grace",
+                                "effect": "minecraft:dolphins_grace",
                                 "duration": 400
                             }
                         },
@@ -324,7 +324,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:bad_omen",
+                                "effect": "minecraft:bad_omen",
                                 "duration": 400
                             }
                         },
@@ -334,7 +334,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:hero_of_the_village",
+                                "effect": "minecraft:hero_of_the_village",
                                 "duration": 400
                             }
                         },
@@ -344,7 +344,7 @@
                         "element": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:darkness",
+                                "effect": "minecraft:darkness",
                                 "duration": 400
                             }
                         },
@@ -367,7 +367,7 @@
                         "element": {
                             "type": "origins:spawn_effect_cloud",
                             "effect": {
-                                "id": "minecraft:nausea",
+                                "effect": "minecraft:nausea",
                                 "duration": 100
                             }
                         },

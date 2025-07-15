@@ -1,0 +1,139 @@
+{
+    "type": "origins:multiple",
+    "hidden": true,
+    "cast": {
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "ntorigins:wizard/spellcasting/spells/fire/fire_shield_timer",
+                    "change": 1,
+                    "operation": "set"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "ntorigins:wizard/spellcasting/mana_pool",
+                    "change": -50,
+                    "operation": "add"
+                }
+            ]
+        },
+        "cooldown": 1220,
+        "hud_render": {
+            "should_render": false
+        },
+        "key": {
+            "key": "key.origins.quinary_active"
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:advancement",
+                    "advancement": "ntorigins:wizard/spell_tree/2spells/fire/fire_shield"
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "ntorigins:wizard/spellcasting/spell_select_spell_school_resource",
+                    "comparison": "==",
+                    "compare_to": 3
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:power_active",
+                    "power": "ntorigins:wizard/spellcasting/spell_select_staff_toggle"
+                },
+                {
+                    "type": "origins:power_active",
+                    "power": "ntorigins:wizard/spellcasting/spell_select_spell_select"
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "ntorigins:wizard/spellcasting/mana_pool",
+                    "comparison": ">=",
+                    "compare_to": 20
+                },
+                {
+                    "type": "origins:or",
+                    "conditions": [
+                        {
+                            "type": "origins:equipped_item",
+                            "equipment_slot": "mainhand",
+                            "item_condition": {
+                                "type": "origins:nbt",
+                                "nbt": "{spellbook:1b}"
+                            }
+                        },
+                        {
+                            "type": "origins:equipped_item",
+                            "equipment_slot": "offhand",
+                            "item_condition": {
+                                "type": "origins:nbt",
+                                "nbt": "{spellbook:1b}"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
+    "timer": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 61,
+        "hud_render": {
+            "should_render": false
+        },
+        "start_value": 0,
+        "max_action": {
+            "type": "origins:change_resource",
+            "resource": "ntorigins:wizard/spellcasting/spells/fire/fire_shield_timer",
+            "change": 0,
+            "operation": "set"
+        }
+    },
+    "timer_tick": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "ntorigins:wizard/spellcasting/spells/fire/fire_shield_timer",
+            "change": 1,
+            "operation": "add"
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "ntorigins:wizard/spellcasting/spells/fire/fire_shield_timer",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+    "fire_resist": {
+        "type": "origins:fire_immunity",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "ntorigins:wizard/spellcasting/spells/fire/fire_shield_timer",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    },
+    "fiery_retribution": {
+        "type": "origins:attacker_action_when_hit",
+        "entity_action": {
+            "type": "origins:set_on_fire",
+            "duration": 5
+        },
+        "cooldown": 1,
+        "hud_render": {
+            "should_render": false
+        },
+        "condition": {
+            "type": "origins:resource",
+            "resource": "ntorigins:wizard/spellcasting/spells/fire/fire_shield_timer",
+            "comparison": ">",
+            "compare_to": 0
+        }
+    }
+}

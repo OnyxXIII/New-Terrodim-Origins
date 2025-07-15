@@ -1,6 +1,6 @@
 {
     "type": "origins:effect_immunity",
-    "id": "minecraft:bad_omen",
+    "effect": "minecraft:bad_omen",
     "name": "\u00A7a\u00A7nBeneath Notice",
     "description": "Illagers don't consider you a threat, even when you prove yourself one.\n-immune to bad omen-"
 }

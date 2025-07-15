@@ -1,0 +1,72 @@
+{
+    "type": "origins:multiple",
+    "throw_snowball": {
+        "type": "origins:fire_projectile",
+        "entity_type": "minecraft:snowball",
+        "cooldown": 2,
+        "hud_render": {
+            "should_render": false
+        },
+        "tag": "{pickup:0b}",
+        "key": {
+            "key": "key.loadToolbarActivator",
+            "continuous": true
+        },
+        "sound": "entity.snowball.throw",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:advancement",
+                    "advancement": "ntorigins:wizard/spell_tree/1cantrips/orb_of_frost"
+                },
+                {
+                    "type": "origins:origin",
+                    "origin": "ntorigins:wizard"
+                }
+            ]
+        }
+    },
+    "snowball_effects": {
+        "type": "origins:modify_projectile_damage",
+        "damage_condition": {
+            "type": "origins:projectile",
+            "projectile": "minecraft:snowball"
+        },
+        "target_condition": {
+            "type": "origins:origin",
+            "origin": "ntorigins:wizard",
+            "inverted": true
+        },
+        "target_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:grant_power",
+                    "power": "ntorigins:wizard/spellcasting/applied_effects/slowed",
+                    "source": "ntorigins:orb_of_frost"
+                },
+                {
+                    "type": "origins:change_resource",
+                    "resource": "ntorigins:wizard/spellcasting/applied_effects/slowed_resource",
+                    "change": 1,
+                    "operation": "set"
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:advancement",
+                    "advancement": "ntorigins:wizard/spell_tree/1cantrips/orb_of_frost"
+                },
+                {
+                    "type": "origins:origin",
+                    "origin": "ntorigins:wizard"
+                }
+            ]
+        }
+    },
+    "hidden": true
+}

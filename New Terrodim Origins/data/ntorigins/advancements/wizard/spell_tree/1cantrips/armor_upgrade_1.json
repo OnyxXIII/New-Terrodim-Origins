@@ -1,0 +1,61 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:iron_chestplate",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "Mage Armor Upgrade I",
+        "description": "You've managed to get your mage armor to provide a little extra protection.",
+        "frame": "task",
+        "announce_to_chat": false
+    },
+    "parent": "ntorigins:wizard/spell_tree/1cantrips/mage_armor_upgrades",
+    "criteria": {
+        "full_diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "type_specific": {
+                                "type": "player",
+                                "advancements": {
+                                    "ntorigins:wizard/spell_tree/1cantrips/mage_armor_upgrades": true
+                                }
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:diamond_helmet"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:diamond_chestplate"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:diamond_leggings"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:diamond_boots"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

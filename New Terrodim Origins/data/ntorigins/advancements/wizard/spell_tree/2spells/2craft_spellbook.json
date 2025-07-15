@@ -1,0 +1,45 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:enchanted_book"
+        },
+        "title": "Craft a Spellbook",
+        "description": "test",
+        "frame": "goal",
+        "announce_to_chat": false
+    },
+    "parent": "ntorigins:wizard/spell_tree/spellcaster",
+    "criteria": {
+        "crafted_book": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "type_specific": {
+                                "type": "player",
+                                "advancements": {
+                                    "ntorigins:wizard/spell_tree/spellcaster": true
+                                }
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:writable_book"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

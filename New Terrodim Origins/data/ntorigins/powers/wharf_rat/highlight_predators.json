@@ -55,7 +55,7 @@
     "glow": {
         "type": "origins:entity_glow",
         "condition": {
-            "type": "origins:all_of",
+            "type": "origins:and",
             "conditions": [
                 {
                     "type": "origins:resource",
@@ -72,7 +72,7 @@
             ]
         },
         "entity_condition": {
-            "type": "origins:any_of",
+            "type": "origins:or",
             "conditions": [
                 {
                     "type": "origins:in_tag",

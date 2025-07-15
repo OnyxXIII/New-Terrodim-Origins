@@ -55,7 +55,7 @@
         "type": "origins:action_over_time",
         "interval": 1,
         "condition": {
-            "type": "origins:all_of",
+            "type": "origins:and",
             "conditions": [
                 {
                     "type": "origins:resource",
@@ -86,7 +86,7 @@
                             "block": "minecraft:fire"
                         },
                         "condition": {
-                            "type": "origins:replaceable"
+                            "type": "origins:replacable"
                         }
                     }
                 ]

@@ -1,0 +1,40 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bedrock",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "Mastery of Matter",
+        "description": "test",
+        "frame": "challenge",
+        "announce_to_chat": false,
+        "hidden": true
+    },
+    "parent": "ntorigins:spell_tree/3rituals/1matter/summon",
+    "criteria": {
+        "learned_all_spells": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "type_specific": {
+                                "type": "player",
+                                "advancements": {
+                                    "ntorigins:spell_tree/3rituals/1matter/summon": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -1,0 +1,284 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:brewing_stand"
+        },
+        "title": "Alchemy",
+        "description": "test",
+        "frame": "task",
+        "announce_to_chat": false
+    },
+    "parent": "ntorigins:wizard/spell_tree/3rituals/1matter/enchant_item",
+    "criteria": {
+        "collect_debris": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "type_specific": {
+                                "type": "player",
+                                "advancements": {
+                                    "ntorigins:wizard/spell_tree/3rituals/1matter/enchant_item": true
+                                }
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:ancient_debris",
+                            "minecraft:netherite_scrap",
+                            "minecraft:netherite_ingot",
+                            "minecraft:netherite_block"
+                        ]
+                    }
+                ]
+            }
+        },
+        "collect_coal": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:coal",
+                            "minecraft:coal_block",
+                            "minecraft:coal_ore",
+                            "minecraft:deepslate_coal_ore"
+                        ]
+                    }
+                ]
+            }
+        },
+        "collect_copper": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:copper_block",
+                            "minecraft:copper_ingot",
+                            "minecraft:copper_ore",
+                            "minecraft:cut_copper",
+                            "minecraft:cut_copper_slab",
+                            "minecraft:cut_copper_stairs",
+                            "minecraft:deepslate_copper_ore",
+                            "minecraft:exposed_copper",
+                            "minecraft:exposed_cut_copper",
+                            "minecraft:exposed_cut_copper_slab",
+                            "minecraft:exposed_cut_copper_stairs",
+                            "minecraft:oxidized_copper",
+                            "minecraft:oxidized_cut_copper",
+                            "minecraft:oxidized_cut_copper_slab",
+                            "minecraft:oxidized_cut_copper_stairs",
+                            "minecraft:raw_copper",
+                            "minecraft:raw_copper_block",
+                            "minecraft:waxed_copper_block",
+                            "minecraft:waxed_cut_copper",
+                            "minecraft:waxed_cut_copper_slab",
+                            "minecraft:waxed_cut_copper_stairs",
+                            "minecraft:waxed_exposed_copper",
+                            "minecraft:waxed_exposed_cut_copper",
+                            "minecraft:waxed_exposed_cut_copper_slab",
+                            "minecraft:waxed_exposed_cut_copper_stairs",
+                            "minecraft:waxed_oxidized_copper",
+                            "minecraft:waxed_oxidized_cut_copper",
+                            "minecraft:waxed_oxidized_cut_copper_slab",
+                            "minecraft:waxed_oxidized_cut_copper_stairs",
+                            "minecraft:waxed_weathered_copper",
+                            "minecraft:waxed_weathered_cut_copper",
+                            "minecraft:waxed_weathered_cut_copper_slab",
+                            "minecraft:waxed_weathered_cut_copper_stairs",
+                            "minecraft:weathered_copper",
+                            "minecraft:weathered_cut_copper",
+                            "minecraft:weathered_cut_copper_slab",
+                            "minecraft:weathered_cut_copper_stairs"
+                        ]
+                    }
+                ]
+            }
+        },
+        "collect_diamond": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:deepslate_diamond_ore",
+                            "minecraft:diamond",
+                            "minecraft:diamond_block",
+                            "minecraft:diamond_ore"
+                        ]
+                    }
+                ]
+            }
+        },
+        "collect_emerald": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:deepslate_emerald_ore",
+                            "minecraft:emerald",
+                            "minecraft:emerald_block",
+                            "minecraft:emerald_ore"
+                        ]
+                    }
+                ]
+            }
+        },
+        "collect_gold": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:deepslate_gold_ore",
+                            "minecraft:gold_block",
+                            "minecraft:gold_ingot",
+                            "minecraft:gold_nugget",
+                            "minecraft:gold_ore",
+                            "minecraft:nether_gold_ore",
+                            "minecraft:raw_gold",
+                            "minecraft:raw_gold_block"
+                        ]
+                    }
+                ]
+            }
+        },
+        "collect_iron": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:deepslate_iron_ore",
+                            "minecraft:iron_block",
+                            "minecraft:iron_ingot",
+                            "minecraft:iron_nugget",
+                            "minecraft:iron_ore",
+                            "minecraft:raw_iron",
+                            "minecraft:raw_iron_block"
+                        ]
+                    }
+                ]
+            }
+        },
+        "collect_lapis": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:deepslate_lapis_ore",
+                            "minecraft:lapis_block",
+                            "minecraft:lapis_lazuli",
+                            "minecraft:lapis_ore"
+                        ]
+                    }
+                ]
+            }
+        },
+        "collect_quartz": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:chiseled_quartz_block",
+                            "minecraft:nether_quartz_ore",
+                            "minecraft:quartz",
+                            "minecraft:quartz_block",
+                            "minecraft:quartz_bricks",
+                            "minecraft:quartz_pillar",
+                            "minecraft:quartz_slab",
+                            "minecraft:quartz_stairs",
+                            "minecraft:smooth_quartz",
+                            "minecraft:smooth_quartz_slab",
+                            "minecraft:smooth_quartz_stairs"
+                        ]
+                    }
+                ]
+            }
+        },
+        "collect_redstone": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:deepslate_redstone_ore",
+                            "minecraft:redstone",
+                            "minecraft:redstone_block",
+                            "minecraft:redstone_ore"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

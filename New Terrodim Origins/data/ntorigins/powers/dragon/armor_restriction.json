@@ -1,7 +1,7 @@
 {
     "type": "origins:restrict_armor",
     "head": {
-        "type": "origins:any_of",
+        "type": "origins:or",
         "conditions": [
             {
                 "type": "origins:ingredient",
@@ -17,7 +17,7 @@
         "inverted": true
     },
     "chest": {
-        "type": "origins:any_of",
+        "type": "origins:or",
         "conditions": [
             {
                 "type": "origins:ingredient",
@@ -33,7 +33,7 @@
         "inverted": true
     },
     "legs": {
-        "type": "origins:any_of",
+        "type": "origins:or",
         "conditions": [
             {
                 "type": "origins:ingredient",
@@ -49,7 +49,7 @@
         "inverted": true
     },
     "feet": {
-        "type": "origins:any_of",
+        "type": "origins:or",
         "conditions": [
             {
                 "type": "origins:ingredient",

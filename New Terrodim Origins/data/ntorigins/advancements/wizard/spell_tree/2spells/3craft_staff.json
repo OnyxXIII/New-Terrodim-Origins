@@ -1,0 +1,45 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:blaze_rod"
+        },
+        "title": "Craft a Staff of Power",
+        "description": "test",
+        "frame": "goal",
+        "announce_to_chat": false
+    },
+    "parent": "ntorigins:wizard/spell_tree/spellcaster",
+    "criteria": {
+        "crafted_staff": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "type_specific": {
+                                "type": "player",
+                                "advancements": {
+                                    "ntorigins:wizard/spell_tree/spellcaster": true
+                                }
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:blaze_rod"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

@@ -5,7 +5,7 @@
         "value": 0.5
     },
     "damage_condition": {
-        "type": "origins:all_of",
+        "type": "origins:and",
         "conditions": [
             {
                 "inverted": true,

@@ -1,0 +1,27 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:writable_book",
+            "nbt": "{CustomModelData:2130001}"
+        },
+        "title": "Spellbook",
+        "description": "Your study of the magical forces that suffuse this world have enabled you to channel them to create magical effects.",
+        "background": "minecraft:textures/block/bookshelf.png",
+        "frame": "challenge",
+        "announce_to_chat": false
+    },
+    "criteria": {
+        "chose_wizard": {
+            "trigger": "origins:chose_origin",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ],
+                "origin": "ntorigins:wizard"
+            }
+        }
+    }
+}

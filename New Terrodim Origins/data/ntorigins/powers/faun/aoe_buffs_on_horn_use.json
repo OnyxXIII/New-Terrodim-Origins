@@ -41,7 +41,7 @@
                         "action": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:haste",
+                                "effect": "minecraft:haste",
                                 "duration": 900
                             }
                         }
@@ -73,7 +73,7 @@
                         "action": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:speed",
+                                "effect": "minecraft:speed",
                                 "duration": 900
                             }
                         }
@@ -108,21 +108,21 @@
                                 {
                                     "type": "origins:apply_effect",
                                     "effect": {
-                                        "id": "minecraft:nausea",
+                                        "effect": "minecraft:nausea",
                                         "duration": 100
                                     }
                                 },
                                 {
                                     "type": "origins:apply_effect",
                                     "effect": {
-                                        "id": "minecraft:unluck",
+                                        "effect": "minecraft:unluck",
                                         "duration": 1728000
                                     }
                                 },
                                 {
                                     "type": "origins:apply_effect",
                                     "effect": {
-                                        "id": "minecraft:glowing",
+                                        "effect": "minecraft:glowing",
                                         "duration": 900
                                     }
                                 }
@@ -156,7 +156,7 @@
                         "action": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:absorption",
+                                "effect": "minecraft:absorption",
                                 "duration": 900
                             }
                         }
@@ -188,7 +188,7 @@
                         "action": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:regeneration",
+                                "effect": "minecraft:regeneration",
                                 "duration": 900
                             }
                         }
@@ -220,7 +220,7 @@
                         "action": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:weakness",
+                                "effect": "minecraft:weakness",
                                 "duration": 900
                             }
                         }
@@ -252,7 +252,7 @@
                         "action": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "id": "minecraft:resistance",
+                                "effect": "minecraft:resistance",
                                 "duration": 900
                             }
                         }

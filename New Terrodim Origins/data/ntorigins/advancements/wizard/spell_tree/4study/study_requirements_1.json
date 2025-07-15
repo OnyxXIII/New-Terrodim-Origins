@@ -1,0 +1,19 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:lectern"
+        },
+        "title": "Current Study Requirements - Magic Initiate",
+        "description": "You're new to the study of magic, and you enjoy your budding library, but there's not much to speak of here yet. You require only a bed and 15 bookshelves to accumulate study!",
+        "frame": "task",
+        "show_toast": true,
+        "announce_to_chat": false,
+        "hidden": false
+    },
+    "parent": "ntorigins:wizard/spell_tree/4study/current_study_requirements",
+    "criteria": {
+        "impossible": {
+            "trigger": "minecraft:impossible"
+        }
+    }
+}

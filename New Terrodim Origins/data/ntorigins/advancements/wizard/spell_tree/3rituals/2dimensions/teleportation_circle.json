@@ -1,0 +1,321 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:ender_eye",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "Teleportation Circle",
+        "description": "test",
+        "frame": "task",
+        "announce_to_chat": false
+    },
+    "parent": "ntorigins:wizard/spell_tree/3rituals/2dimensions/plane_shift",
+    "criteria": {
+        "visit_end_city": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "location": {
+                                "structure": "minecraft:end_city"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ]
+            }
+        },
+        "visit_ancient_city": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "location": {
+                                "structure": "minecraft:ancient_city"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ]
+            }
+        },
+        "visit_nether_fortress": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "location": {
+                                "structure": "minecraft:fortress"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ]
+            }
+        },
+        "visit_stronghold": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "location": {
+                                "structure": "minecraft:stronghold"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ]
+            }
+        },
+        "visit_ruined_portal": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "location": {
+                                "structure": "minecraft:ruined_portal"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ]
+            }
+        },
+        "visit_bastion": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "location": {
+                                "structure": "minecraft:bastion_remnant"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ]
+            }
+        },
+        "subspace_bubble": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "type_specific": {
+                                "type": "player",
+                                "advancements": {
+                                    "minecraft:nether/fast_travel": true,
+                                    "ntorigins:wizard/spell_tree/3rituals/2dimensions/plane_shift": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "visit_portal_desert": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "location": {
+                                "structure": "minecraft:ruined_portal_desert"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ]
+            }
+        },
+        "visit_portal_jungle": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "location": {
+                                "structure": "minecraft:ruined_portal_jungle"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ]
+            }
+        },
+        "visit_portal_mountain": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "location": {
+                                "structure": "minecraft:ruined_portal_mountain"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ]
+            }
+        },
+        "visit_portal_nether": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "location": {
+                                "structure": "minecraft:ruined_portal_nether"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ]
+            }
+        },
+        "visit_portal_ocean": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "location": {
+                                "structure": "minecraft:ruined_portal_ocean"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ]
+            }
+        },
+        "visit_portal_swamp": {
+            "trigger": "minecraft:location",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "location": {
+                                "structure": "minecraft:ruined_portal_swamp"
+                            }
+                        }
+                    },
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    }
+                ]
+            }
+        }
+    },
+    "requirements": [
+        [
+            "visit_end_city"
+        ],
+        [
+            "visit_ancient_city"
+        ],
+        [
+            "visit_nether_fortress"
+        ],
+        [
+            "visit_stronghold"
+        ],
+        [
+            "visit_ruined_portal",
+            "visit_portal_desert",
+            "visit_portal_jungle",
+            "visit_portal_mountain",
+            "visit_portal_nether",
+            "visit_portal_ocean",
+            "visit_portal_swamp"
+        ],
+        [
+            "visit_bastion"
+        ],
+        [
+            "subspace_bubble"
+        ]
+    ]
+}

@@ -4,7 +4,7 @@
     "rising_action": {
         "type": "origins:apply_effect",
         "effect": {
-            "id": "minecraft:water_breathing",
+            "effect": "minecraft:water_breathing",
             "duration": 300,
             "show_particles": false
         }

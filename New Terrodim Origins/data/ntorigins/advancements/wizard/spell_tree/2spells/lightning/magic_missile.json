@@ -1,0 +1,48 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:arrow",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "Magic Missile",
+        "description": "test",
+        "frame": "task",
+        "announce_to_chat": false
+    },
+    "parent": "ntorigins:wizard/spell_tree/2spells/lightning/magic_of_lightning",
+    "criteria": {
+        "kill_10_skeletons": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "type_specific": {
+                                "type": "player",
+                                "advancements": {
+                                    "ntorigins:wizard/spell_tree/2spells/lightning/magic_of_lightning": true
+                                },
+                                "stats": [
+                                    {
+                                        "type": "minecraft:killed",
+                                        "stat": "minecraft:skeleton",
+                                        "value": {
+                                            "min": 10
+                                        }
+                                    }
+                                ]
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

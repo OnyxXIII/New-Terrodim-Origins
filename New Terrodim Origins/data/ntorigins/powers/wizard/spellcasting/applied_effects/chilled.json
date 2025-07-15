@@ -1,0 +1,101 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "slowness": {
+        "type": "origins:stacking_status_effect",
+        "min_stacks": 0,
+        "max_stacks": 1,
+        "tick_rate": 1,
+        "duration_per_stack": 600,
+        "effects": [
+            {
+                "effect": "minecraft:slowness",
+                "amplifier": 2,
+                "show_particles": true,
+                "show_icon": true
+            }
+        ],
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "ntorigins:wizard/spellcasting/applied_effects/chilled_resource",
+                    "comparison": ">",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:origin",
+                    "origin": "ntorigins:wizard",
+                    "inverted": true
+                }
+            ]
+        }
+    },
+    "freeze": {
+        "type": "origins:freeze",
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "ntorigins:wizard/spellcasting/applied_effects/chilled_resource",
+                    "comparison": ">",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:origin",
+                    "origin": "ntorigins:wizard",
+                    "inverted": true
+                }
+            ]
+        }
+    },
+    "resource": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 31,
+        "start_value": 1,
+        "max_action": {
+            "type": "origins:change_resource",
+            "resource": "ntorigins:wizard/spellcasting/applied_effects/chilled_resource",
+            "change": 0,
+            "operation": "set"
+        },
+        "condition": {
+            "type": "origins:origin",
+            "origin": "ntorigins:wizard",
+            "inverted": true
+        }
+    },
+    "tick": {
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "ntorigins:wizard/spellcasting/applied_effects/chilled_resource",
+                    "change": 1
+                }
+            ]
+        },
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "ntorigins:wizard/spellcasting/applied_effects/chilled_resource",
+                    "comparison": ">",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:origin",
+                    "origin": "ntorigins:wizard",
+                    "inverted": true
+                }
+            ]
+        }
+    }
+}

@@ -1,0 +1,87 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:basalt",
+            "nbt": "{Enchantments:[{}]}"
+        },
+        "title": "Meld Into Earth",
+        "description": "test",
+        "frame": "task",
+        "announce_to_chat": false
+    },
+    "parent": "ntorigins:wizard/spell_tree/2spells/earth/shockwave",
+    "criteria": {
+        "collect_natural_stones": {
+            "trigger": "minecraft:inventory_changed",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "type_specific": {
+                                "type": "player",
+                                "advancements": {
+                                    "ntorigins:wizard/spell_tree/2spells/3craft_staff": true,
+                                    "ntorigins:wizard/spell_tree/2spells/earth/shockwave": true
+                                }
+                            }
+                        }
+                    }
+                ],
+                "items": [
+                    {
+                        "items": [
+                            "minecraft:andesite"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:basalt"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:calcite"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:deepslate"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:diorite"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:dripstone_block"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:granite"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:stone"
+                        ]
+                    },
+                    {
+                        "items": [
+                            "minecraft:tuff"
+                        ]
+                    }
+                ]
+            }
+        }
+    }
+}

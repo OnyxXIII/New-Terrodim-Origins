@@ -14,9 +14,9 @@
             "tag": "ntorigins:faun_food_additions"
         },
         "food_component": {
-            "nutrition": 4,
+            "hunger": 4,
             "saturation": 1.0,
-            "can_always_eat": true
+            "always_edible": true
         },
         "consume_action": "eat"
     },

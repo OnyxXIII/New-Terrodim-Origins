@@ -1,0 +1,40 @@
+{
+    "display": {
+        "icon": {
+            "item": "minecraft:bedrock"
+        },
+        "title": "Ritual Path of Matter",
+        "description": "\nKnowledge of earth, fire, and ice has led you to a deeper understanding of matter. There are deep magics that bind all objects together, and with further study, you believe you can bend those magics to your will.",
+        "frame": "goal",
+        "announce_to_chat": false
+    },
+    "parent": "ntorigins:wizard/spell_tree/3rituals/4rituals",
+    "criteria": {
+        "wizard": {
+            "trigger": "minecraft:tick",
+            "conditions": {
+                "player": [
+                    {
+                        "condition": "minecraft:reference",
+                        "name": "ntorigins:wizard"
+                    },
+                    {
+                        "condition": "minecraft:entity_properties",
+                        "entity": "this",
+                        "predicate": {
+                            "type": "minecraft:player",
+                            "type_specific": {
+                                "type": "player",
+                                "advancements": {
+                                    "ntorigins:wizard/spell_tree/2spells/fire/mastery_of_fire": true,
+                                    "ntorigins:wizard/spell_tree/2spells/ice/mastery_of_ice": true,
+                                    "ntorigins:wizard/spell_tree/2spells/earth/mastery_of_earth": true
+                                }
+                            }
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}

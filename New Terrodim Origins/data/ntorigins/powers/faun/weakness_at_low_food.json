@@ -3,7 +3,7 @@
     "damage_condition": {
         "type": "origins:attacker",
         "entity_condition": {
-            "type": "origins:all_of",
+            "type": "origins:and",
             "conditions": [
                 {
                     "type": "origins:equipped_item",

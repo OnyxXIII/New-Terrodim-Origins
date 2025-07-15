@@ -1,0 +1,1 @@
+title @s actionbar ["",{"text": "Spell Selected:","bold": true,"color": "dark_purple"},{"text": " ","color": "dark_purple"},{"text": "Fly","underlined": true,"color": "#69B8FF"},{"text": "   Press ","italic": true,"color": "white"},{"keybind": "key.origins.quinary_active","italic": true,"color": "white"},{"text": " to Cast","italic": true,"color": "white"}]
