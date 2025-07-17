@@ -1,0 +1,25 @@
+{
+  "type": "origins:multiple",
+  "name": "\u00A7a\u00A7nLegolas, what do you see?",
+  "description": "Your superior sight allows you to survey great distances.\n-use this ability to toggle your field of view-",
+  "toggle": {
+    "type": "origins:toggle",
+    "active_by_default": false,
+    "key": {
+      "key": "key.origins.secondary_active"
+    }
+  },
+  "fov": {
+    "type": "origins:modify_fov",
+    "modifier": {
+      "id": "ntorigins:elf_eyes",
+      "operation": "multiply_total_multiplicative",
+      "amount": 0.75
+    },
+    "affected_by_fov_effects_scale": false,
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_toggle"
+    }
+  }
+}
