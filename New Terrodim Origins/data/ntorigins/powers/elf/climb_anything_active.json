@@ -2,46 +2,6 @@
   "type": "origins:multiple",
   "name": "\u00A7a\u00A7nNimble",
   "description": "Your lithe athleticism allows you to briefly scale sheer surfaces.\n-use the ability to gain 30s of spider climb-",
-  "activate_climber": {
-    "type": "origins:active_self",
-    "entity_action": {
-      "type": "origins:change_resource",
-      "resource": "ntorigins:elf/climb_anything_active_climber_timer",
-      "change": 1,
-      "operation": "set"
-    },
-    "cooldown": 3600,
-    "hud_render": {
-      "bar_index": 8,
-      "sprite_location": "origins:textures/gui/resource_bar.png"
-    },
-    "key": {
-      "key": "key.origins.primary_active"
-    }
-  },
-  "climber_timer": {
-    "type": "origins:resource",
-    "min": 0,
-    "max": 31,
-    "hud_render": {
-      "should_render": false
-    }
-  },
-  "timer_tick": {
-    "type": "origins:action_over_time",
-    "interval": 20,
-    "entity_action": {
-      "type": "origins:change_resource",
-      "resource": "ntorigins:elf/climb_anything_active_climber_timer",
-      "change": 1
-    },
-    "condition": {
-      "type": "origins:resource",
-      "resource": "ntorigins:elf/climb_anything_active_climber_timer",
-      "comparison": ">",
-      "compare_to": 0
-    }
-  },
   "climber": {
     "type": "origins:climbing",
     "condition": {
@@ -51,37 +11,12 @@
           "type": "origins:collided_horizontally"
         },
         {
-          "type": "origins:resource",
-          "resource": "ntorigins:elf/climb_anything_active_climber_timer",
-          "comparison": ">",
-          "compare_to": 0
-        },
-        {
-          "type": "origins:resource",
-          "resource": "ntorigins:elf/climb_anything_active_climber_timer",
-          "comparison": "<",
-          "compare_to": 31
+          "type": "origins:sneaking"
         }
       ]
     },
     "hold_condition": {
       "type": "origins:collided_horizontally"
-    }
-  },
-  "timer_reset": {
-    "type": "origins:action_over_time",
-    "interval": 20,
-    "condition": {
-      "type": "origins:resource",
-      "resource": "ntorigins:elf/climb_anything_active_climber_timer",
-      "comparison": ">",
-      "compare_to": 30
-    },
-    "rising_action": {
-      "type": "origins:change_resource",
-      "resource": "ntorigins:elf/climb_anything_active_climber_timer",
-      "change": 0,
-      "operation": "set"
     }
   }
 }
