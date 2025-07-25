@@ -1,0 +1,9 @@
+{
+  "name": "\u00A7a\u00A7nTree Singing",
+  "description": "The ancient song of the forest flows through your veins. When you stand among the trees, they whisper their secrets and gift you their bounty.\n-When near trees, you will be granted wood-",
+  "type": "origins:toggle",
+  "active_by_default": true,
+  "key": {
+    "key": "key.origins.octonary_active"
+  }
+}

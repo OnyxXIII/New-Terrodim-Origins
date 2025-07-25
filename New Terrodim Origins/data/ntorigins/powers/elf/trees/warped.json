@@ -1,0 +1,43 @@
+{
+  "hidden": true,
+  "type": "origins:action_over_time",
+  "interval": 50,
+  "condition": {
+    "type": "origins:all_of",
+    "conditions": [
+      {
+        "type": "origins:block_in_radius",
+        "block_condition": {
+          "type": "origins:block",
+          "block": "minecraft:warped_stem"
+        },
+        "radius": 4,
+        "shape": "cube",
+        "comparison": ">=",
+        "compare_to": 2
+      },
+      {
+        "type": "origins:block_in_radius",
+        "block_condition": {
+          "type": "origins:block",
+          "block": "minecraft:warped_wart_block"
+        },
+        "radius": 4,
+        "shape": "cube",
+        "comparison": ">=",
+        "compare_to": 4
+      },
+      {
+        "type": "power_active",
+        "power": "ntorigins:elf/tree_singing_toggle"
+      }
+    ]
+  },
+  "entity_action": {
+    "type": "origins:give",
+    "stack": {
+      "id": "minecraft:warped_stem",
+      "count": 1
+    }
+  }
+}
