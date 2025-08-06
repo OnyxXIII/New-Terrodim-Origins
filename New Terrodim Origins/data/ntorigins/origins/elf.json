@@ -1,18 +1,30 @@
 {
-    "powers": [
-        "ntorigins:elf/axe_melee_restriction",
-        "ntorigins:elf/bow_damage_increase",
-        "ntorigins:elf/climb_anything_active",
-        "ntorigins:elf/dietary_restrictions",
-        "ntorigins:elf/fall_damage_reduction",
-        "ntorigins:elf/highlight_attackers",
-        "ntorigins:elf/night_vision",
-        "ntorigins:elf/speed_increase",
-        "ntorigins:hide_armor_toggle"
-    ],
-    "icon": "minecraft:bow",
-    "impact": 1,
-    "order": 2,
-    "name": "Elf",
-    "description": "Tall and Noble, the Elves care for the groves and creatures of New Terrodim. These elves are nimble and elegant, with masterful skills with the bow, but they eschew axes and refuse to eat meats."
+  "powers": [
+    "ntorigins:elf/axe_melee_restriction",
+    "ntorigins:elf/bow_damage_increase",
+    "ntorigins:elf/climb_anything_active",
+    "ntorigins:elf/dietary_restrictions",
+    "ntorigins:elf/fall_damage_reduction",
+    "ntorigins:elf/highlight_attackers",
+    "ntorigins:elf/elf_eyes",
+    "ntorigins:elf/night_vision",
+    "ntorigins:elf/speed_increase",
+    "ntorigins:elf/trees/acacia",
+    "ntorigins:elf/trees/birch",
+    "ntorigins:elf/trees/cherry",
+    "ntorigins:elf/trees/crimson",
+    "ntorigins:elf/trees/dark_oak",
+    "ntorigins:elf/trees/jungle",
+    "ntorigins:elf/trees/mangrove",
+    "ntorigins:elf/trees/oak",
+    "ntorigins:elf/trees/spruce",
+    "ntorigins:elf/trees/warped",
+    "ntorigins:elf/tree_singing_toggle",
+    "ntorigins:hide_armor_toggle"
+  ],
+  "icon": { "id": "minecraft:bow" },
+  "impact": 1,
+  "order": 2,
+  "name": "Elf",
+  "description": "Tall and Noble, the Elves care for the groves and creatures of New Terrodim. These elves are nimble and elegant, with masterful skills with the bow, but they eschew axes and refuse to eat meats."
 }

@@ -1,14 +1,15 @@
 {
-    "replace": true,
-    "origins": [
-        "ntorigins:centaur",
-        "ntorigins:dragonborn",
-        "ntorigins:dwarf",
-        "ntorigins:elf",
-        "ntorigins:faun",
-        "ntorigins:human",
-        "ntorigins:naga",
-        "ntorigins:wharf_rat",
-        "ntorigins:wizard"
-    ]
+  "replace": true,
+  "loading_priority": 1,
+  "origins": [
+    "ntorigins:centaur",
+    "ntorigins:dragonborn",
+    "ntorigins:dwarf",
+    "ntorigins:elf",
+    "ntorigins:faun",
+    "ntorigins:human",
+    "ntorigins:naga",
+    "ntorigins:wharf_rat",
+    "ntorigins:wizard"
+  ]
 }
