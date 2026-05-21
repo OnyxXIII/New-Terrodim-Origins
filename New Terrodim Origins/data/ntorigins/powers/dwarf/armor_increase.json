@@ -3,9 +3,10 @@
 	"helmet_boost": {
 		"type": "origins:conditioned_attribute",
 		"modifier": {
+			"id": "ntorigins:dwarf/head_armor_increase",
 			"attribute": "generic.armor",
-			"operation": "addition",
-			"value": 1
+			"operation": "add_value",
+			"amount": 1
 		},
 		"condition": {
 			"type": "origins:equipped_item",
@@ -21,9 +22,10 @@
 	"chestplate_boost": {
 		"type": "origins:conditioned_attribute",
 		"modifier": {
+			"id": "ntorigins:dwarf/chest_armor_increase",
 			"attribute": "generic.armor",
-			"operation": "addition",
-			"value": 2
+			"operation": "add_value",
+			"amount": 2
 		},
 		"condition": {
 			"type": "origins:equipped_item",
@@ -39,9 +41,10 @@
 	"leggings_boost": {
 		"type": "origins:conditioned_attribute",
 		"modifier": {
-			"attribute": "generic.armor",
-			"operation": "addition",
-			"value": 2
+			"id": "ntorigins:dwarf/leg_armor_increase",
+			"attribute": "minecraft:generic.armor",
+			"operation": "add_value",
+			"amount": 2
 		},
 		"condition": {
 			"type": "origins:equipped_item",
@@ -57,9 +60,10 @@
 	"boots_boost": {
 		"type": "origins:conditioned_attribute",
 		"modifier": {
+			"id": "ntorigins:dwarf/foot_armor_increase",
 			"attribute": "generic.armor",
-			"operation": "addition",
-			"value": 1
+			"operation": "add_value",
+			"amount": 1
 		},
 		"condition": {
 			"type": "origins:equipped_item",
