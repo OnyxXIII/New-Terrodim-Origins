@@ -3,7 +3,8 @@
 	"haste": {
 		"type": "origins:modify_break_speed",
 		"modifier": {
-			"operation": "multiply_base",
+			"id": "ntorigins:dwarf/haste_and_ore_loot_increase_underground/haste",
+			"operation": "multiply_base_additive",
 			"value": 0.5
 		},
 		"block_condition": {
