@@ -3,8 +3,8 @@
 		"modifier": {
 			"id": "ntorigins:dwarf/mob_aggro_range_increase",
 			"attribute": "additionalentityattributes:generic.mob_detection_range",
-			"amount": 1,
-			"operation": "add_multiplied_base"
+			"amount": 1.0,
+			"operation": "add_multiplied_total"
 		},
 	"name": "\u00A7c\u00A7nNot Stealthy",
 	"description": "Your foes know when you are coming, whether you want them to or not.\n-mobs detect you further away-"
