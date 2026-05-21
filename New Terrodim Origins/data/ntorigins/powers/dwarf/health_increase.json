@@ -3,8 +3,8 @@
     "modifier": {
         "id": "ntorigins:dwarf/health_increase",
         "attribute": "minecraft:generic.max_health",
-        "value": 4.0,
-        "operation": "addition"
+        "amount": 4.0,
+        "operation": "add_value"
     },
     "name": "\u00A7a\u00A7nStout",
     "description": "Your dwarven constitution makes you healthier than average.\n-+2 hearts-"
