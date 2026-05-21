@@ -1,6 +1,7 @@
 {
     "type": "origins:attribute",
     "modifier": {
+        "id": "ntorigins:dwarf/health_increase",
         "attribute": "minecraft:generic.max_health",
         "value": 4.0,
         "operation": "addition"
