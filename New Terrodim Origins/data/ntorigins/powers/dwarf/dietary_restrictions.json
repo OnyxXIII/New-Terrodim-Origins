@@ -7,14 +7,18 @@
 			"ingredient": {
 				"tag": "ntorigins:dwarf_dietary_restrictions"
 			}
-		}
+		},
+		"name": "\u00A7c\u00A7nHardy Diet",
+		"description": "You don't eat rabbit food! Only meat, potatoes, and mushrooms for you!\n-Can only eat meats, stews, and potatoes-"
 	},
 	"cakes": {
 		"type": "origins:prevent_block_use",
 		"block_condition": {
 			"type": "origins:in_tag",
 			"tag": "ntorigins:cakes"
-		}
+		},
+		"name": "\u00A7c\u00A7nHardy Diet",
+		"description": "You don't eat rabbit food! Only meat, potatoes, and mushrooms for you!\n-Can only eat meats, stews, and potatoes-"
 	},
 	"name": "\u00A7c\u00A7nHardy Diet",
 	"description": "You don't eat rabbit food! Only meat, potatoes, and mushrooms for you!\n-Can only eat meats, stews, and potatoes-"
