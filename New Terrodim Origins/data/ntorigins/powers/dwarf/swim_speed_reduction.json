@@ -4,7 +4,7 @@
         "type": "origins:modify_swim_speed",
         "modifier": {
             "id": "ntorigins:dwarf/swim_speed_reduction/slow",
-            "operation": "multiply_total_multiplicative",
+            "operation": "add_multiplied_base",
             "amount": -0.5
         }
     },
