@@ -1,7 +1,6 @@
 {
 	"type": "origins:modify_break_speed",
 	"modifier": {
-		"id": "ntorigins:dwarf/haste_underground",
 		"operation": "multiply_base_additive",
 		"amount": 0.5
 	},
