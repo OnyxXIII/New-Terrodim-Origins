@@ -3,8 +3,9 @@
     "slow": {
         "type": "origins:modify_swim_speed",
         "modifier": {
+            "id": "*:*_*",
             "operation": "multiply_total",
-            "value": -0.59
+            "amount": -0.59
         },
         "condition": {
             "type": "origins:fluid_height",
