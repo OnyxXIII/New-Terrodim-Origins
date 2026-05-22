@@ -37,11 +37,7 @@
                 {
                     "type": "origins:damage",
                     "amount": 2,
-                    "source": {
-                        "name": "onFire.player",
-                        "bypasses_armor": true,
-                        "fire": true
-                    }
+                    "damage_type": "on_fire"
                 }
             ]
         }
