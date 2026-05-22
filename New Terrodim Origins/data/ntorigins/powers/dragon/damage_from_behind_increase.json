@@ -10,7 +10,7 @@
         "compare_to": 0
     },
     "modifier": {
-        "value": 0.35,
-        "operation": "multiply_total"
+        "amount": 0.35,
+        "operation": "add_multiplied_total"
     }
 }
