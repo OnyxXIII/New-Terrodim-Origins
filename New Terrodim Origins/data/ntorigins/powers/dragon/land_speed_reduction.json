@@ -1,9 +1,10 @@
 {
     "type": "origins:attribute",
     "modifier": {
+        "id": "*:*",
         "attribute": "minecraft:generic.movement_speed",
-        "value": -0.5,
-        "operation": "multiply_base"
+        "amount": -0.5,
+        "operation": "add_multiplied_base"
     },
     "conditon": {
         "type": "origins:fall_flying",
