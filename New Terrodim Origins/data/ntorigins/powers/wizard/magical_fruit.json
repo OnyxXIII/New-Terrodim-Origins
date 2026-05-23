@@ -9,18 +9,12 @@
         }
     },
     "food_modifier": {
-        "operation": "addition",
-        "value": 3.0
+        "operation": "add_base_early",
+        "amount": 3.0
     },
     "saturation_modifier": {
-        "operation": "addition",
-        "value": 12.4
-    },
-    "entity_action": {
-        "type": "origins:change_resource",
-        "resource": "ntorigins:wizard/spellcasting/mana_pool",
-        "change": 20,
-        "operation": "add"
+        "operation": "add_base_early",
+        "amount": 12.4
     },
     "always_edible": true
 }
