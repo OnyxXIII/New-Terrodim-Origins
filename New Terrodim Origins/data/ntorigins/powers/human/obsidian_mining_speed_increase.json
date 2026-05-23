@@ -14,7 +14,7 @@
         ]
     },
     "modifier": {
-        "operation": "multiply_base",
+        "operation": "multiply_base_additive",
         "value": 1
     },
     "name": "\u00A7a\u00A7nParanoid About Creepers",
