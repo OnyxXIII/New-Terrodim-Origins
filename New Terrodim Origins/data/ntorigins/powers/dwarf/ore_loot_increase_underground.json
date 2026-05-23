@@ -1,7 +1,7 @@
 {
 	"type": "origins:replace_loot_table",
 	"replace": {
-		"([a-z|0-9|\\-|_]):blocks\/(([a-z|0-9|\\-|_]))_ore": "ntorigins:double_rolls"
+		".+_ore": "ntorigins:double_rolls"
 	},
 	"condition": {
 		"inverted": true,
