@@ -19,7 +19,7 @@
                 }
             },
             "result": {
-                "item": "smallships:cannon"
+                "id": "smallships:cannon"
             }
         }
     },
@@ -43,7 +43,7 @@
                 }
             ],
             "result": {
-                "item": "smallships:cannon_ball",
+                "id": "smallships:cannon_ball",
                 "count": 2
             }
         }
@@ -52,7 +52,7 @@
         "type": "origins:modify_crafting",
         "recipe": "minecraft:tnt",
         "result": {
-            "item": "minecraft:tnt",
+            "id": "minecraft:tnt",
             "amount": 2
         }
     },
