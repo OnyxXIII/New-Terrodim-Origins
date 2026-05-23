@@ -3,6 +3,6 @@
         "attribute": "minecraft:generic.max_health",
         "modifier": {
             "operation": "multiply_base_multiplicative",
-            "value": 0.5
+            "amount": 0.5
         }
 }

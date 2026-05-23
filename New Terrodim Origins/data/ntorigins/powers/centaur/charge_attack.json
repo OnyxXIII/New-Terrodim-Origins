@@ -60,7 +60,8 @@
 							},
 							{
 								"type": "origins:damage",
-								"amount": 8
+								"amount": 8,
+								"damage_type": "minecraft:player_attack"
 							}
 						]
 					},

@@ -5,7 +5,7 @@
 		"projectile": "minecraft:arrow"
 	},
 	"modifier": {
-		"operation": "addition",
+		"operation": "add_base_early",
 		"value": 3.5
 	},
 	"name": "\u00A7a\u00A7nMaster Archer",
