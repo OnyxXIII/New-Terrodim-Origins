@@ -15,7 +15,7 @@
     },
     "modifier": {
         "operation": "multiply_base_additive",
-        "value": 1
+        "amount": 1
     },
     "name": "\u00A7a\u00A7nParanoid About Creepers",
     "description": "Long experience building creeper-proof structures has given you an expert's ability to harvest blast-proof obsidian at great speed.\n-You mine obsidian twice as fast.-'"

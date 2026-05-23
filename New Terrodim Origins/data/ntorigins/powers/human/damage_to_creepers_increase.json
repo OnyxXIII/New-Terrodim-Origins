@@ -9,7 +9,7 @@
     },
     "modifier": {
         "operation": "multiply_total_multiplicative",
-        "value": 1
+        "amount": 1
     },
     "name": "\u00A7a\u00A7nCreeper Slayer",
     "description": "You are an expert at killing creepers. All your attacks to them deal double damage.\n-+100% damage dealt to creepers.-"

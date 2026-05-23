@@ -17,7 +17,7 @@
                             "element": {
                                 "type": "origins:give",
                                 "stack": {
-                                    "id": "minecraft:iron",
+                                    "id": "minecraft:iron_ingot",
                                     "count": 1
                                 }
                             },
@@ -27,7 +27,7 @@
                             "element": {
                                 "type": "origins:give",
                                 "stack": {
-                                    "id": "minecraft:iron",
+                                    "id": "minecraft:iron_ingot",
                                     "count": 2
                                 }
                             },
