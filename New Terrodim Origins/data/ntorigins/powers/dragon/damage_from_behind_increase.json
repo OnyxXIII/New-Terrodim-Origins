@@ -11,6 +11,6 @@
     },
     "modifier": {
         "amount": 0.35,
-        "operation": "add_multiplied_total"
+        "operation": "multiply_total_multiplicative"
     }
 }
