@@ -1,5 +1,11 @@
 {
-    "type": "origins:simple",
+    "type": "origins:attribute",
+    "modifier": {
+        "id": "*:*",
+        "attribute": "minecraft:generic.step_height",
+        "operation": "add_value",
+        "amount": 0.4
+    },
     "name": "\u00A7a\u00A7nHigh Steps",
     "description": "You can step up single blocks as rapidly as stairs.\n-You step up blocks without jumping.-"
     
