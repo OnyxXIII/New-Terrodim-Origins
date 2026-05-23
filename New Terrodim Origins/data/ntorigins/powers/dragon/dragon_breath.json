@@ -86,7 +86,7 @@
                             "block": "minecraft:fire"
                         },
                         "condition": {
-                            "type": "origins:repleacable"
+                            "type": "origins:replaceable"
                         }
                     }
                 ]
