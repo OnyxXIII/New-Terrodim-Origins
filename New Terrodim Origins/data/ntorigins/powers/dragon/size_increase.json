@@ -1,19 +1,19 @@
 {
     "type": "origins:attribute",
-		"modifiers": [
-            {
-                "id": "*:*/height",
-                "attribute": "additionalentityattributes:generic.height",
-                "amount": 0.5,
-                "operation": "add_multiplied_base"
-		    },
-            {
-                "id": "*:*/width",
-                "attribute": "additionalentityattributes:generic.width",
-                "amount": 1.0,
-                "operation": "add_multiplied_base"
-            }
-        ],
+    "modifiers": [
+        {
+            "id": "*:*/height",
+            "attribute": "additionalentityattributes:generic.height",
+            "amount": 0.5,
+            "operation": "add_multiplied_base"
+        },
+        {
+            "id": "*:*/width",
+            "attribute": "additionalentityattributes:generic.width",
+            "amount": 1.0,
+            "operation": "add_multiplied_base"
+        }
+    ],
     "name": "\u00A7b\u00A7nTowering Stature",
     "description": "Your imposing frame towers over lesser creatures (which is to say... all of them)\n-you are 2 blocks wide and 3 blocks tall-"
 }
