@@ -27,7 +27,7 @@
             },
             {
                 "type": "origins:custom_data",
-                "nbt": "{Trim:{material:\"minecraft:gold\"}}"
+                "nbt": "{components: {\"minecraft:trim\": {material: \"minecraft:gold\"}}}"
             }
         ],
         "inverted": true
