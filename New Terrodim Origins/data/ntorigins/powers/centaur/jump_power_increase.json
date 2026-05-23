@@ -1,5 +1,11 @@
 {
     "name": "\u00A7a\u00A7nEquine Leap",
     "description": "You jump higher and farther than a human.\n-use jump key to leap up several blocks-",
-    "type": "origins:simple"
+    "type": "origins:attribute",
+    "modifier": {
+        "id": "*:*",
+        "attribute": "minecraft:generic.jump_strength",
+        "operation": "add_value",
+        "amount": 0.3
+    }
 }

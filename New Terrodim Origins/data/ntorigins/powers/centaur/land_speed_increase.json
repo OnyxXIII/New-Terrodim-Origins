@@ -1,5 +1,14 @@
 {
-    "type": "origins:simple",
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "id": "*:*",
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "add_value",
+        "amount": 0.2
+    },
+    "condition": {
+        "type": "origins:sprinting"
+    },
     "name": "\u00A7a\u00A7nHorsepower",
     "description": "You move lightning-quick on land.\n-Much faster move speed on land-"
 }
