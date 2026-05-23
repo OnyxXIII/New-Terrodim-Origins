@@ -63,5 +63,7 @@
             "type": "origins:predicate",
             "predicate": "ntorigins:baby_horse"
         }
-    }
+    },
+    "name": "\u00A7a\u00A7nEquine Expertise",
+    "description": "Your ability to foster the next generation of equestrian excellence is unmatched.\n-Chance to grant stat bonuses to baby horses when feeding them golden apples-"
 }
