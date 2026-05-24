@@ -25,8 +25,9 @@
 			}
 		},
 		"modifier": {
-			"operation": "addition",
-			"value": -20.0
+			"id": "*:*",
+			"operation": "add_base_early",
+			"amount": -20.0
 		}
 	},
 	"armor": {

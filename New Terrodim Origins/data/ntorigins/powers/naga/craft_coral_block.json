@@ -15,7 +15,7 @@
                 }
             },
             "result": {
-                "item": "minecraft:brain_coral_block",
+                "id": "minecraft:brain_coral_block",
                 "count": 1
             },
             "group": "coral_blocks"
@@ -36,7 +36,7 @@
                 }
             },
             "result": {
-                "item": "minecraft:bubble_coral_block",
+                "id": "minecraft:bubble_coral_block",
                 "count": 1
             },
             "group": "coral_blocks"
@@ -57,7 +57,7 @@
                 }
             },
             "result": {
-                "item": "minecraft:fire_coral_block",
+                "id": "minecraft:fire_coral_block",
                 "count": 1
             },
             "group": "coral_blocks"
@@ -78,7 +78,7 @@
                 }
             },
             "result": {
-                "item": "minecraft:horn_coral_block",
+                "id": "minecraft:horn_coral_block",
                 "count": 1
             },
             "group": "coral_blocks"
@@ -99,7 +99,7 @@
                 }
             },
             "result": {
-                "item": "minecraft:tube_coral_block",
+                "id": "minecraft:tube_coral_block",
                 "count": 1
             },
             "group": "coral_blocks"

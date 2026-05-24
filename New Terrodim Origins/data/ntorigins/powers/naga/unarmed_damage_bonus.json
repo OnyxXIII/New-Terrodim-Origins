@@ -1,8 +1,9 @@
 {
     "type": "origins:modify_damage_dealt",
     "modifier": {
-        "operation": "addition",
-        "value": 4
+        "id": "*:*",
+        "operation": "add_base_early",
+        "amount": 4
     },
     "condition": {
         "type": "origins:equipped_item",
