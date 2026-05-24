@@ -6,7 +6,7 @@
             "id": "ntorigins:faun/oak_logs_from_saplings",
             "type": "minecraft:crafting_shaped",
             "result": {
-                "item": "minecraft:oak_log",
+                "id": "minecraft:oak_log",
                 "count": 1
             },
             "pattern": [
@@ -26,7 +26,7 @@
             "id": "ntorigins:faun/birch_logs_from_saplings",
             "type": "minecraft:crafting_shaped",
             "result": {
-                "item": "minecraft:birch_log",
+                "id": "minecraft:birch_log",
                 "count": 1
             },
             "pattern": [
@@ -46,7 +46,7 @@
             "id": "ntorigins:faun/spruce_logs_from_saplings",
             "type": "minecraft:crafting_shaped",
             "result": {
-                "item": "minecraft:spruce_log",
+                "id": "minecraft:spruce_log",
                 "count": 1
             },
             "pattern": [
@@ -66,7 +66,7 @@
             "id": "ntorigins:faun/jungle_logs_from_saplings",
             "type": "minecraft:crafting_shaped",
             "result": {
-                "item": "minecraft:jungle_log",
+                "id": "minecraft:jungle_log",
                 "count": 1
             },
             "pattern": [
@@ -86,7 +86,7 @@
             "id": "ntorigins:faun/acacia_logs_from_saplings",
             "type": "minecraft:crafting_shaped",
             "result": {
-                "item": "minecraft:acacia_log",
+                "id": "minecraft:acacia_log",
                 "count": 1
             },
             "pattern": [
@@ -106,7 +106,7 @@
             "id": "ntorigins:faun/dark_oak_logs_from_saplings",
             "type": "minecraft:crafting_shaped",
             "result": {
-                "item": "minecraft:dark_oak_log",
+                "id": "minecraft:dark_oak_log",
                 "count": 1
             },
             "pattern": [
@@ -126,7 +126,7 @@
             "id": "ntorigins:faun/mangrove_logs_from_saplings",
             "type": "minecraft:crafting_shaped",
             "result": {
-                "item": "minecraft:mangrove_log",
+                "id": "minecraft:mangrove_log",
                 "count": 1
             },
             "pattern": [
@@ -146,7 +146,7 @@
             "id": "ntorigins:faun/cherry_logs_from_saplings",
             "type": "minecraft:crafting_shaped",
             "result": {
-                "item": "minecraft:cherry_log",
+                "id": "minecraft:cherry_log",
                 "count": 1
             },
             "pattern": [

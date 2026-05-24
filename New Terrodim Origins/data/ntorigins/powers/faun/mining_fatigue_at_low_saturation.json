@@ -5,7 +5,7 @@
     "duration_per_stack": 10,
     "effects": [
         {
-            "effect": "minecraft:mining_fatigue",
+            "id": "minecraft:mining_fatigue",
             "is_ambient": true,
             "show_particles": false,
             "show_icon": true

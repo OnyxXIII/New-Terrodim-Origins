@@ -1,9 +1,10 @@
 {
     "type": "origins:conditioned_attribute",
     "modifier": {
+        "id": "*:*",
         "attribute": "minecraft:generic.movement_speed",
-        "value": 0.5,
-        "operation": "multiply_base"
+        "amount": 0.5,
+        "operation": "add_multiplied_base"
     },
     "condition": {
         "type": "origins:sprinting"

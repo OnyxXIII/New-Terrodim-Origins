@@ -10,13 +10,15 @@
     "eat_anything": {
         "type": "origins:edible_item",
         "item_condition": {
-            "type": "origins:in_tag",
-            "tag": "ntorigins:faun_food_additions"
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "ntorigins:faun_food_additions"
+            }
         },
         "food_component": {
-            "hunger": 4,
+            "nutrition": 4,
             "saturation": 1.0,
-            "always_edible": true
+            "can_always_eat": true
         },
         "consume_action": "eat"
     },

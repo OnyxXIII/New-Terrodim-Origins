@@ -5,8 +5,8 @@
         "tag": "ntorigins:faun_creature_damage_blacklist"
     },
     "modifier": {
-        "operation": "multiply_total",
-        "value": -1
+        "operation": "multiply_total_multiplicative",
+        "amount": -1
     },
     "name": "\u00A7c\u00A7nBoth Friends And Food!",
     "description": "The world is filled with friends - and food - and you are careful to make that distinction, when applicable!"

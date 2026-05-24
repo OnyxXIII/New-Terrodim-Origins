@@ -228,7 +228,7 @@
         "type": "origins:action_on_block_use",
         "block_condition": {
             "type": "origins:block",
-            "block": "minecraft:small_fern"
+            "block": "minecraft:fern"
         },
         "item_condition": {
             "type": "origins:ingredient",

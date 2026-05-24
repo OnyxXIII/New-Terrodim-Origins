@@ -21,7 +21,7 @@
     "ntorigins:faun/weakness_at_low_food",
     "ntorigins:hide_armor_toggle"
   ],
-  "icon": { "id:": "minecraft:goat_horn" },
+  "icon": { "id": "minecraft:goat_horn" },
   "impact": 2,
   "order": 4,
   "name": "Faun",

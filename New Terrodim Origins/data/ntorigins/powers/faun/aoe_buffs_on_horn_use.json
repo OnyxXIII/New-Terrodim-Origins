@@ -29,7 +29,7 @@
                     "type": "origins:equipped_item",
                     "equipment_slot": "mainhand",
                     "item_condition": {
-                        "type": "origins:nbt",
+                        "type": "origins:custom_data",
                         "nbt": "{instrument: \"minecraft:ponder_goat_horn\"}"
                     }
                 },
@@ -41,7 +41,7 @@
                         "action": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "effect": "minecraft:haste",
+                                "id": "minecraft:haste",
                                 "duration": 900
                             }
                         }
@@ -61,7 +61,7 @@
                     "type": "origins:equipped_item",
                     "equipment_slot": "mainhand",
                     "item_condition": {
-                        "type": "origins:nbt",
+                        "type": "origins:custom_data",
                         "nbt": "{instrument:\"minecraft:sing_goat_horn\"}"
                     }
                 },
@@ -73,7 +73,7 @@
                         "action": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "effect": "minecraft:speed",
+                                "id": "minecraft:speed",
                                 "duration": 900
                             }
                         }
@@ -93,7 +93,7 @@
                     "type": "origins:equipped_item",
                     "equipment_slot": "mainhand",
                     "item_condition": {
-                        "type": "origins:nbt",
+                        "type": "origins:custom_data",
                         "nbt": "{instrument:\"minecraft:seek_goat_horn\"}"
                     }
                 },
@@ -108,21 +108,21 @@
                                 {
                                     "type": "origins:apply_effect",
                                     "effect": {
-                                        "effect": "minecraft:nausea",
+                                        "id": "minecraft:nausea",
                                         "duration": 100
                                     }
                                 },
                                 {
                                     "type": "origins:apply_effect",
                                     "effect": {
-                                        "effect": "minecraft:unluck",
+                                        "id": "minecraft:unluck",
                                         "duration": 1728000
                                     }
                                 },
                                 {
                                     "type": "origins:apply_effect",
                                     "effect": {
-                                        "effect": "minecraft:glowing",
+                                        "id": "minecraft:glowing",
                                         "duration": 900
                                     }
                                 }
@@ -144,7 +144,7 @@
                     "type": "origins:equipped_item",
                     "equipment_slot": "mainhand",
                     "item_condition": {
-                        "type": "origins:nbt",
+                        "type": "origins:custom_data",
                         "nbt": "{instrument:\"minecraft:feel_goat_horn\"}"
                     }
                 },
@@ -156,7 +156,7 @@
                         "action": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "effect": "minecraft:absorption",
+                                "id": "minecraft:absorption",
                                 "duration": 900
                             }
                         }
@@ -176,7 +176,7 @@
                     "type": "origins:equipped_item",
                     "equipment_slot": "mainhand",
                     "item_condition": {
-                        "type": "origins:nbt",
+                        "type": "origins:custom_data",
                         "nbt": "{instrument:\"minecraft:admire_goat_horn\"}"
                     }
                 },
@@ -188,7 +188,7 @@
                         "action": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "effect": "minecraft:regeneration",
+                                "id": "minecraft:regeneration",
                                 "duration": 900
                             }
                         }
@@ -208,7 +208,7 @@
                     "type": "origins:equipped_item",
                     "equipment_slot": "mainhand",
                     "item_condition": {
-                        "type": "origins:nbt",
+                        "type": "origins:custom_data",
                         "nbt": "{instrument:\"minecraft:call_goat_horn\"}"
                     }
                 },
@@ -220,7 +220,7 @@
                         "action": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "effect": "minecraft:weakness",
+                                "id": "minecraft:weakness",
                                 "duration": 900
                             }
                         }
@@ -240,7 +240,7 @@
                     "type": "origins:equipped_item",
                     "equipment_slot": "mainhand",
                     "item_condition": {
-                        "type": "origins:nbt",
+                        "type": "origins:custom_data",
                         "nbt": "{instrument:\"minecraft:yearn_goat_horn\"}"
                     }
                 },
@@ -252,7 +252,7 @@
                         "action": {
                             "type": "origins:apply_effect",
                             "effect": {
-                                "effect": "minecraft:resistance",
+                                "id": "minecraft:resistance",
                                 "duration": 900
                             }
                         }
@@ -272,7 +272,7 @@
                     "type": "origins:equipped_item",
                     "equipment_slot": "mainhand",
                     "item_condition": {
-                        "type": "origins:nbt",
+                        "type": "origins:custom_data",
                         "nbt": "{instrument:\"minecraft:dream_goat_horn\"}"
                     }
                 },
