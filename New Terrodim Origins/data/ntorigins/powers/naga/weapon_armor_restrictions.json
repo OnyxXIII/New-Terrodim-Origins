@@ -7,7 +7,8 @@
 			"ingredient": {
 				"tag": "ntorigins:bows"
 			}
-		}
+		},
+		"name": "\u00A7c\u00A7nUnused to Warfare"
 	},
 	"left_clicks": {
 		"type": "origins:modify_damage_dealt",
@@ -28,7 +29,8 @@
 			"id": "*:*",
 			"operation": "add_base_early",
 			"amount": -20.0
-		}
+		},
+		"name": "\u00A7c\u00A7nUnused to Warfare"
 	},
 	"armor": {
 		"type": "origins:restrict_armor",
@@ -55,7 +57,8 @@
 			"ingredient": {
 				"tag": "ntorigins:naga_armor_blacklist"
 			}
-		}
+		},
+		"name": "\u00A7c\u00A7nUnused to Warfare"
 	},
 	"name": "\u00A7c\u00A7nUnused to Warfare",
 	"description": "Your land is rarely troubled by monsters, and your people do not fight except to hunt. You do not know how to use most weapons and armor.\n-can only use leather armor and tridents-"
