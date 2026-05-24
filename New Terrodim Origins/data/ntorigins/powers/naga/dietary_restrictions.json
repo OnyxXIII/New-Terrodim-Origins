@@ -7,14 +7,16 @@
             "ingredient": {
                 "tag": "ntorigins:naga_dietary_restrictions"
             }
-        }
+        },
+        "name": "\u00A7c\u00A7nPiscivore"
     },
     "cakes": {
         "type": "origins:prevent_block_use",
         "block_condition": {
             "type": "origins:in_tag",
             "tag": "ntorigins:cakes"
-        }
+        },
+        "name": "\u00A7c\u00A7nPiscivore"
     },
     "name": "\u00A7c\u00A7nPiscivore",
     "description": "Your diet consists entirely of fish.\n-can only eat fish-"
