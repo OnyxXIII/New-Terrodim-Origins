@@ -3,8 +3,9 @@
     "description": "Terrain others find difficult is even more trouble for you.\n-You slip extra fast on ice-",
     "type": "origins:modify_slipperiness",
     "modifier": {
-        "operation": "multiply_total",
-        "value": 0.15
+        "id": "*:*",
+        "operation": "multiply_total_multiplicative",
+        "amount": 0.15
     },
     "block_condition": {
         "type": "origins:slipperiness",

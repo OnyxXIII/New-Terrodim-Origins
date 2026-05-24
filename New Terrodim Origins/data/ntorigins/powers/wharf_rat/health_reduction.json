@@ -1,9 +1,10 @@
 {
     "type": "origins:attribute",
     "modifier": {
+        "id": "*:*",
         "attribute": "minecraft:generic.max_health",
-        "value": -10,
-        "operation": "addition"
+        "amount": -10,
+        "operation": "add_value"
     },
     "name": "\u00A7c\u00A7nRodent Constitution",
     "description": "Your species is not known for its hardiness, and you have less than average health.\n-50% health-"
