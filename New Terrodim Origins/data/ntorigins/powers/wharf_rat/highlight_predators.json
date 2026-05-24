@@ -4,7 +4,7 @@
     "name": "\u00A7a\u00A7nScream",
     "description": "You emit a piercing scream, which reveals the locations of your nearest natural predators.\n-use ability to scream and highlight nearby phantoms and naga-",
     "activate_scream": {
-        "type": "origins:active_self",
+        "type": "origins:action_on_key_press",
         "entity_action": {
             "type": "origins:and",
             "actions": [
