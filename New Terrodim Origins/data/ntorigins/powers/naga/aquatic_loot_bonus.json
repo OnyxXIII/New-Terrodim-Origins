@@ -3,6 +3,6 @@
     "name": "\u00A7a\u00A7nExpert Aquatic Hunter",
     "description": "As a master of hunting under the waves, you know the way to kill sea creatures so that you get the most out of their remains.\n-you sometimes get prismarine shards or crystals from killing aquatic creatures-",
     "replace": {
-        "minecraft:entities/(axolotl|cod|dolphin|drowned|glow_squid|elder_guardian|guardian|pufferfish|salmon|squid|tadpole|tropical_fish|turtle)": "ntorigins:double_rolls"
+        "minecraft:entities/(axolotl|cod|dolphin|drowned|glow_squid|elder_guardian|guardian|pufferfish|salmon|squid|tadpole|tropical_fish|turtle)": "ntorigins:naga_extras"
     }
 }
