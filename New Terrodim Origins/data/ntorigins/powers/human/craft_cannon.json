@@ -3,7 +3,7 @@
     "cannons": {
         "type": "origins:recipe",
         "recipe": {
-            "id": "ntorigins:pirate/spud_gun",
+            "id": "ntorigins:pirate_spud_gun",
             "type": "minecraft:crafting_shaped",
             "pattern": [
                 "II ",
@@ -19,14 +19,15 @@
                 }
             },
             "result": {
-                "id": "smallships:cannon"
+                "id": "smallships:cannon",
+                "count": 1
             }
         }
     },
     "cannon_balls": {
         "type": "origins:recipe",
         "recipe": {
-            "id": "ntorigins:pirate/spud",
+            "id": "ntorigins:pirate_spud",
             "type": "minecraft:crafting_shapeless",
             "ingredients": [
                 {
@@ -53,7 +54,7 @@
         "recipe": "minecraft:tnt",
         "result": {
             "id": "minecraft:tnt",
-            "amount": 2
+            "count": 2
         }
     },
     "name": "\u00A7a\u00A7nGunpowder Inventor",
