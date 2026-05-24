@@ -22,7 +22,7 @@
     "toggle": {
         "type": "origins:toggle",
         "key": {
-            "key": "key.origins.quaternary_active"
+            "key": "key.loadToolbarActivator"
         }
     },
     "name": "\u00A7a\u00A7nRideable",
