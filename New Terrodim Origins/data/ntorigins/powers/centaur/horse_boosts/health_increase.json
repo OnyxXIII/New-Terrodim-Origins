@@ -2,6 +2,7 @@
     "type": "origins:modify_attribute",
         "attribute": "minecraft:generic.max_health",
         "modifier": {
+            "id": "*:*",
             "operation": "multiply_base_multiplicative",
             "amount": 0.5
         }
