@@ -14,7 +14,7 @@
         "type": "origins:action_over_time",
         "entity_action": {
             "type": "origins:execute_command",
-            "command": "function ntorigins:dragon/aggro_golems"
+            "command": "/data modify entity @e[type=minecraft:iron_golem,distance=..16,sort=nearest,limit=1] AngryAt set from entity @s UUID"
         },
         "interval": 20
     },
