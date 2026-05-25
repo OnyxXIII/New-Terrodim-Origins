@@ -1,9 +1,9 @@
 {
-    "type": "origins:modify_attribute",
-        "attribute": "minecraft:generic.max_health",
+    "type": "origins:attribute",
         "modifier": {
+            "attribute": "minecraft:generic.max_health",
             "id": "*:*",
-            "operation": "multiply_base_multiplicative",
+            "operation": "add_multiplied_base",
             "amount": 0.5
         }
 }
