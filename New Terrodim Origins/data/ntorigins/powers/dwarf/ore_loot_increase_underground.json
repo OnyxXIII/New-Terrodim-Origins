@@ -3,13 +3,13 @@
 	"amethyst": {
 		"type": "origins:replace_loot_table",
 		"replace": {
-			"minecraft:blocks/amethyst_cluster": "ntorigins:dwarf/amethyst"
+			"minecraft:blocks\/amethyst_cluster": "ntorigins:dwarf/amethyst"
 		}
 	},
 	"coal": {
 		"type": "origins:replace_loot_table",
 		"replace": {
-			"minecraft:blocks/*.coal_ore": "ntorigins:dwarf/coal"
+			"minecraft:blocks\/.*coal_ore": "ntorigins:dwarf/coal"
 		},
 		"condition": {
 			"inverted": true,
@@ -26,7 +26,7 @@
 	"copper": {
 		"type": "origins:replace_loot_table",
 		"replace": {
-			"minecraft:blocks/*.copper_ore": "ntorigins:dwarf/copper"
+			"minecraft:blocks\/.*copper_ore": "ntorigins:dwarf/copper"
 		},
 		"condition": {
 			"inverted": true,
@@ -43,7 +43,7 @@
 	"diamond": {
 		"type": "origins:replace_loot_table",
 		"replace": {
-			"minecraft:blocks/*.diamond_ore": "ntorigins:dwarf/diamond"
+			"minecraft:blocks\/.*diamond_ore": "ntorigins:dwarf/diamond"
 		},
 		"condition": {
 			"inverted": true,
@@ -60,7 +60,7 @@
 	"emerald": {
 		"type": "origins:replace_loot_table",
 		"replace": {
-			"minecraft:blocks/*.emerald_ore": "ntorigins:dwarf/emerald"
+			"minecraft:blocks\/.*emerald_ore": "ntorigins:dwarf/emerald"
 		},
 		"condition": {
 			"inverted": true,
@@ -77,7 +77,7 @@
 	"gold": {
 		"type": "origins:replace_loot_table",
 		"replace": {
-			"minecraft:blocks/*.gold_ore": "ntorigins:dwarf/gold"
+			"minecraft:blocks\/.*gold_ore": "ntorigins:dwarf/gold"
 		},
 		"condition": {
 			"inverted": true,
@@ -94,7 +94,7 @@
 	"iron": {
 		"type": "origins:replace_loot_table",
 		"replace": {
-			"minecraft:blocks/*.iron_ore": "ntorigins:dwarf/iron"
+			"minecraft:blocks\/.*iron_ore": "ntorigins:dwarf/iron"
 		},
 		"condition": {
 			"inverted": true,
@@ -111,7 +111,7 @@
 	"lapis": {
 		"type": "origins:replace_loot_table",
 		"replace": {
-			"minecraft:blocks/*.lapis_ore": "ntorigins:dwarf/lapis"
+			"minecraft:blocks\/.*lapis_ore": "ntorigins:dwarf/lapis"
 		},
 		"condition": {
 			"inverted": true,
@@ -128,13 +128,13 @@
 	"quartz": {
 		"type": "origins:replace_loot_table",
 		"replace": {
-			"minecraft:blocks/nether_quartz_ore": "ntorigins:dwarf/quartz"
+			"minecraft:blocks\/nether_quartz_ore": "ntorigins:dwarf/quartz"
 		}
 	},
 	"redstone": {
 		"type": "origins:replace_loot_table",
 		"replace": {
-			"minecraft:blocks/*.redstone_ore": "ntorigins:dwarf/redstone"
+			"minecraft:blocks\/.*redstone_ore": "ntorigins:dwarf/redstone"
 		},
 		"condition": {
 			"inverted": true,
