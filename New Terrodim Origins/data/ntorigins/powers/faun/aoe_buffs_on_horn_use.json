@@ -29,8 +29,16 @@
                     "type": "origins:equipped_item",
                     "equipment_slot": "mainhand",
                     "item_condition": {
-                        "type": "origins:custom_data",
-                        "nbt": "{instrument: \"minecraft:ponder_goat_horn\"}"
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "fabric:type": "fabric:components",
+                            "base": {
+                                "item": "minecraft:goat_horn"
+                            },
+                            "components": {
+                                "minecraft:instrument": "minecraft:ponder_goat_horn"
+                            }
+                        }
                     }
                 },
                 "action": {
@@ -61,8 +69,16 @@
                     "type": "origins:equipped_item",
                     "equipment_slot": "mainhand",
                     "item_condition": {
-                        "type": "origins:custom_data",
-                        "nbt": "{instrument:\"minecraft:sing_goat_horn\"}"
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "fabric:type": "fabric:components",
+                            "base": {
+                                "item": "minecraft:goat_horn"
+                            },
+                            "components": {
+                                "minecraft:instrument": "minecraft:sing_goat_horn"
+                            }
+                        }
                     }
                 },
                 "action": {
@@ -93,8 +109,16 @@
                     "type": "origins:equipped_item",
                     "equipment_slot": "mainhand",
                     "item_condition": {
-                        "type": "origins:custom_data",
-                        "nbt": "{instrument:\"minecraft:seek_goat_horn\"}"
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "fabric:type": "fabric:components",
+                            "base": {
+                                "item": "minecraft:goat_horn"
+                            },
+                            "components": {
+                                "minecraft:instrument": "minecraft:seek_goat_horn"
+                            }
+                        }
                     }
                 },
                 "action": {
@@ -144,8 +168,16 @@
                     "type": "origins:equipped_item",
                     "equipment_slot": "mainhand",
                     "item_condition": {
-                        "type": "origins:custom_data",
-                        "nbt": "{instrument:\"minecraft:feel_goat_horn\"}"
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "fabric:type": "fabric:components",
+                            "base": {
+                                "item": "minecraft:goat_horn"
+                            },
+                            "components": {
+                                "minecraft:instrument": "minecraft:feel_goat_horn"
+                            }
+                        }
                     }
                 },
                 "action": {
@@ -176,8 +208,16 @@
                     "type": "origins:equipped_item",
                     "equipment_slot": "mainhand",
                     "item_condition": {
-                        "type": "origins:custom_data",
-                        "nbt": "{instrument:\"minecraft:admire_goat_horn\"}"
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "fabric:type": "fabric:components",
+                            "base": {
+                                "item": "minecraft:goat_horn"
+                            },
+                            "components": {
+                                "minecraft:instrument": "minecraft:admire_goat_horn"
+                            }
+                        }
                     }
                 },
                 "action": {
@@ -208,8 +248,16 @@
                     "type": "origins:equipped_item",
                     "equipment_slot": "mainhand",
                     "item_condition": {
-                        "type": "origins:custom_data",
-                        "nbt": "{instrument:\"minecraft:call_goat_horn\"}"
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "fabric:type": "fabric:components",
+                            "base": {
+                                "item": "minecraft:goat_horn"
+                            },
+                            "components": {
+                                "minecraft:instrument": "minecraft:call_goat_horn"
+                            }
+                        }
                     }
                 },
                 "action": {
@@ -240,8 +288,16 @@
                     "type": "origins:equipped_item",
                     "equipment_slot": "mainhand",
                     "item_condition": {
-                        "type": "origins:custom_data",
-                        "nbt": "{instrument:\"minecraft:yearn_goat_horn\"}"
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "fabric:type": "fabric:components",
+                            "base": {
+                                "item": "minecraft:goat_horn"
+                            },
+                            "components": {
+                                "minecraft:instrument": "minecraft:yearn_goat_horn"
+                            }
+                        }
                     }
                 },
                 "action": {
@@ -272,8 +328,16 @@
                     "type": "origins:equipped_item",
                     "equipment_slot": "mainhand",
                     "item_condition": {
-                        "type": "origins:custom_data",
-                        "nbt": "{instrument:\"minecraft:dream_goat_horn\"}"
+                        "type": "origins:ingredient",
+                        "ingredient": {
+                            "fabric:type": "fabric:components",
+                            "base": {
+                                "item": "minecraft:goat_horn"
+                            },
+                            "components": {
+                                "minecraft:instrument": "minecraft:dream_goat_horn"
+                            }
+                        }
                     }
                 },
                 "action": {
