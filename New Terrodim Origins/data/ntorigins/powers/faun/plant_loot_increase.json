@@ -200,28 +200,52 @@
             ]
         }
     },
-    "mushrooms": {
+    "red_mushrooms": {
         "type": "origins:replace_loot_table",
         "replace": {
-            "([a-z|0-9|\\-|_]).*:blocks\/(brown_mushroom_block|red_mushroom_block)": "ntorigins:double_rolls"
+            "minecraft:blocks\/red_mushroom_block": "ntorigins:faun/red_mushroom_block"
         }
     },
-    "berries": {
+    "brown_mushrooms": {
         "type": "origins:replace_loot_table",
         "replace": {
-            "([a-z|0-9|\\-|_]).*:blocks\/(sweet_berry_bush|cave_vines|caves_vines_plant)": "ntorigins:double_rolls"
+            "minecraft:blocks\/brown_mushroom_block": "ntorigins:faun/brown_mushroom_block"
+        }
+    },
+    "sweet_berries": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "minecraft:blocks\/sweet_berry_bush": "ntorigins:faun/sweet_berry_bush"
+        }
+    },
+    "cave_vines": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "minecraft:blocks\/cave_vines": "ntorigins:faun/cave_vines"
+        }
+    },
+    "cave_berries": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "minecraft:blocks\/caves_vines_plant": "ntorigins:faun/caves_vines_plant"
         }
     },
     "melons_beans": {
         "type": "origins:replace_loot_table",
         "replace": {
-            "([a-z|0-9|\\-|_]).*:blocks\/(cocoa)": "ntorigins:double_rolls"
+            "minecraft:blocks\/cocoa": "ntorigins:faun/cocoa"
         }
     },
     "seeds": {
         "type": "origins:replace_loot_table",
         "replace": {
-            "([a-z|0-9|\\-|_]).*:blocks\/(([a-z|0-9|\\-|_]).*)grass": "ntorigins:double_rolls"
+            "minecraft:blocks\/short_grass": "ntorigins:faun/short_grass"
+        }
+    },
+    "tall_seeds": {
+        "type": "origins:replace_loot_table",
+        "replace": {
+            "minecraft:blocks\/tall_grass": "ntorigins:faun/tall_grass"
         }
     },
     "dead_bush": {
