@@ -1,17 +1,151 @@
 {
-	"type": "origins:replace_loot_table",
-	"replace": {
-		".+_ore": "ntorigins:double_rolls"
+	"type": "origins:multiple",
+	"amethyst": {
+		"type": "origins:replace_loot_table",
+		"replace": {
+			"minecraft:blocks/amethyst_cluster": "ntorigins:dwarf/amethyst"
+		}
 	},
-	"condition": {
-		"inverted": true,
-		"type": "origins:equipped_item",
-		"equipment_slot": "mainhand",
-		"item_condition": {
-			"type": "origins:enchantment",
-			"enchantment": "minecraft:silk_touch",
-			"comparison": "==",
-			"compare_to": 1
+	"coal": {
+		"type": "origins:replace_loot_table",
+		"replace": {
+			"minecraft:blocks/*.coal_ore": "ntorigins:dwarf/coal"
+		},
+		"condition": {
+			"inverted": true,
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:enchantment",
+				"enchantment": "minecraft:silk_touch",
+				"comparison": "==",
+				"compare_to": 1
+			}
+		}
+	},
+	"copper": {
+		"type": "origins:replace_loot_table",
+		"replace": {
+			"minecraft:blocks/*.copper_ore": "ntorigins:dwarf/copper"
+		},
+		"condition": {
+			"inverted": true,
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:enchantment",
+				"enchantment": "minecraft:silk_touch",
+				"comparison": "==",
+				"compare_to": 1
+			}
+		}
+	},
+	"diamond": {
+		"type": "origins:replace_loot_table",
+		"replace": {
+			"minecraft:blocks/*.diamond_ore": "ntorigins:dwarf/diamond"
+		},
+		"condition": {
+			"inverted": true,
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:enchantment",
+				"enchantment": "minecraft:silk_touch",
+				"comparison": "==",
+				"compare_to": 1
+			}
+		}
+	},
+	"emerald": {
+		"type": "origins:replace_loot_table",
+		"replace": {
+			"minecraft:blocks/*.emerald_ore": "ntorigins:dwarf/emerald"
+		},
+		"condition": {
+			"inverted": true,
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:enchantment",
+				"enchantment": "minecraft:silk_touch",
+				"comparison": "==",
+				"compare_to": 1
+			}
+		}
+	},
+	"gold": {
+		"type": "origins:replace_loot_table",
+		"replace": {
+			"minecraft:blocks/*.gold_ore": "ntorigins:dwarf/gold"
+		},
+		"condition": {
+			"inverted": true,
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:enchantment",
+				"enchantment": "minecraft:silk_touch",
+				"comparison": "==",
+				"compare_to": 1
+			}
+		}
+	},
+	"iron": {
+		"type": "origins:replace_loot_table",
+		"replace": {
+			"minecraft:blocks/*.iron_ore": "ntorigins:dwarf/iron"
+		},
+		"condition": {
+			"inverted": true,
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:enchantment",
+				"enchantment": "minecraft:silk_touch",
+				"comparison": "==",
+				"compare_to": 1
+			}
+		}
+	},
+	"lapis": {
+		"type": "origins:replace_loot_table",
+		"replace": {
+			"minecraft:blocks/*.lapis_ore": "ntorigins:dwarf/lapis"
+		},
+		"condition": {
+			"inverted": true,
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:enchantment",
+				"enchantment": "minecraft:silk_touch",
+				"comparison": "==",
+				"compare_to": 1
+			}
+		}
+	},
+	"quartz": {
+		"type": "origins:replace_loot_table",
+		"replace": {
+			"minecraft:blocks/nether_quartz_ore": "ntorigins:dwarf/quartz"
+		}
+	},
+	"redstone": {
+		"type": "origins:replace_loot_table",
+		"replace": {
+			"minecraft:blocks/*.redstone_ore": "ntorigins:dwarf/redstone"
+		},
+		"condition": {
+			"inverted": true,
+			"type": "origins:equipped_item",
+			"equipment_slot": "mainhand",
+			"item_condition": {
+				"type": "origins:enchantment",
+				"enchantment": "minecraft:silk_touch",
+				"comparison": "==",
+				"compare_to": 1
+			}
 		}
 	},
 	"name": "\u00A7a\u00A7nExpert Miner",
