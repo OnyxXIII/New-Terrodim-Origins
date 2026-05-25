@@ -1,6 +1,7 @@
 {
   "powers": [
     "ntorigins:dragon/airborne_vertical_boost",
+    "ntorigins:dragon/apply_tag_to_trimmed_armor",
     "ntorigins:dragon/armor_increase",
     "ntorigins:dragon/armor_restriction",
     "ntorigins:dragon/boats_restriction",

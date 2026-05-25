@@ -1,0 +1,81 @@
+{
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+        "type": "origins:modify_inventory",
+        "item_condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:ingredient",
+                    "ingredient":{
+                        "tag": "minecraft:head_armor"
+                    }
+                },
+                {
+                    "type": "origins:ingredient",
+                    "ingredient":{
+                        "tag": "minecraft:chest_armor"
+                    }
+                },
+                {
+                    "type": "origins:ingredient",
+                    "ingredient":{
+                        "tag": "minecraft:leg_armor"
+                    }
+                },
+                {
+                    "type": "origins:ingredient",
+                    "ingredient":{
+                        "tag": "minecraft:foot_armor"
+                    }
+                }
+            ]
+        },
+        "item_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:merge_custom_data",
+                    "nbt":{
+                        "is_being_tested":true,
+                        "is_gold_trimmed":false
+                    }
+                },
+                {
+                    "type": "origins:holder_action",
+                    "action": {
+                        "type": "origins:if_else",
+                        "condition": {
+                            "type": "origins:command",
+                            "command": "execute if entity @s[nbt={Inventory:[{components:{\"minecraft:trim\":{material:\"minecraft:gold\"},\"minecraft:custom_data\":{is_being_tested:true}}}]}]",
+                            "comparison": "==",
+                            "compare_to": 1
+                        },
+                        "if_action": {
+                            "type": "origins:modify_inventory",
+                            "item_condition": {
+                                "type": "origins:custom_data",
+                                "nbt":{
+                                    "is_being_tested":true
+                                }
+                            },
+                            "item_action": {
+                                "type": "origins:merge_custom_data",
+                                "nbt":{
+                                    "is_gold_trimmed":true
+                                }
+                            }
+                        }
+                    }
+                },
+                {
+                    "type": "origins:merge_custom_data",
+                    "nbt":{
+                        "is_being_tested":false
+                    }
+                }
+            ]
+        }
+    }
+}
