@@ -14,7 +14,9 @@
                 "nbt": {"is_gold_trimmed":true}
             }
         ],
-        "inverted": true
+        "inverted": true,
+        "name": "\u00A7c\u00A7nVain",
+        "description": "You'll only wear something if it's at least as beautiful as your natural scales\n-can only wear gold & diamond armor-"
     },
     "chest": {
         "type": "origins:or",
@@ -30,7 +32,9 @@
                 "nbt": {"is_gold_trimmed":true}
             }
         ],
-        "inverted": true
+        "inverted": true,
+        "name": "\u00A7c\u00A7nVain",
+        "description": "You'll only wear something if it's at least as beautiful as your natural scales\n-can only wear gold & diamond armor-"
     },
     "legs": {
         "type": "origins:or",
@@ -46,7 +50,9 @@
                 "nbt": {"is_gold_trimmed":true}
             }
         ],
-        "inverted": true
+        "inverted": true,
+        "name": "\u00A7c\u00A7nVain",
+        "description": "You'll only wear something if it's at least as beautiful as your natural scales\n-can only wear gold & diamond armor-"
     },
     "feet": {
         "type": "origins:or",
@@ -62,7 +68,9 @@
                 "nbt": {"is_gold_trimmed":true}
             }
         ],
-        "inverted": true
+        "inverted": true,
+        "name": "\u00A7c\u00A7nVain",
+        "description": "You'll only wear something if it's at least as beautiful as your natural scales\n-can only wear gold & diamond armor-"
     },
     "name": "\u00A7c\u00A7nVain",
     "description": "You'll only wear something if it's at least as beautiful as your natural scales\n-can only wear gold & diamond armor-"
